@@ -1,0 +1,255 @@
+window.addEventListener('load', function () {
+    'use scrict'
+    let inicio = 9;
+    let fin = 17;
+    var timezone = 'America/Santo_Domingo';
+    var time = new Date().toLocaleString('es-ES', { timeZone: timezone });
+    let hourArray = time.split(' ');
+    let hour = Number(hourArray[1].split(':')[0]);
+    let day = new Date().getDay();
+    // console.log(hourArray);
+    // console.log(hour);
+    // if(hour >= inicio && hour < fin && day > 0 && day < 6){
+    if (true) {
+        console.log("Si esta en el horario");
+        let body = document.getElementsByTagName('body')[0];
+        console.log(body);
+        if (body) {
+            let users = [{
+                name: "Patricia",
+                phone: "+1 (786) 620-5931",
+                message: 'Hola soy Patricia, estoy lista para responder tus dudas.',
+                photo: "https://ca.slack-edge.com/T26DMPA0M-U63V7QEG6-369241a38042-512"
+            },
+            {
+                name: "Nicolle",
+                phone: "+1 849 359 5420",
+                message: 'Hola soy Nicolle, estoy lista para responder tus dudas.',
+                photo: "https://ca.slack-edge.com/T26DMPA0M-UHDFU2PUL-55984b87733f-512"
+            }
+            ];
+            //const user = users[Math.floor(Math.random() * users.length)];
+            const user = {
+                name: "Grace",
+                // phone: "+1 (205) 596-7400",
+                phone: "17866205931",
+                message: 'Hola, estamos en línea listos para responder tus dudas',
+                photo: "https://ca.slack-edge.com/T26DMPA0M-U014CJMU3CY-4d7f12ecba3f-512"
+            }
+
+            // Start Launcher code
+            // Creating a div
+            var launcher = document.createElement("div");
+            launcher.classList.add('scws-launcher');
+            launcher.setAttribute('id', 'scws-launcher');
+            // Creating a img
+            var imgLauncher = document.createElement("img");
+            imgLauncher.setAttribute('src', user.photo);
+            imgLauncher.setAttribute('id', 'imagenLauncher');
+
+            launcher.appendChild(imgLauncher);
+
+            // end Launcher code
+
+
+
+            // Start conttainer div code
+            // Creating a Parent Div
+            var divContainer = document.createElement("div");
+            divContainer.classList.add('scws-container');
+            divContainer.setAttribute('id', 'scws');
+            divContainer.style.display = "none";
+
+            // Creating a container header Button
+            var containerHeaderBtn = document.createElement('div');
+            containerHeaderBtn.classList.add('scws-container-header-button');
+            containerHeaderBtn.setAttribute('id', 'scws-container-header-button');
+            var textNodeHeader = document.createTextNode('X');
+            containerHeaderBtn.appendChild(textNodeHeader);
+
+            // Creating a constainer header
+            var containerHeader = document.createElement('div');
+            containerHeader.classList.add('scws-container-header');
+            var h3ContainerHeader = document.createElement('h3');
+            var textH3 = document.createTextNode('¿Tienes una pregunta? ¡Escríbenos!');
+            h3ContainerHeader.appendChild(textH3);
+            containerHeader.appendChild(h3ContainerHeader);
+
+
+            // Creating a div error;
+            var divError = document.createElement('div');
+            divError.setAttribute('id', 'error');
+
+            // Creating a contaienrFooter
+            var containerFooter = document.createElement('div');
+            containerFooter.classList.add('scws-container-footer');
+            var containerFooterChat = document.createElement('div');
+            containerFooterChat.classList.add('scws-container-footer-chat');
+            // creating a footer chat img
+            var containerFooterChatImg = document.createElement('div');
+            containerFooterChatImg.classList.add('scws-container-footer-chat-img');
+            var imgchat = document.createElement("img");
+            imgchat.setAttribute('src', user.photo);
+            imgchat.setAttribute('id', 'imagenPerfil');
+            containerFooterChatImg.appendChild(imgchat);
+            // Creating a footer chat message
+            var containerFooterChatMsg = document.createElement('div');
+            containerFooterChatMsg.classList.add('scws-container-footer-chat-message');
+            var dotFlashing = document.createElement('div');
+            dotFlashing.classList.add('dot-flashing');
+            var messageContent = document.createElement('span');
+            var textMessageContent = document.createTextNode(user.message);
+
+            messageContent.style.display = "none";
+            messageContent.appendChild(textMessageContent);
+            containerFooterChatMsg.appendChild(dotFlashing);
+            containerFooterChatMsg.appendChild(messageContent);
+
+
+            //Append element to container footer Chat
+            containerFooterChat.appendChild(containerFooterChatImg);
+            containerFooterChat.appendChild(containerFooterChatMsg);
+
+
+
+            // Creating a button Submit
+            var buttonSubmit = document.createElement('button');
+            buttonSubmit.setAttribute('id', 'enviarPropuesta');
+            buttonSubmit.setAttribute('value', 'Si, hazme una oferta irresistible');
+            var textButtonSubmit = document.createTextNode('Si, tengo una pregunta');
+            buttonSubmit.appendChild(textButtonSubmit);
+
+            // Creating container footer chat ws
+            var footerChatWs = document.createElement('div');
+            footerChatWs.classList.add('scws-container-footer-chat-whatsapp');
+            var textFooterChatWs = document.createTextNode('Se abre en WhatsApp');
+            footerChatWs.appendChild(textFooterChatWs);
+
+            //Append element to container footer 
+            containerFooter.appendChild(containerFooterChat);
+            containerFooter.appendChild(buttonSubmit);
+            containerFooter.appendChild(footerChatWs);
+
+
+            // Append ccontainer to Container Header
+            divContainer.appendChild(containerHeaderBtn);
+            divContainer.appendChild(containerHeader);
+            divContainer.appendChild(divError);
+            divContainer.appendChild(containerFooter);
+
+
+
+
+            // End conttainer div code
+
+            body.appendChild(launcher);
+            console.log(launcher);
+            body.appendChild(divContainer);
+            let cursoThiver = document.querySelector('.order-details-name');
+            if (cursoThiver !== null) {
+                setTimeout(() => {
+                    if (launcher.style.display !== 'none') {
+                        launcher.style.display = "none";
+                        divContainer.style.display = "block";
+
+                        setTimeout(function () {
+                            dotFlashing.style.display = "none";
+                            messageContent.style.display = "block";
+                        }, 4000);
+                    }
+                }, 10000);
+            } else {
+                setTimeout(() => {
+                    if (launcher.style.display !== 'none') {
+                        launcher.style.display = "none";
+                        divContainer.style.display = "block";
+
+                        setTimeout(function () {
+                            dotFlashing.style.display = "none";
+                            messageContent.style.display = "block";
+                        }, 4000);
+                    }
+                }, 30000);
+            }
+
+            launcher.addEventListener('click', function () {
+                launcher.style.display = "none";
+                divContainer.style.display = "block";
+                setTimeout(function () {
+                    messageContent.style.display = "block";
+                    dotFlashing.style.display = "none";
+                }, 4000);
+            });
+
+            // Click in Botton header container Close chat
+            containerHeaderBtn.addEventListener('click', function () {
+                divContainer.style.display = "none";
+                launcher.style.display = "flex"
+            });
+
+            // Botton send message on whastapp
+            buttonSubmit.addEventListener('click', function () {
+                // let cursoThiver = document.querySelector('.order-details-name');
+                // let mensaje = '';
+                // if(cursoThiver !== null){
+                //     let nombreCurso = cursoThiver.textContent;
+                //     mensaje = `Hola, tengo una pregunta antes de comprar "${getCleanedString(nombreCurso)}"`;
+                // }else{
+                //     let nombreCurso = document.title;
+                //     mensaje = `Hola, tengo una pregunta sobre "${getCleanedString(nombreCurso)}"`;
+                // }
+                // TODO: Select page title or div content with custom id 
+                let title = document.title;
+                if (document.getElementById('cwha-title')) {
+                    title = document.getElementById('cwha-title').value;
+                }
+
+                if( window.location.href.includes('escuela.conviertemas.com') ){
+                    title = "los cursos de la Escuela Convierte Más";
+                }
+
+                let mensaje = `Hola, quiero inscribirme en la doble certificación de growth marketing IA...`;
+                let url = `https://api.whatsapp.com/send?phone=+17579086472&text=${mensaje}`;
+                window.open(
+                    url,
+                    '_blank' // <- This is what makes it open in a new window.
+                );
+            });
+        }
+    }
+    // else{
+    //     window.intercomSettings = {
+    //         app_id: "aplmev5h"
+    //     };
+    //     // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/aplmev5h'
+    //     (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=false;s.src='https://widget.intercom.io/widget/aplmev5h';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+    // }
+
+
+
+
+    function getCleanedString(cadena) {
+        // Definimos los caracteres que queremos eliminar
+        var specialChars = "!@#$^&%*()+=-[]\/{}|:<>?,.";
+
+        // Los eliminamos todos
+        for (var i = 0; i < specialChars.length; i++) {
+            cadena = cadena.replace(new RegExp("\\" + specialChars[i], 'gi'), '');
+        }
+
+        // Lo queremos devolver limpio en minusculas
+
+
+        // Quitamos espacios y los sustituimos por _ porque nos gusta mas asi
+        cadena = cadena.replace(/ /g, " ");
+
+        // Quitamos acentos y "ñ". Fijate en que va sin comillas el primer parametro
+        cadena = cadena.replace(/á/gi, "a");
+        cadena = cadena.replace(/é/gi, "e");
+        cadena = cadena.replace(/í/gi, "i");
+        cadena = cadena.replace(/ó/gi, "o");
+        cadena = cadena.replace(/ú/gi, "u");
+        cadena = cadena.replace(/ñ/gi, "n");
+        return cadena;
+    }
+})

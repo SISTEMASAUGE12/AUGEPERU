@@ -1,0 +1,148 @@
+img {display: inline-block;vertical-align: middle;max-width: 100%;height: auto;-ms-interpolation-mode: bicubic;}
+
+.text-left{text-align: left;}
+.text-center{text-align: center;}
+.text-right{text-align: right;}
+
+._callout{padding-top: 65px; padding-bottom: 45px; outline: none; background-color: rgb(255, 255, 255);  color: rgb(34, 44, 81);}
+._callout.wideContainer   { margin-top: 65px;  }
+._callout h1 {text-align: center; font-size: 30px; color: rgb(34, 44, 81);}
+
+.bold{font-weight: 800!important;}
+.btn_brochure{color: rgb(81, 190, 241);font-weight: 600;background-color: rgba(255, 255, 255, 0);font-size: 22px;    border-color: #51bef1 !important;}
+
+#section--89947-189 {
+    background: linear-gradient(180deg, #000 0%, #000 100%);
+}
+
+.contiene_modal_flotante {  width: auto;  top: 20px !important;  bottom: auto!important; padding: 0;max-width: 700px;margin: 0 auto !important;left: 0;right: 0;}
+.contiene_modal_flotante figure img {  width:100%;}
+
+.btn_intro {    background: #e9402f;padding: 7px 20px;width: auto;display: inline-block;border-radius: 20px;text-align: center;color:#fff;}
+
+
+
+/* youtube ocultar link que lleven a youtube */
+.ytp-chrome-top.ytp-show-cards-title{display: none!important;} 
+.ytp-impression-link{display: none!important;}
+/* youtube ocultar link que lleven a youtube */
+
+
+
+p {    font-family: Poppins !important;}
+html {    font-family: Poppins !important;}
+
+.lleva_btn_principal{ text-align: center!important;margin-top: 30px; outline: none; cursor: pointer;}
+.lleva_btn_principal .elButton{ display: inline-block;}
+
+.lleva_vimeo{ margin-bottom: 30px;}
+.lleva_vimeo iframe{height: 500px;width: 100%;}
+
+.lleva_chat iframe{height: 500px;width: 100%;}
+
+
+.lleva_chat{width: 100%;}
+
+
+._callout_modulos {padding: 0px 0 90px;}
+._callout_modulos .row{border-radius: 25px;border: 2px solid #51BEF1 !important; background: linear-gradient(180deg, #D0EFFF 0%, #E0F5FF 100%);padding: 30px 15px 30px 15px; margin-top: 15px !important;}
+/*
+.elButtonColor1 {background-color: transparent;}
+*/
+
+
+._callout_modulos .elBTN { margin-top: 5px; outline: none; cursor: pointer;}
+._callout_modulos .elButton {border:0;color: rgb(255, 255, 255); font-weight: 600; background-color: rgba(1, 116, 199, 0); font-size: 20px;}
+._callout_modulos .elButton span {color: #222C51;display: block;text-align: left;}
+._callout_modulos .elHeadlineWrapper h2 b {border-radius: 35px;background: var(--gradient, linear-gradient(268deg, #51BEF1 23.52%, #1F8FEE 88.67%));padding: 5px 10px 5px 10px;color: #fff;font-size: 18px;}
+
+
+._callout_docentes{padding-top: 20px; padding-bottom: 50px; background-color: rgb(255, 255, 255); outline: none; color: rgb(34, 44, 81);}
+._callout_docentes .row{padding-top: 0px; padding-bottom: 20px; margin: 0px; outline: none;}
+._callout_docentes ._lleva_docente{padding-bottom: 70px;}
+
+._callout_testimonios{padding-top: 45px; padding-bottom: 65px; outline: none; background-color: rgb(0, 0, 0);}
+._callout_testimonios h1{ text-align: center; font-size: 50px; color: rgb(255, 255, 255);}
+._callout_testimonios h2{ text-align: center; font-size: 32px; color: rgb(100, 190, 235);}
+._callout_testimonios .lleva_testimonio {padding: 35px; margin: 0px; background-color: rgb(255, 255, 255); outline: none;    margin-bottom: 70px;}
+._callout_testimonios .lleva_testimonio h2{text-align: left; font-size: 25px; color: rgb(0, 0, 0);}
+._callout_testimonios .lleva_testimonio h2._detalle{text-align: left; font-size: 18px;color:#1e2647;}
+
+
+._callout_frecuentes{padding-top: 45px; padding-bottom: 45px; background-color: rgb(255, 255, 255); outline: none;}
+._callout_frecuentes h1{text-align: center; font-size: 40px;color:#222c51;}
+._callout_frecuentes h2{text-align: center;font-size: 23px}
+._callout_frecuentes .row{padding-top: 20px; padding-bottom: 20px; margin: 0px; outline: none;}
+._callout_frecuentes ._lleva_frecuente .elButton{color: rgb(34, 44, 81); font-weight: 600; background-color: rgba(1, 116, 199, 0); font-size: 20px;}
+
+
+
+
+/* ocultar info de video de youtbe */
+.youtube-container {
+    overflow: hidden;
+	width: 100%;
+	/* Keep it the right aspect-ratio */
+	aspect-ratio: 16/9;
+	/* No clicking/hover effects  => pointer-events: none;*/
+			
+}
+.youtube-container iframe {
+    width: 300%;     /* Extend it beyond the viewport... */
+    height: 100%;/* ...and bring it back again */
+    margin-left: -100%;
+}
+
+
+
+._footer{padding-top: 30px; padding-bottom: 20px; outline: none; background-color: rgb(0, 0, 0);}
+._footer .hsSize2 , ._footer .lh4 { font-size: 15px !important;line-height: 19px !important;}
+._footer h2{padding-top: 35px;padding-bottom: 20px;}
+._footer .elHeadlineWrapper .mfs_14 {margin-top:15px;}  
+._footer .elHeadlineWrapper  a+a{margin-top:15px;}
+._footer >* {color:#fff;}
+._footer a {color:#fff;}
+
+
+
+._footer ._sociales{padding-top: 20px; padding-bottom: 5px; margin: 0px -95px; width: auto; outline: none;    margin: 0 auto;}
+._footer ._sociales .eliconelementWrapper { display: inline-block;}
+._footer ._sociales .eliconelementWrapper  + .eliconelementWrapper{ MARGIN-LEFT:20px;}
+
+
+.lleva_cronometro{background:transparent;padding:60px 0;}
+.lleva_cronometro #countdown{width:100%;}
+.lleva_cronometro h4{padding-bottom:20px;font-size:30px;line-height:35px;color:#d74e3b; text-transform: uppercase;}
+.lleva_cronometro .lleva_hora{background:#555;color:#fff;padding:20px 10px;border-radius:20px;font-size:35px;line-height:40px;text-align:center;display:inline-table;width:100%;max-width:96px;margin-left:10px;}
+.lleva_cronometro .lleva_hora span{display:block;font-size:16px;line-height:16px;letter-spacing:0px;font-weight:800;}
+
+
+@media only screen and (max-width:40em){
+    ._callout.wideContainer {margin-top: 25px;}
+    ._callout {padding-top: 35px;}
+    /* .lleva_vimeo iframe {height: 250px;width: 100%;} */
+
+    .titulo_1 {font-size: 30px !important;}
+    .lleva_vimeo{ margin: 0px;}
+    .lleva_chat iframe{height: 300px;width: 100%;}
+
+
+    .lleva_btn_principal{ margin: 0px 0 40px;}
+
+    .lleva_cronometro h4{padding-bottom:20px;font-size:20px;line-height:25px;}
+	.lleva_cronometro .lleva_hora{ padding:10px 10px;border-radius:20px;font-size:20px;line-height:25px;max-width:76px;margin-left:7px;}
+	.lleva_cronometro .lleva_hora span{font-size:13px;line-height:13px;}
+
+}
+
+
+@media only screen and (max-width: 320px){
+	.lleva_cronometro h4{padding-bottom:20px;font-size:20px;line-height:25px;}
+	.lleva_cronometro .lleva_hora{ padding:10px 10px;border-radius:20px;font-size:16px;line-height:20px;max-width:56px;margin-left:5px;}
+	.lleva_cronometro .lleva_hora span{font-size:12px;line-height:12px;}
+}
+
+
+
+
+
