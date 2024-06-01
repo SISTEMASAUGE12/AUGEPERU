@@ -1,0 +1,341 @@
+
+ALTER TABLE `archivos_blog` ADD INDEX(`categoria_idcategoria`);
+ALTER TABLE `archivos_blog` ADD INDEX(`publicacion_idpublicacion`);
+ALTER TABLE `archivos_blog` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `archivos_detalle_sesion_virtuals` ADD INDEX(`estado_idestado`);
+ALTER TABLE `archivos_x_sesion_x_alumnos` ADD INDEX(`id_detalle`);
+ALTER TABLE `archivos_x_sesion_x_alumnos` ADD INDEX(`id_suscrito`);
+ALTER TABLE `archivos_x_sesion_x_alumnos` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `asistencia` ADD INDEX(`id_suscrito`);
+ALTER TABLE `asistencia` ADD INDEX(`id_curso`);
+ALTER TABLE `asistencia` ADD INDEX(`id_sesion`);
+ALTER TABLE `asistencia` ADD INDEX(`id_detalle`);
+ALTER TABLE `asistencia` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `autores` ADD INDEX(`estado_idestado`);
+
+
+
+ALTER TABLE `avance_de_cursos_clases` ADD INDEX(`id_pedido`);
+ALTER TABLE `avance_de_cursos_clases` ADD INDEX(`estado_idestado`);
+ALTER TABLE `bancos` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `banco_preguntas_examenes` ADD INDEX(`id_examen`);
+ALTER TABLE `banco_preguntas_examenes` ADD INDEX(`id_banco`);
+ALTER TABLE `banco_preguntas_examenes` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `banners` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `canales` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `casos_de_exitos` ADD INDEX(`id_suscrito`);
+ALTER TABLE `casos_de_exitos` ADD INDEX(`idusuario`);
+ALTER TABLE `casos_de_exitos` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `categoriablogs` ADD INDEX(`estado_idestado`);
+ALTER TABLE `categorias` ADD INDEX(`id_tipo`);
+ALTER TABLE `categorias` ADD INDEX(`idusuario`);
+ALTER TABLE `categorias` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `cursos` ADD INDEX(`id_tipo`);
+
+ALTER TABLE `cursos` ADD INDEX(`id_tipo_curso`);
+ALTER TABLE `cursos` ADD INDEX(`id_especialidad`);
+ALTER TABLE `cursos` ADD INDEX(`idusuario`);
+ALTER TABLE `cursos` ADD INDEX(`visibilidad`);
+ALTER TABLE `cursos` ADD INDEX(`estado_idestado`);
+
+
+
+ALTER TABLE `curso_trailers` ADD INDEX(`id_curso`);
+ALTER TABLE `curso_trailers` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `contador` ADD INDEX(`publica`);
+ALTER TABLE `cupones` ADD INDEX(`estado_idestado`);
+ALTER TABLE `clientes` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `comentarios` ADD INDEX(`id_suscrito`);
+
+ALTER TABLE `comentarios` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `contactos` ADD INDEX(`estado_idestado`);
+
+
+
+ALTER TABLE `certificados` ADD INDEX(`id_curso`);
+ALTER TABLE `certificados` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `categoria_examenes` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `categoria_subcate_cursos` ADD INDEX(`id_tipo`);
+ALTER TABLE `categoria_subcate_cursos` ADD INDEX(`id_cat`);
+ALTER TABLE `categoria_subcate_cursos` ADD INDEX(`id_sub`);
+ALTER TABLE `categoria_subcate_cursos` ADD INDEX(`id_curso`);
+
+
+
+
+ALTER TABLE `categoria_archivos_blog` ADD INDEX(`publicacion_idpublicacion`);
+ALTER TABLE `categoria_archivos_blog` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `categorias_testimonios_v2_s` ADD INDEX(`estado_idestado`);
+ALTER TABLE `detalle_sesiones` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `devoluciones` ADD INDEX(`id_suscrito`);
+ALTER TABLE `devoluciones` ADD INDEX(`idusuario`);
+ALTER TABLE `devoluciones` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `dist` ADD INDEX(`prvc_idprvc`);
+ALTER TABLE `dist` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `dptos` ADD INDEX(`estado_idestado`);
+
+
+
+
+
+ALTER TABLE `equipo` ADD INDEX(`estado_idestado`);
+ALTER TABLE `escala_magisteriales` ADD INDEX(`estado_idestado`);
+ALTER TABLE `especialidades` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `examenes` ADD INDEX(`id_cate`);
+ALTER TABLE `examenes` ADD INDEX(`id_especialidad`);
+ALTER TABLE `examenes` ADD INDEX(`idusuario`);
+ALTER TABLE `examenes` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `examenes_curso` ADD INDEX(`id_curso`);
+ALTER TABLE `examenes_curso` ADD INDEX(`id_examen`);
+ALTER TABLE `examenes_curso` ADD INDEX(`idusuario`);
+ALTER TABLE `examenes_curso` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `face_testimonios` ADD INDEX(`id_suscrito`);
+ALTER TABLE `face_testimonios` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `favoritos_cursos` ADD INDEX(`id_suscrito`);
+ALTER TABLE `favoritos_cursos` ADD INDEX(`id_curso`);
+
+ALTER TABLE `grupos` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `kardex_clientes` ADD INDEX(`id_tipo_atencion`);
+ALTER TABLE `kardex_clientes` ADD INDEX(`id_tipo_intera`);
+ALTER TABLE `kardex_clientes` ADD INDEX(`id_tipo_recordatorio`);
+ALTER TABLE `kardex_clientes` ADD INDEX(`id_nivel`);
+ALTER TABLE `kardex_clientes` ADD INDEX(`estado_idestado`);
+ALTER TABLE `kardex_niveles_de_interes` ADD INDEX(`estado_idestado`);
+ALTER TABLE `landings` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `landing_gratis` ADD INDEX(`id_curso`);
+ALTER TABLE `landing_gratis` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `libros` ADD INDEX(`estado_idestado`);
+ALTER TABLE `libros_vendidos` ADD INDEX(`id_libro`);
+ALTER TABLE `libros_vendidos` ADD INDEX(`id_suscrito`);
+ALTER TABLE `libros_vendidos` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `linea_pedido` ADD INDEX(`estado_idestado`);
+ALTER TABLE `miembros` ADD INDEX(`estado_idestado`);
+ALTER TABLE `modulos_landings` ADD INDEX(`id_landing`);
+ALTER TABLE `modulos_landings` ADD INDEX(`estado_idestado`);
+
+
+
+
+ALTER TABLE `otros_pagos` ADD INDEX(`id_suscrito`);
+ALTER TABLE `otros_pagos` ADD INDEX(`idusuario`);
+ALTER TABLE `otros_pagos` ADD INDEX(`estado_idestado`);
+ALTER TABLE `nosotros` ADD INDEX(`estado_idestado`);
+
+
+
+ALTER TABLE `paises` ADD INDEX(`estado_idestado`);
+ALTER TABLE `pedidos` ADD INDEX(`idusuario`);
+ALTER TABLE `pedidos` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `pestanhas` ADD INDEX(`id_curso`);
+ALTER TABLE `pestanhas` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `pestanhas_webinars` ADD INDEX(`id_webinar`);
+ALTER TABLE `pestanhas_webinars` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `pestanhas_webinars_cortas` ADD INDEX(`id_webinar`);
+ALTER TABLE `pestanhas_webinars_cortas` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `pestanhas_webinars_inicios` ADD INDEX(`id_webinar`);
+ALTER TABLE `pestanhas_webinars_inicios` ADD INDEX(`estado_idestado`);
+
+
+
+
+
+ALTER TABLE `publicacion` ADD INDEX(`id_auto`);
+ALTER TABLE `publicacion` ADD INDEX(`tipo`);
+ALTER TABLE `publicacion` ADD INDEX(`estado_idestado`);
+ALTER TABLE `portada` ADD INDEX(`estado_idestado`);
+ALTER TABLE `preguntas` ADD INDEX(`id_examen`);
+ALTER TABLE `preguntas` ADD INDEX(`estado_idestado`);
+ALTER TABLE `preguntas_categorias` ADD INDEX(`estado_idestado`);
+ALTER TABLE `preguntas_frecuentes` ADD INDEX(`id_cat`);
+ALTER TABLE `preguntas_frecuentes` ADD INDEX(`estado_idestado`);
+ALTER TABLE `preguntas_olds` ADD INDEX(`id_exa`);
+
+ALTER TABLE `profesores` ADD INDEX(`estado_idestado`);
+ALTER TABLE `prvc` ADD INDEX(`dptos_iddpto`);
+ALTER TABLE `prvc` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `respuestas` ADD INDEX(`id_pregunta`);
+ALTER TABLE `respuestas` ADD INDEX(`id_examen`);
+ALTER TABLE `respuestas` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `sesiones` ADD INDEX(`estado_idestado`);
+ALTER TABLE `silabos` ADD INDEX(`id_curso`);
+ALTER TABLE `silabos` ADD INDEX(`estado_idestado`);
+ALTER TABLE `silabos_landing_gratis` ADD INDEX(`id_curso`);
+ALTER TABLE `silabos_landing_gratis` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `solicitudes` ADD INDEX(`tipo`);
+ALTER TABLE `solicitudes` ADD INDEX(`id_certificado`);
+ALTER TABLE `solicitudes` ADD INDEX(`id_curso`);
+ALTER TABLE `solicitudes` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `solicitudes_coautorias` ADD INDEX(`tipo`);
+ALTER TABLE `solicitudes_coautorias` ADD INDEX(`id_especialidad`);
+ALTER TABLE `solicitudes_coautorias` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `solicitudes_libros` ADD INDEX(`id_curso`);
+ALTER TABLE `solicitudes_libros` ADD INDEX(`estado_idestado`);
+ALTER TABLE `solicitudes_libros` ADD INDEX(`id_especialidad`);
+
+
+ALTER TABLE `subcategorias` ADD INDEX(`id_cat`);
+ALTER TABLE `subcategorias` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `suscritos` ADD INDEX(`id_escala_mag`);
+ALTER TABLE `suscritos` ADD INDEX(`id_tipo_doc`);
+ALTER TABLE `suscritos` ADD INDEX(`id_pais`);
+ALTER TABLE `suscritos` ADD INDEX(`id_canal`);
+ALTER TABLE `suscritos` ADD INDEX(`idusuario`);
+ALTER TABLE `suscritos` ADD INDEX(`estado_idestado`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ALTER TABLE `suscritos_x_certificados` ADD INDEX(`id_tipo`);
+ALTER TABLE `suscritos_x_certificados` ADD INDEX(`id_pedido`);
+ALTER TABLE `suscritos_x_certificados` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `suscritos_x_cursos` ADD INDEX(`id_tipo`);
+ALTER TABLE `suscritos_x_cursos` ADD INDEX(`id_pedido`);
+ALTER TABLE `suscritos_x_cursos` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `suscritos_x_examenes` ADD INDEX(`estado_idestado`);
+ALTER TABLE `suscritos_x_examenes_rptas` ADD INDEX(`id_sxe`);
+ALTER TABLE `suscritos_x_examenes_rptas` ADD INDEX(`estado_idestado`);
+
+
+
+ALTER TABLE `testimonios` ADD INDEX(`id_suscrito`);
+ALTER TABLE `testimonios` ADD INDEX(`idusuario`);
+ALTER TABLE `testimonios` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `testimonios_v2_s` ADD INDEX(`id_cate`);
+ALTER TABLE `testimonios_v2_s` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `tipo_atenciones` ADD INDEX(`estado_idestado`);
+
+ALTER TABLE `tipo_cursos` ADD INDEX(`estado_idestado`);
+ALTER TABLE `tipo_interacciones` ADD INDEX(`estado_idestado`);
+ALTER TABLE `tipo_recortadorios` ADD INDEX(`estado_idestado`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ALTER TABLE `webinars_x_leads` ADD INDEX(`id_suscrito`);
+ALTER TABLE `webinars_x_leads` ADD INDEX(`estado_idestado`);
+
+
+
+ALTER TABLE `webinars_x_expositores` ADD INDEX(`id_webinar`);
+ALTER TABLE `webinars_x_expositores` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `webinars` ADD INDEX(`id_curso`);
+ALTER TABLE `webinars` ADD INDEX(`estado_idestado`);
+
+
+ALTER TABLE `tutoriales` ADD INDEX(`estado_idestado`);
+ALTER TABLE `usuario` ADD INDEX(`estado_idestado`);
+ALTER TABLE `usuario` ADD INDEX(`idtipo_usu`);
+
+ALTER TABLE `vouchers` ADD INDEX(`id_banco`);
+ALTER TABLE `vouchers` ADD INDEX(`id_suscrito`);
+ALTER TABLE `vouchers` ADD INDEX(`id_pedido`);
+ALTER TABLE `vouchers` ADD INDEX(`estado_idestado`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
