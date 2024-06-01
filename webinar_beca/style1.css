@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.section2 {width: 100%; position: relative;}
+.section2 .imagenSection22 {display: none;}
+.section2 .imagenSection21 img {width: 100%;}
+.section2 .Section23 { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; display: flex; padding: 0 7%;}
+.section2 .Section23 .section23A {margin-right: 5%; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+.section2 .Section23 .section23A h1{ font-size: 90px; font-weight: 600; color: white; font-family: 'Poppins', sans-serif !important; text-align: center; line-height: 1;}
+.section2 .Section23 .section23A h2{ font-size: 60px; font-weight: 600; color: #BDD600; font-family: 'Poppins', sans-serif !important; text-align: center;}
+.section2 .Section23 .section23A h5{ font-size: 20px; font-weight: 600; color:white; font-family: 'Poppins', sans-serif !important; line-height: 1;}
+.section2 .Section23 .section23A button{ width: 80%; font-size: 40px; font-weight: 600; color:white; padding: 20px; border-radius: 10px; font-family: 'Poppins', sans-serif !important; background-color:#BDD600;}
+.section2 .Section23 .section23B { display: flex; justify-content: center; align-items: center; flex-direction: column; padding: 40px 0px; margin-left: 5%;}
+
+
+
+@media ((min-width: 1100px) and (max-width: 1500px)) {
+   
+    
+    .section2 .Section23 { padding: 0 6%;}
+    .section2 .Section23 .section23A {margin-right: 3%; padding-top: 10%;}
+    .section2 .Section23 .section23A h1{ font-size: 60px;}
+    .section2 .Section23 .section23A h2{ font-size: 40px;}
+    .section2 .Section23 .section23A button{ width: 80%; font-size: 30px;  padding: 15px;}
+    .section2 .Section23 .section23A img { width: 80%;}
+    .section2 .Section23 .section23B { margin-left: 3%;}
+    .section2 .Section23 .section23B .section23B1 { width: 90%; padding: 10px;}
+    .section2 .Section23 .section23B .section23B1 h1{ font-size: 40px;}
+    .section2 .Section23 .section23B .section23B1 .form-1{width: 90%;}
+    .section2 .Section23 .section23B .section23B1 button{font-size: 20px;margin-bottom: 20px;}
+    .section2 .Section23 .section23B .section23B1 img{max-width: 130px;}
+    
+}
+
+
+/* Media Query para laptop */
+@media ((min-width: 769px) and (max-width: 1100px)) {
+    
+    
+    .section2 .imagenSection21 img {min-height: 500px;}
+    .section2 .Section23 { padding: 0 3%;}
+    .section2 .Section23 .section23A {margin-right: 1%; padding-top: 15%;}
+    .section2 .Section23 .section23A h1{ font-size: 40px;}
+    .section2 .Section23 .section23A h2{ font-size: 30px;}
+    .section2 .Section23 .section23A button{ width: 80%; font-size: 20px;  padding: 10px;}
+    .section2 .Section23 .section23A img { width: 90%;}
+    .section2 .Section23 .section23B { margin-left: 1%;}
+    .section2 .Section23 .section23B .section23B1 { width: 100%; padding: 5px;}
+    .section2 .Section23 .section23B .section23B1 h1{ font-size: 20px;}
+    .section2 .Section23 .section23B .section23B1 .form-1{width: 100%;}
+    .section2 .Section23 .section23B .section23B1 button{font-size: 20px;margin-bottom: 20px;}
+    .section2 .Section23 .section23B .section23B1 img{max-width: 100px;}
+
+
+}
+
+
+/* Media Query tablet */
+@media ((min-width: 576px) and (max-width: 768px)) {
+	
+    
+    .section2 .imagenSection21 {display: none;}
+    .section2 .imagenSection22 {display: block;}
+    .section2 .imagenSection22 img {width: 100%; height: auto;}
+    .section2 .Section23 { width: 100%; display: flex; padding: 0 1%; top: 25%;}
+    .section2 .Section23 .section23A {margin-right: 0%; width: 100% !important; margin: 0 auto;}
+    .section2 .Section23 .section23A h1{ font-size: 50px; text-align: center;line-height: 1; padding: 0 30px;}
+    .section2 .Section23 .section23A h2{ font-size: 35px; text-align: center; line-height: 1;}
+    .section2 .Section23 .section23A button{ width: 50%; font-size: 20px;  padding: 10px;}
+    .section2 .Section23 .section23A img { width: 90%; margin: 0 5%;}
+    .section2 .Section23 .section23A #soundButton { display: none;}
+    .section2 .Section23 .section23B { padding: 10px 0px; margin-left: 0%; width: 100% !important;}
+    .section2 .Section23 .section23B .section23B1 { width: 90%; padding: 20px;}
+    .section2 .Section23 .section23B .section23B1 h1{ font-size: 20px;}
+    .section2 .Section23 .section23B .section23B1 button{ font-size: 15px; padding: 10px;}
+
+
+}
+
+
+@media (max-width: 576px) {
+		
+    
+.section2 .imagenSection21 {display: none;}
+.section2 .imagenSection22 {display: block;}
+.section2 .imagenSection22 img {width: 100%;}
+.section2 .Section23 { width: 100%; display: flex; padding: 0 1%; top: 30%;}
+.section2 .Section23 .section23A {margin-right: 0%; width: 100% !important; margin: 0 auto; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+.section2 .Section23 .section23A h1{ font-size: 35px; text-align: center;line-height: 1;}
+.section2 .Section23 .section23A h2{ font-size: 25px; text-align: center; line-height: 1;}
+.section2 .Section23 .section23A img { width: 90%; margin: 0 5%;}
+.section2 .Section23 .section23A #soundButton { display: none;}
+.section2 .Section23 .section23A button{ font-size: 20px; font-weight: 600; padding: 10px 0px; width: 80%; margin: 0 10%;}
+
+
+
+} 
+

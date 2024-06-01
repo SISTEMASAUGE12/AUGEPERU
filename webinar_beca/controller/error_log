@@ -1,0 +1,5 @@
+[08-May-2024 22:32:11 UTC] PHP Warning:  require_once(auten.php): Failed to open stream: No such file or directory in /home/eduauge2024/public_html/webinar_beca/controller/registro_webinar.php on line 3
+[08-May-2024 22:32:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'auten.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/eduauge2024/public_html/webinar_beca/controller/registro_webinar.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/eduauge2024/public_html/webinar_beca/controller/registro_webinar.php on line 3

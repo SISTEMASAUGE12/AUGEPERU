@@ -1,0 +1,148 @@
+[14-May-2024 19:01:04 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column 'puntos' at row 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:60
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(60): mysqli_query(Object(mysqli), 'insert into pre...')
+#1 /home/eduauge2024/public_html/tw7control/class/class.bd.php(69): BD->ExecuteQuery('insert into pre...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(149): BD->inserta_('insert into pre...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 60
+[14-May-2024 19:01:21 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column 'puntos' at row 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:60
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(60): mysqli_query(Object(mysqli), 'insert into pre...')
+#1 /home/eduauge2024/public_html/tw7control/class/class.bd.php(69): BD->ExecuteQuery('insert into pre...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(149): BD->inserta_('insert into pre...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 60
+[14-May-2024 19:03:09 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column 'puntos' at row 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:60
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(60): mysqli_query(Object(mysqli), 'insert into pre...')
+#1 /home/eduauge2024/public_html/tw7control/class/class.bd.php(69): BD->ExecuteQuery('insert into pre...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(149): BD->inserta_('insert into pre...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 60
+[14-May-2024 19:08:41 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column 'puntos' at row 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:60
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(60): mysqli_query(Object(mysqli), 'insert into pre...')
+#1 /home/eduauge2024/public_html/tw7control/class/class.bd.php(69): BD->ExecuteQuery('insert into pre...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(149): BD->inserta_('insert into pre...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 60
+[15-May-2024 11:16:49 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column 'puntos' at row 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:60
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(60): mysqli_query(Object(mysqli), 'insert into pre...')
+#1 /home/eduauge2024/public_html/tw7control/class/class.bd.php(69): BD->ExecuteQuery('insert into pre...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(149): BD->inserta_('insert into pre...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 60
+[15-May-2024 11:26:29 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column 'puntos' at row 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:60
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(60): mysqli_query(Object(mysqli), 'insert into pre...')
+#1 /home/eduauge2024/public_html/tw7control/class/class.bd.php(69): BD->ExecuteQuery('insert into pre...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(149): BD->inserta_('insert into pre...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 60
+[15-May-2024 11:26:57 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect decimal value: '' for column 'puntos' at row 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:60
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(60): mysqli_query(Object(mysqli), 'insert into pre...')
+#1 /home/eduauge2024/public_html/tw7control/class/class.bd.php(69): BD->ExecuteQuery('insert into pre...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(149): BD->inserta_('insert into pre...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 60
+[27-May-2024 13:45:33 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'aura' de la obra original?”. Después de agradecer a Juan por su intervención' at line 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:110
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(110): mysqli_query(Object(mysqli), ' select * from ...')
+#1 /home/eduauge2024/public_html/tw7control/class/functions.php(267): BD->Execute(' select * from ...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(142): executesql(' select * from ...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 110
+[27-May-2024 13:46:58 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'aura' de la obra original?”. Después de agradecer a Juan por su intervención' at line 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:110
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(110): mysqli_query(Object(mysqli), ' select * from ...')
+#1 /home/eduauge2024/public_html/tw7control/class/functions.php(267): BD->Execute(' select * from ...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(142): executesql(' select * from ...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 110
+[27-May-2024 13:48:37 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'aura' de la obra original?”. Después de agradecer a Juan por su intervención' at line 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:110
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(110): mysqli_query(Object(mysqli), ' select * from ...')
+#1 /home/eduauge2024/public_html/tw7control/class/functions.php(267): BD->Execute(' select * from ...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(142): executesql(' select * from ...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 110
+[27-May-2024 13:49:43 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'aura' de la obra original?”. Después de agradecer a Juan por su intervención' at line 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:110
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(110): mysqli_query(Object(mysqli), ' select * from ...')
+#1 /home/eduauge2024/public_html/tw7control/class/functions.php(267): BD->Execute(' select * from ...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(142): executesql(' select * from ...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 110
+[27-May-2024 13:49:49 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'aura' de la obra original?”. Después de agradecer a Juan por su intervención' at line 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:110
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(110): mysqli_query(Object(mysqli), ' select * from ...')
+#1 /home/eduauge2024/public_html/tw7control/class/functions.php(267): BD->Execute(' select * from ...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(142): executesql(' select * from ...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 110
+[27-May-2024 13:50:03 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'aura' de la obra original?”. Después de agradecer a Juan por su intervención' at line 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:110
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(110): mysqli_query(Object(mysqli), ' select * from ...')
+#1 /home/eduauge2024/public_html/tw7control/class/functions.php(267): BD->Execute(' select * from ...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(142): executesql(' select * from ...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 110
+[27-May-2024 13:55:23 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'aura' de la obra original?”. Después de agradecer a Juan por su intervención' at line 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:110
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(110): mysqli_query(Object(mysqli), ' select * from ...')
+#1 /home/eduauge2024/public_html/tw7control/class/functions.php(267): BD->Execute(' select * from ...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(142): executesql(' select * from ...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 110
+[29-May-2024 13:29:26 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'aura' de la obra original?”. Después de agradecer a Juan por su intervención' at line 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:110
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(110): mysqli_query(Object(mysqli), ' select * from ...')
+#1 /home/eduauge2024/public_html/tw7control/class/functions.php(267): BD->Execute(' select * from ...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(142): executesql(' select * from ...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 110
+[29-May-2024 13:29:33 America/Lima] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php:54
+Stack trace:
+#0 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(54): copy('', 'testi_')
+#1 {main}
+  thrown in /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php on line 54
+[29-May-2024 13:29:36 America/Lima] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php:54
+Stack trace:
+#0 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(54): copy('', 'testi_')
+#1 {main}
+  thrown in /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php on line 54
+[29-May-2024 13:29:41 America/Lima] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php:54
+Stack trace:
+#0 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(54): copy('', 'testi_')
+#1 {main}
+  thrown in /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php on line 54
+[29-May-2024 13:29:51 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'aura' de la obra original?”. Después de agradecer a Juan por su intervención' at line 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:110
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(110): mysqli_query(Object(mysqli), ' select * from ...')
+#1 /home/eduauge2024/public_html/tw7control/class/functions.php(267): BD->Execute(' select * from ...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(142): executesql(' select * from ...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 110
+[29-May-2024 13:30:05 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'aura' de la obra original?”. Después de agradecer a Juan por su intervención' at line 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:110
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(110): mysqli_query(Object(mysqli), ' select * from ...')
+#1 /home/eduauge2024/public_html/tw7control/class/functions.php(267): BD->Execute(' select * from ...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(142): executesql(' select * from ...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 110
+[29-May-2024 13:30:43 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'aura' de la obra original?”. Después de agradecer a Juan por su intervención' at line 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:110
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(110): mysqli_query(Object(mysqli), ' select * from ...')
+#1 /home/eduauge2024/public_html/tw7control/class/functions.php(267): BD->Execute(' select * from ...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(142): executesql(' select * from ...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 110
+[29-May-2024 13:36:48 America/Lima] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'aura' de la obra original?”. Después de agradecer a Juan por su intervención' at line 1 in /home/eduauge2024/public_html/tw7control/class/class.bd.php:110
+Stack trace:
+#0 /home/eduauge2024/public_html/tw7control/class/class.bd.php(110): mysqli_query(Object(mysqli), ' select * from ...')
+#1 /home/eduauge2024/public_html/tw7control/class/functions.php(267): BD->Execute(' select * from ...')
+#2 /home/eduauge2024/public_html/zzz_excel/banco_de_preguntas_2024.php(142): executesql(' select * from ...')
+#3 {main}
+  thrown in /home/eduauge2024/public_html/tw7control/class/class.bd.php on line 110
