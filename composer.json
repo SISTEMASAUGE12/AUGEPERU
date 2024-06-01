@@ -1,0 +1,5 @@
+{
+    "require": {
+        "diswebru/phpexcel": "^1.0"
+    }
+}

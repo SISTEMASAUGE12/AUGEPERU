@@ -1,0 +1,99 @@
+
+mysqlworbench .. 
+
+dns 20.49.104.34
+
+A www1 20.49.104.34
+TXT 1B176645F964315060B8B7FAF7B0273C952FDD6C8999323C76A6E7EAF9E696B2
+
+
+Tipo
+Host
+Valor
+TXT
+asuid
+1B176645F964315060B8B7FAF7B0273C952FDD6C8999323C76A6E7EAF9E696B2
+A
+@
+20.49.104.34
+
+
+
+
+## acces BD 
+// private $host='dbmysqleuprodgauge.mysql.database.azure.com';
+// private $database='augeperu_v1';
+// private $user='usrdbprdauge@dbmysqleuprodgauge';
+// private $pass='k8rTlq]F<Wb)4[CUTD~J';
+
+
+## FILEZILLA
+FTPS: ftps://waws-prod-blu-249.ftp.azurewebsites.windows.net/site/wwwroot
+usuario: webappprdgauge\depusrgauge
+clave: xjlhK0AACo-HWvG]i[9
+
+
+
+############## GIT 
+usuairo: depusrgauge
+pass: xjlhK0AACo-HWvG]i[9
+git remote add azure https://tuweb7@webappprdgauge.scm.azurewebsites.net/webappprdgauge.git
+
+C:\wamp64\www\mori\tuweb7\w2021\augeperu
+
+
+
+git push azure main 
+
+
+
+
+
+
+
+https://www.educaauge.com/perfil/mis-cursos/titulo-de-prueba/silabo-1/clase-1_1
+
+
+
+
+
+ GASTOS 
+
+[11:19 p. m., 8/11/2021] Edwin SUAREZ Mrk 19: esto es el costo actual
+[11:19 p. m., 8/11/2021] Edwin SUAREZ Mrk 19: AppService Plan     12.41 USD
+BD Mysql            29.82 USD
+[11:19 p. m., 8/11/2021] Edwin SUAREZ Mrk 19: en total 42.23
+
+ ese es el AppServicePlan mas economico que tiene Azure
+ y el limite maximo es 10 Gb
+ es para un entorno basae
+vale en 100Gb bro a como sale
+[11:23 p. m., 8/11/2021] Edwin SUAREZ Mrk 19: basico, pero si escalas los servicios a un service plan de produccion que cueta 73.73 USD te da 250  Gb
+
+
+
+
+Plan APPSERVICE:
+1.	Gastos  por/mes aprox
+a.	Service plan de producción:  250  Gb de storage : 73.73 USD
+b.	BD Mysql            29.82 USD
+Costo Total servicio por mes:  115 USD. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

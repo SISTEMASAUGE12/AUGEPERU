@@ -1,0 +1,74 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f47ffbd3dc76f8c1c29df4ee8dd6aa34",
+    "packages": [
+        {
+            "name": "diswebru/phpexcel",
+            "version": "1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DisWEBru/phpexcel.git",
+                "reference": "2f93001551cb7ccec0c6a869dc3748b0078e2e6c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DisWEBru/phpexcel/zipball/2f93001551cb7ccec0c6a869dc3748b0078e2e6c",
+                "reference": "2f93001551cb7ccec0c6a869dc3748b0078e2e6c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
+                "php": "^7.0|^8.0"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPExcel": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Denis Romashkov",
+                    "homepage": "https://disweb.ru"
+                }
+            ],
+            "description": "PHP library for writing and reading files in EXCEL format. Modified to work on PHP 8.",
+            "homepage": "https://github.com/DisWEBru/phpexcel",
+            "keywords": [
+                "OpenXML",
+                "excel",
+                "php",
+                "spreadsheet",
+                "xls",
+                "xlsx"
+            ],
+            "support": {
+                "issues": "https://github.com/DisWEBru/phpexcel/issues",
+                "source": "https://github.com/DisWEBru/phpexcel/tree/1.0.6"
+            },
+            "time": "2024-01-19T05:56:15+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

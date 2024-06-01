@@ -1,0 +1,58 @@
+.banner-land-paisajismos{background-image:url(../img/banners/landing-paisajismos.jpg);filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/banners/landing-paisajismos.jpg',sizingMethod='scale');-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/banners/landing-paisajismos.jpg',sizingMethod='scale')"; }
+
+
+/* #land .ban-paisajismos{background-image:url(../img/banners/landing-paisajismos.jpg);} */
+#land .logo-movil{display:none;}
+#land .mascara{background:rgba(0,0,0,.1);}
+#land .banners{border-bottom:12px solid #41A62A;}
+#land .banners img{padding:80px 0 30px;}
+#land .banners .fondo3{height:500px;}
+#land .banners h3{font-size:28px!important;line-height:31px;padding:40px 0 5px;}
+#land .banners p{font-size: 20px;padding-top: 10px;}
+#land .callout-1{background:#f1f1f1;padding:50px 0 60px;}
+#land .callout-1  h3{font-size:20px!important;line-height:23px;}
+#land .callout-1 figure{min-height:125px;margin-bottom:20px!important;}
+#land .callout-1 figure img{max-height:125px;}
+#land .callout-1 .large-8 h3{font-size:20px!important;line-height:23px;padding:55px 2px 10px;background:url(../img/iconos/hover-h2.png) bottom center no-repeat;text-transform:uppercase;}
+#land .callout-1 .large-8 p{font-size:13px;line-height:17px;}
+#land .callout-1 .large-8 .columns{padding:0 8px 40px;}
+#land .callout-1 .fond{background:#fff;padding:40px 40px 60px;margin-top:-350px;z-index:4;position:relative;border-radius:8px;-webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .3);}
+#land .callout-1 form h3{font-size:18px!important;padding-bottom:30px;color:#333;letter-spacing:0;}
+#land form input[type="text"],
+#land form input[type="email"]{background-color:#fff !important;border:1px solid #d1d1d1 !important;box-shadow:none !important;height:auto;padding:10px 14px;margin-bottom:25px !important;color:#333;font-size:16px;outline:0;border-radius:5px;  }
+#land form button{background:#EB7E2C;padding:12px 45px;}
+#land form button:hover{background:#41A62A;}
+
+
+
+footer.land{background:#f1f1f1;padding:20px 0;}
+
+@media only screen and (max-width: 59.999em){
+
+	#land .banners h3{padding:10px 0 5px;}
+	#land .banners img{padding:50px 0 20px;}
+}
+
+@media screen and (max-width: 51em) { 
+
+	#land .logo-pc{display:none;}
+	#land .logo-movil{display:block;height:180px;}
+}
+
+@media screen and (max-width: 43em) { 
+#land .callout-1 .fond{margin-top: -370px;padding:40px 30px 60px;}
+}
+
+@media screen and (max-width: 40em) { 
+	#land .banners img{padding:30px 0;}
+	#land .banners h3{font-size: 24px!important;line-height: 27px;padding: 15px 0 5px;}
+	#land .callout-1 .fond{margin-top: -270px;}
+}
+
+
+@media only screen and (max-width:24em){
+	#land .banners img{padding:30px 0;}
+	#land .banners h3{font-size: 24px!important;line-height: 27px;padding: 15px 0 5px;}
+}
+
