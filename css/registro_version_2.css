@@ -1,0 +1,76 @@
+/*registro*/
+header.menu-registro{display: block;}
+.sesion .mitad2{padding: 30px 60px 17px;}
+.select-sim{height: 37px;}
+#registro .callout-1 form input, #registro .callout-1 form select{height: 37px;padding: 10px 10px 2px;}
+
+
+#registro .callout-1 .centrar{max-width:465px;width:100%;margin:110px auto 0;}
+#registro .callout-1 h3{padding-bottom:25px;font-size: 25px;line-height: 35px;}
+#registro .callout-1 p{padding:0 0 15px;}
+#registro .callout-1 .contiene_formuario{padding:25px;background:#f1f1f1;max-width:430px;margin:50px auto 30px;border-radius:8px;}
+#registro .callout-1 .contiene_formuario h3{padding:0 0 35px;}
+#registro .callout-1 .contiene_formuario label{font-size:18px;line-height:26px;display:block;margin-bottom:8px;}
+#registro .callout-1 .contiene_formuario input,
+#registro .callout-1 .contiene_formuario.input_left select {width: 100%;padding: 10px;border-radius:5px;text-align:center;}
+#registro .callout-1 .contiene_formuario input::placeholder{color:#555;}
+#registro .callout-1 .contiene_formuario .btn_2{display:block;width:100%;letter-spacing:1px;}
+
+#registro .callout-1 .contiene_formuario.input_left label{font-size:16px;line-height:24px;margin-bottom:4px;}
+#registro .callout-1 .contiene_formuario.input_left input,
+#registro .callout-1 .contiene_formuario.input_left select{text-align:left;margin-bottom:16px;}
+
+#registro .callout-1 .contiene_formuario.input_left select{background-position:right 1rem center;height: 49px;}
+#registro .callout-1 .contiene_formuario.input_left .select-sim{border-radius:5px;height:49px;}
+#registro .callout-1 .contiene_formuario.input_left .option{padding:4px 0;}
+#registro .callout-1 .contiene_formuario.input_left .option span{font-size:13px;line-height:13px;}
+#registro .callout-1 .contiene_formuario.input_left .celu{margin-bottom:16px;}
+#registro .callout-1 .contiene_formuario.input_left .telefono{border-left:0;}
+#registro .callout-1 .contiene_formuario.input_left .clave{border-left:2px solid #000;border-radius:5px;height:49px;}
+.border_input{ border-bottom: 2px solid #666;border-left:2px solid #000;border-top:2px solid #000;}
+form label.error{max-width:400px;bottom: -33px;z-index:10;}
+
+#registro .callout-1 .centrar{margin-top:25px;}
+#registro .callout-1 form .datos{height: auto;padding-bottom:10px;}
+#registro .callout-1 form .final{margin:5px 0 110px;}
+#registro .callout-1 form .final span{font-size:12px;line-height:14px;}
+
+#registro .callout-2 p{padding-bottom:20px;}
+.acepta_politicas{height:12px!important;display: inline-block;width: auto!important;margin-right: 10px;margin-top: -8px;}
+
+
+/* login */
+.sesion.login_v2 .mitad1{display:none;}
+.sesion.login_v2 .mitad2{width:100%;float:none;}
+.lleva_btn_ingresar_v2{max-width: 416px;margin: 0 auto;}
+.lleva_btn_ingresar_v2 .boton{margin-left:0;border-radius: 4px;max-width: 150px;}
+/* .login_v2{background:#181b32;;} */
+.login_v2 form input{margin: 0 auto 10px;}
+
+
+@media only screen and (max-width:40em){
+header .callout .pago{font-size: 10px;line-height: 20px;}
+.sesion .mitad2 {padding: 10px 20px 17px;}
+.sesion p {font-size: 13px;line-height: 15.23px;}
+.modal-content .color1 {font-size: 14px;line-height: 14px;}
+.mensaje_flotante blockquote {margin-bottom: 10px;font-size: 14px;line-height: 14px;}
+.mensaje_flotante{padding: 10px 20px;}
+.mensaje_flotante .close-button{top: 2px;}
+
+}
+
+@media screen and (max-width: 28em){
+}
+
+/* min widt*/
+@media only screen and (min-width: 61em){
+
+}
+
+@media only screen and (min-width: 50.500em){
+
+}
+
+@media only screen and (min-width: 75em){
+
+}

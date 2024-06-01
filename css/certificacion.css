@@ -1,0 +1,56 @@
+/*Docente*/
+#certi .callout h1{padding-bottom:20px;}
+#certi .callout p{margin:0 auto 40px;max-width:1000px;}
+#certi .callout .formulario input{border:0;border-bottom:1px solid #DDD;padding:10px 25px 10px 0;margin-bottom:0;}
+#certi .callout .formulario .button{outline:none;float:right;margin-top:-45px;background:transparent;position:relative;z-index:10;margin-right:15px;}
+#certi .callout-2 .boton{margin:0 auto!important;font-size:16.5px;line-height:18.86px;}
+#certi .callout-1{padding:50px 0 100px;}
+#certi .callout-1 .formulario{max-width:424px;margin:0 auto 50px;}
+#certi .callout-2{padding:50px 0 0;}
+#certi .callout-2 .boton.solicita{display:inline-block;margin-left:20px!important;font-size:14px;line-height:16px;padding:10px;max-width:151px;}
+#certi .callout-2 .retor{font-size:16.5px;line-height:18.86px;float:left;color:#CA3A2B;text-decoration-line:underline;}
+#certi .callout-2 .centro-plomo{max-width:1100px;margin:20px auto 0;background:#FAFAFA;padding:0px 40px 65px;}
+#certi .callout-2 .centro-plomo h5{padding:20px 0;}
+#certi .callout-2 .centro-plomo span{display:block;max-width:639px;margin:0 auto 30px;font-size:12px;line-height:16.8px}
+#certi .callout-2 .formulario input{padding:10px 0;margin-bottom:10px;background:transparent;}
+#certi .callout-2 .formulario label.sub{font-size:12px;line-height:18px;padding-bottom:15px;padding-top:0;}
+#certi .callout-2 .formulario input[type="checkbox"]{margin:0;position: absolute;left: 0;top: 6px;}
+#certi .callout-2 .formulario input[type='checkbox'] + label{font-size:12px;line-height:16.8px;margin:0;padding:0;margin-left:5px;padding-left:12px;color: #444!important;}
+#certi .callout-2 .formulario .ultra{position:relative;left:0;top:5px;}
+#certi .callout-2 .formulario .ultra input[type="checkbox"]{position:absolute;left:0;top:0;}
+#certi .callout-2 .formulario .ultra input[type='checkbox'] + label{margin:0;padding-left:20px;}
+#certi .callout-2 .formulario blockquote{max-width:640px;margin:50px auto 40px;border:1px solid #7A7A7A;border-radius:10px;padding:17px 25px;font-size:12px;line-height:16.8px}
+
+#certi .callout .formulario input{width: auto;font-size: 14px;line-height: 17px;color: #333;height: auto;}
+#certi form{max-width:1000px;}
+#certi select{background: #fafafa;border: 0;border-bottom: 1px #ddd solid;margin-bottom: 5px;}
+
+/* coautoria */
+/* #certi.coautoria{padding-top:70px} */
+#certi.coautoria .callout p{margin:0 auto 40px;max-width:1100px;}
+
+.btn_descarga_certificado{ background: green; color:#fff!important; padding: 7px 10px; margin:5px 0; border-radius: 6px ; -webkit-border-radius: 6px ; -moz-border-radius: 6px ; -ms-border-radius: 6px ; -o-border-radius: 6px ; }
+
+@media screen and (max-width: 63.999em){
+
+}
+
+@media only screen and (max-width:39.99em){
+#certi .callout-2 .centro-plomo{padding:30px 15px 65px;}
+}
+
+@media screen and (max-width: 28em){
+}
+
+/* min widt*/
+@media only screen and (min-width: 61em){
+
+}
+
+@media only screen and (min-width: 50.500em){
+
+}
+
+@media only screen and (min-width: 75em){
+
+}

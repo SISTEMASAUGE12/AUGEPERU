@@ -1,0 +1,20 @@
+/*landing*/
+#landing .callout{padding:107px 0;}
+#landing .callout h2{padding:0px 0 24px;margin-bottom:34px;background:url(../img/iconos/linear.png) no-repeat;background-position-y:bottom;background-position-x:left;    font-size: 30px;line-height: 35px}
+#landing .callout p{font-size:16px;line-height:24px;color:#637381!important;}
+#landing .callout .detalle >*{font-size:16px!important;line-height:24px!important;color:#637381!important;}
+
+#landing .callout-1{background:rgba(202, 58, 43, 0.04);}
+#landing .callout-2{background:rgba(3, 155, 229, 0.04);}
+/* .banner-noso{background-color:#333;background-image:url(../img/banners/landing.png);filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/banners/landing.png',sizingMethod='scale');-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/banners/landing.png',sizingMethod='scale')"} */
+
+
+@media only screen and (max-width:40em){
+#landing .callout{padding:67px 0;}
+#landing .callout h2{font-size:22px;line-height:28px}
+
+}
+
+@media screen and (max-width: 28em){
+}
+

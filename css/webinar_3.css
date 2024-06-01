@@ -1,0 +1,186 @@
+.row{max-width: 1200px;}
+.caja_con_temas{background:rgb(199, 158, 78);margin:0 0 20px;color:#fff;font-size:16px;line-height:20px;padding:20px;}
+
+/* #land .ban-paisajismos{background-image:url(../img/banners/landing-paisajismos.jpg);} */
+#land{margin-top: 0;padding-top:0;}
+#land .row{max-width: 1200px;}
+
+/* #land .mascara{background:rgba(0,0,0,.2);height: 100%;width: 100%;} */
+#land  .fond{background:#fff;/*padding:30px 40px;*/margin-top:0;z-index:4;position:relative;border-radius:8px;-webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .3);    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .3);}
+#land .medium-5 .fond{padding:30px 40px;}
+/* #land .banners{border-bottom:12px solid #db271c;} */
+
+#land .banners img{padding:10px 0 0;}
+#land .banners .fondo3{/*height:800px;*/height:auto;background-attachment: fixed;padding-bottom: 50px;}
+/* #land .banners h1{font-size:35px!important;line-height:45px;padding:30px 0 50px;} */
+/* #land .banners h1 small{color:#00388a;font-size: 60%;} */
+#land .banners .titulo_principal >*{font-size:35px!important;line-height:45px;padding:30px 0 50px;}
+#land .banners h1._paso_2{padding:10px 0 30px;}
+
+#land .banners h3{font-size:18px!important;line-height:25px;padding:0 0 20px;}
+#land .banners h3.paso_2{font-size:20px!important;line-height:27px;padding:0 0 2px;}
+#land .banners p{font-size: 20px;padding-top: 10px;}
+#land .banners._paso_2 p{font-size: 16px;line-height:22px;padding: 25px 15px;}
+
+.btn_pdf{max-width:450px;border:0;}
+.btn_cuadrado{margin-top:30px!important;background: #FFD800;color: #00007C!important;border: 1px solid #fff;padding: 20px 25px;display: block;font-size: 20px;line-height: 20px;max-width: 525px;margin: 0 auto;}
+
+
+#land .data_principal.registro{margin-top:-25px;}
+#land .data_principal iframe{width: 100%;height: 400px;}
+#land .data_principal figure img.principal{width: 400px;height: 240px;}
+#land .unete_wasap{background: #00007C;padding: 10px 20px;}
+#land .unete_wasap img{padding:0;}
+
+
+.img_movil{display: none;}
+#land.webinar_3 .banners blockquote{padding: 7px 20px;font-size:20px;line-height:30px;background: #FFD800;display: inline-block;color: rgb(26, 22, 136);margin-top: 20px;}
+/* #land.webinar_3 .banners h1{font-size:55px!important;line-height:75px;padding:30px 0 50px;} */
+#land.webinar_3 .banners .titulo_principal{padding-top:50px;}
+#land.webinar_3 .banners .titulo_principal >* {font-size:55px!important;line-height:68px;padding:30px 0 50px;}
+#land.webinar_3 .banners .cuaro_1 p{font-size:22px!important;line-height:30px;padding:25px 15px;border: 1px solid rgb(49, 255, 192);}
+.data_principal  figure {margin-top: 20px;}
+
+#land.webinar_3 .callout-0{padding: 60px 0;}
+#land.webinar_3 .callout-0 ul {list-style-image: url("../img/iconos/flecha_vi.png");}
+#land.webinar_3 .callout-0 ul li{border-bottom: 1px solid #4542CD;padding-bottom: 10px;margin-bottom: 20px;font-size: 18px;line-height: 25px;}
+
+#land.webinar_3 .callout-1{padding: 30px 0 ;background: #4542cd;}
+#land.webinar_3 .callout-1 h4{padding:0;font-size: 20px;line-height: 26px;}
+#land.webinar_3 .callout-2{padding:80px 0;background:rgb(245, 245, 245);}
+#land.webinar_3 .callout-2 .detalle{font-size: 18px;line-height: 28px;}
+#land.webinar_3 .callout-2 figure img{padding-top: 15px;}
+#land.webinar_3 .callout-3{padding:80px 0;}
+#land.webinar_3 .callout-3 figure img{height: auto;}
+#land.webinar_3 .callout-3 p{font-size: 17px;line-height: 27px;padding: 40px 0 50px;}
+#land.webinar_3 .callout-3 p._borde{font-size: 21px;line-height: 30px;padding: 18px 15px;}
+#land.webinar_3 .callout-4{padding:80px 0 50px;background: #f5f5f5;}
+#land.webinar_3 .callout-4 h4{padding-bottom:40px;}
+#land.webinar_3 .callout-4 figure img{padding-bottom:40px;}
+
+#land.webinar_3 .callout-5{padding:60px 0 10px;background: #fff;}
+#land.webinar_3 .callout-5 h4{padding-bottom:20px;}
+#land.webinar_3 .callout-5 p{padding-bottom:40px; font-size: 17px;}
+#land.webinar_3 .callout-5 figure img{padding-bottom:40px;}
+
+#land.webinar_3 .callout-6{padding:60px 0 40px;background: #f5f5f5;}
+#land.webinar_3 .callout-6 h2{font-size:18px;line-height:26px;padding:0 10px 10px;}
+#land.webinar_3 .callout-6 h4{padding-bottom:20px;}
+#land.webinar_3 .callout-6 p.text_intro{padding-bottom:40px;}
+#land.webinar_3 .callout-6 p._profe{font-size: 15px;line-height: 22px;padding-bottom: 30px;}
+#land.webinar_3 .callout-6 figure img{padding-bottom:5px;}
+
+#land.webinar_3 .callout-7{padding:60px 0 40px;}
+#land.webinar_3 .callout-7 h4{padding-bottom:20px;}
+#land.webinar_3 .callout-7 p{padding-bottom:40px; font-size: 17px;}
+
+#land.webinar_3 .callout-8{padding:60px 0 40px;outline: none;background-image: url(../img/fondo_webinar_3.jpg);	color: rgb(255, 255, 255);}
+#land.webinar_3 .callout-8 h4{padding-bottom:20px;}
+#land.webinar_3 .callout-8 p{padding-bottom:40px; font-size: 17px;}
+#land.webinar_3 .callout-8 p.subte{padding:40px 0 10px; font-size: 20px;line-height: 28px;}
+#land.webinar_3 .callout-8 .medium-6{padding-bottom:40px; }
+
+
+#land.webinar_3 .callout-9{padding:60px 0 40px;}
+#land.webinar_3 .callout-9 h4{padding-bottom:20px;font-size: 20px;line-height: 27px;padding-right: 30px;}
+/* #land.webinar_3 .callout-9 p._deta{padding-bottom:40px; font-size: 17px;} */
+#land.webinar_3 .callout-9 ._contenido{padding-bottom:20px;border-bottom:1px solid  rgb(55, 242, 185);margin-bottom: 30px;}
+#land.webinar_3 .callout-9 ._contenido .medium-6{padding-bottom:30px;}
+#land.webinar_3 .callout-9 ._detalle,
+#land.webinar_3 .callout-9 ._detalle >*{font-size: 17px!important;line-height: 24px!important;}
+#land.webinar_3 .callout-9 ul {list-style-image: url("../img/iconos/flecha_vi.png");}
+#land.webinar_3 .callout-9 ._detalle ul li {padding-bottom: 10px;}
+
+#land.webinar_3 .callout-10{padding:60px 0 40px;}
+#land.webinar_3 .callout-10 h4{padding-bottom:40px;}
+#land.webinar_3 .callout-10 blockquote{font-size: 17px;line-height: 25px;padding-bottom:2px;color: #000;}
+#land.webinar_3 .callout-10 p{padding-bottom:40px; font-size: 15px;line-height: 19px;}
+#land.webinar_3 .callout-10 .lleva_video{background: #000;height: 180px;width: 100%;margin-bottom: 10px;}
+#land.webinar_3 .callout-10 .lleva_video iframe{width: 100%;height: 180px;margin:0;}
+
+#land.webinar_3 .callout-11{padding:60px 0 40px;background: #ca3a2b;}
+#land.webinar_3 .callout-11 ul li{display: inline-block;}
+#land.webinar_3 .callout-11 ul li + li{padding-left: 15px;}
+#land.webinar_3 .callout-11 ul li img{height: 50px;}
+
+.color-w3{color:rgb(49, 255, 192)!important}
+._borde{border:1px solid blue;padding: 10px 15px;}
+.lleva_sudbrayado{padding:10px 0;margin-top:10px;}
+.sudbrayado{border-color: rgb(69, 66, 206);border-top-width: 5px;width: 25%;border-top-style: solid;min-height: 1px;}
+
+footer.land{background:#f1f1f1;padding:20px 0;}
+
+#land.webinar_3 .casos_exito h4{max-width: 100%;}
+
+.reveal_webinar_3{background: #fff;padding: 50px 40px 30px;border-top:6px solid rgb(55, 242, 185)!important;}
+.fond_reveal{background: #fff;}
+.fond_reveal h3{font-size: 20px;line-height: 26px;color:rgb(26, 22, 135);padding: 0 39px 10px;}
+.fond_reveal input{margin: 0;border-radius: 6px;}
+.fond_reveal input + input{margin-top: 12px;}
+.fond_reveal input:focus{margin: 12px 0 0;}
+.fond_reveal input + input:focus{margin-top: 12px;}
+.fond_reveal input::placeholder{color:#555;}
+.fond_reveal .btn_cuadrado{margin-top:20px!important;padding: 13px 15px;}
+
+
+#rptapago_w3.pagoexito{background:green;padding:5px 20px;border-radius:25px;color:#fff;font-style: italic;margin-top:20px!important;}
+#rptapago_w3.pagoespera{background:#333;padding:5px 20px;border-radius:25px;color:#fff;font-style: italic;margin:10px 0!important;}
+#rptapago_w3.pagoerror{background:red;padding:5px 20px;border-radius:25px;color:#fff;font-style: italic;margin-top:20px!important;}
+#rptapago_w3.ingresa_gmail{background:#dfdf1a;padding:5px 20px;border-radius:25px;color:#000;font-weight:800;font-style: italic;margin:10px 0!important;position: absolute;top: -120px;z-index: 9;right: -160px;}
+
+
+
+@media only screen and (max-width: 59.999em){
+	#land .banners h1 {font-size: 35px!important;line-height: 47px;}
+	#land .boton{font-size: 16px;line-height: 24px;}
+	#land .banners h3 {font-size: 16px !important;line-height: 25px;}
+}
+
+@media screen and (max-width: 51em) { 
+	h4{font-size: 20px;line-height: 25px;margin: 0;}
+	#land .logo-pc{display:none;}
+	#land .logo-movil{display:block;height:180px;}
+	#land.webinar_3 .banners .titulo_principal >* {font-size: 25px!important;line-height: 35px;padding-top: 60px!important;}
+	#land.webinar_3 .banners blockquote {padding: 7px 20px;font-size: 14px;line-height: 20px;margin-top: 10px;}
+	#land.webinar_3 .banners .cuaro_1 p{font-size: 17px!important;line-height: 25px;padding: 15px 15px;margin-top: 20px;}
+	#land.webinar_3 .callout-1{padding: 0px 0 30px;}
+	#land.webinar_3 .callout-2 .detalle{font-size: 16px;line-height: 24px;}
+	#land.webinar_3 .callout-2 .detalle > *{font-size: 16px;line-height: 24px;}
+	#land.webinar_3 .callout-6 figure img{padding-bottom: 5px;height: 215px;}
+	#land.webinar_3 .callout-9 ._detalle, #land.webinar_3 .callout-9 ._detalle >* {font-size: 16px!important;line-height: 23px!important;}
+	#land.webinar_3 .callout-1 h4{padding: 0;font-size: 17px;line-height: 23px;padding-top: 20px;}
+	#land.webinar_3 .callout-1 blockquote {padding-top: 20px;}
+	#land.webinar_3 .callout-11{padding-bottom: 110px;}
+	#land.webinar_3 .callout-11 p{font-size: 15px;line-height: 20px;}
+	#land.webinar_3 .callout-4 figure img {padding-bottom: 40px;width: 80%;}
+
+}
+
+
+@media screen and (max-width: 40em) { 
+	.webinar_movil{display:block;}
+	.webinar_pc{display:none;}
+	
+	.img_movil{display:block;}
+	.img_pc{display:none;}
+
+	#land .banners img{padding:0;padding-top:9px;}
+	#land .banners h1 {font-size: 25px!important;line-height:37px;padding-bottom:30px;}
+	#land .banners h3{font-size: 20px!important;line-height: 26px;padding:20px 15px 15px;}
+	#land .medium-5 .fond{margin-top:30px;}
+
+
+	#land .casos_exito p{height: 36px;font-size: 15px;line-height: 18px}
+	#land .casos_exito figure img.imagen_1{height: 150px;}
+	#land .fond{margin-bottom:50px;}
+	
+}
+
+
+@media only screen and (max-width:24em){
+	#land .banners img{padding: 0;}
+	#land .banners h1 {font-size: 19px!important;line-height:26px;padding-bottom:20px;}
+	#land .banners h3{font-size: 16px!important;line-height: 24px;padding: 15px 0 ;}
+	#land .casos_exito p{font-size:11px;}
+}
+

@@ -1,0 +1,412 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+#land{margin-top: 0;padding-top:0;}
+
+#rptapago_w2.pagoexito{background:green;padding:5px 20px;border-radius:25px;color:#fff;font-style: italic;margin-top:20px!important;}
+#rptapago_w2.pagoespera{background:#333;padding:5px 20px;border-radius:25px;color:#fff;font-style: italic;margin:10px 0!important;}
+#rptapago_w2.pagoerror{background:red;padding:5px 20px;border-radius:25px;color:#fff;font-style: italic;margin-top:20px!important;}
+#rptapago_w2.ingresa_gmail{background:#dfdf1a;padding:5px 20px;border-radius:25px;color:#000;font-weight:800;font-style: italic;margin:10px 0!important;position: absolute;top: -120px;z-index: 9;right: -160px;}
+
+
+#land .section1 { width: 100%;background-color:#B82A20; display: flex;  margin: 0 !important; justify-content: center; align-items: center;}
+#land .section1 .section11 { display: flex; align-items: center; justify-content: center; margin: 0 !important; padding: 20px 0; flex-direction: column;}
+#land .section1 .section11 h1 { color: white; font-family: 'Poppins', sans-serif !important; margin: 0px !important; font-size: 50px; line-height: 1; }
+#land .section1 .section11 h2 { color: white; font-family: 'Poppins', sans-serif !important; margin: 0px !important; font-size: 35px; line-height: 1; font-weight: 600;}
+#land .section1 .section11A { display: flex; align-items: center; justify-content: center; margin: 0 !important;}
+#land .section1 .section11A h2 { color: white; font-family: 'Poppins', sans-serif !important; margin: 0px 20px!important; font-size: 30px; font-weight: 600;}
+#land .section1 .section12 { display: flex; align-items: center; justify-content: center; margin: 0 !important;}
+
+#land .section2 {width: 100%; position: relative;}
+#land .section2 .imagenSection22 {display: none;}
+#land .section2 .imagenSection21 img {width: 100%;}
+#land .section2 .Section23 { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; display: flex; justify-content: center; align-items: center; }
+#land .section2 .Section23 .section23A {margin-right: 3%;}
+#land .section2 .Section23 .section23A .section23A1 {padding-left:10%;}
+#land .section2 .Section23 .section23A h1{ font-size: 30px; font-weight: 600; color: white; font-family: 'Poppins', sans-serif !important; background-color: #3C3C3B; border-radius: 0 10px 10px 0; line-height: 1; padding: 20px !important; }
+#land .section2 .Section23 .section23A .section23A1  h2{ font-size: 35px; font-weight: 600; color: white; font-family: 'Poppins', sans-serif !important; text-align: center;margin-top: 40px; line-height: 1;}
+#land .section2 .Section23 .section23A iframe { border-radius: 20px; width: 90%;}
+#land .section2 .Section23 .section23B { display: flex; flex-direction: column; padding: 0; margin-left: 3%;width: 70%; border: 2px solid white;  border-radius: 20px;}
+#land .section2 .Section23 .section23B .section23B1 { width: 100%; display: flex; justify-content: center; align-items: center; flex-direction: column; background-color:white;  padding:  40px; border-radius: 20px}
+#land .section2 .Section23 .section23B .section23B1 h1{ color: #3C3C3B; font-weight: 700; font-family: 'Poppins', sans-serif !important; font-size: 50px;  line-height: 1;}
+#land .section2 .Section23 .section23B .section23B1 h2{ color: #3C3C3B; font-weight: 700; font-family: 'Poppins', sans-serif !important; font-size: 30px;  line-height: 1;}
+#land .section2 .Section23 .section23B .section23B1 span{ color: #B82A20;}
+#land .section2 .Section23 .section23B .section23B1 .form-1{width: 90%;}
+#land .section2 .Section23 .section23B .section23B1 .entrada::placeholder { color: black; opacity: 1;}
+#land .section2 .Section23 .section23B .section23B1 .entrada { background-color: transparent !important; color: #3C3C3B; border: 2px solid #3C3C3B !important; font-family: 'Poppins', sans-serif !important; font-weight: 600 !important; }
+#land .section2 .Section23 .section23B .section23B1 .entrada select { -webkit-appearance: none; -moz-appearance: none; appearance: none;}
+#land .section2 .Section23 .section23B .section23B1 button{ background-color: #B82A20; padding: 10px; width: 100%; font-weight: 600; font-size: 20px;color: white; font-family: 'Poppins', sans-serif !important; margin-bottom: 20px; cursor: pointer;}
+#land .section2 .Section23 .section23B .section23B2 {width: 100%; display: flex; justify-content: center; align-items: center; flex-direction: column; background-color: white;  padding:  10px; border-radius: 0px 0px 15px 15px;}
+
+#land .section3 {background-color:#B82A20 ; padding: 40px 0; width: 100%;}
+#land .section3 h1 {font-size: 50px; color: white; font-family: 'Poppins', sans-serif !important; font-weight: 600; }
+
+#land .section4 {width: 100%; padding: 60px 20px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+#land .section4 .section41 {display: flex; align-items: center; justify-content: center; flex-direction: column; border-radius: 10px; background-color: white;}
+#land .section4 .card{margin: 0 10px; width: 50%; }
+#land .section4 .card h5{font-size: 20px; color: #3C3C3B !important; font-weight: 600 !important; }
+#land .section4 .section41 p {font-family: 'Poppins', sans-serif !important; font-size: 18px; height: 100px; font-size: 600;}
+#land .section4 .section441 {display: flex; align-items: center; justify-content: center; padding-top: 60px;}
+#land .section4 .section42 {display: flex; align-items: center; justify-content: center; padding-top: 60px; width: 100%;}
+#land .section4 .section42 .section42A{display: flex; align-items: center; justify-content: center;}
+#land .section4 .section42 button{background-color: #B82A20; padding: 10px 30px; font-weight: 700; font-size: 40px; color: white; font-family: 'Poppins', sans-serif !important; margin-bottom: 20px; cursor: pointer; border-radius: 5px;}
+#land .section4 .section42 img{max-width: 200px; }
+#land .section4 .section41 img{max-width: 200px; padding-top: 20px;}
+
+#land .section6 .section441 {display: flex; align-items: center; justify-content: center; padding-top: 60px;}
+
+#land .section6 {width: 100%;}
+#land .section6 .Section23 {width: 100%; display: flex; justify-content: center; align-items: center; }
+
+#land .section5 {width: 100%; margin-top: 50px; display: flex;}
+#land .section5 .section51 {padding-left: 5%;  display: flex !important; justify-content: center !important; align-items: center !important; flex-direction: column;}
+#land .section5 .section51 h1 {font-size: 45px; font-weight: 700;font-family: 'Poppins', sans-serif !important; line-height: 1; margin-bottom: 20px;}
+#land .section5 .section51 ul li {font-size: 20px; font-family: 'Poppins', sans-serif !important; color: black; margin-bottom: 20px; }
+#land .section5 .section51 button{ background-color: #B82A20; padding: 10px 30px; font-weight: 700; font-size: 40px; color: white; font-family: 'Poppins', sans-serif !important; margin-bottom: 20px; cursor: pointer; border-radius: 5px;}
+#land .section5 .section52 {width: 100%; position: absolute; top: 80%; z-index: 10;}
+#land .section5 .section52 .division4{display: flex; justify-content: center; align-items: center;}
+#land .section5 .section52 .division4 .contanedor4 {display: flex; justify-content: center; align-items: center; background-color: white; border-radius: 50px; padding: 20px;box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); width: 550px;}
+#land .section5 .section52 .division4 .contanedor4 .datos52 h1{font-family: 'Poppins', sans-serif !important; font-size: 30px; font-weight: 700; padding: 0 20px; line-height: 1; color: #B82A20;}
+#land .section5 .section52 .division4 .contanedor4 .datos52 h2{font-family: 'Poppins', sans-serif !important; font-size: 25px; font-weight: 600; padding: 0 20px; line-height: 1; color: black;}
+
+
+#land .section55 {width: 100%; margin: 50px 0; position: relative; display: flex;}
+#land .section55 .section51 {display: flex !important; justify-content: center !important; align-items: center !important; flex-direction: column;}
+#land .section55 .section51 h1 {font-size: 50px; font-weight: 700;font-family: 'Poppins', sans-serif !important; line-height: 1;}
+#land .section55 .section51 h2 {font-size: 50px; font-weight: 600;font-family: 'Poppins', sans-serif !important; color: #B82A20; line-height: 1; margin-bottom: 30px;}
+#land .section55 .section51 ul li {font-size: 20px; font-family: 'Poppins', sans-serif !important; color: black; }
+#land .section55 .section52 {width: 100%; position: absolute; top: 80%; z-index: 10;}
+#land .section55 .section51 .section51img {display: flex !important; justify-content: center !important;align-items: center !important;}
+
+
+#land .section55 .section51 .listaicon li {
+    list-style-type: none;  /* Elimina la viñeta por defecto */
+    background-image: url('../img/landin_libro/viñeta.png');
+    background-repeat: no-repeat;
+    background-size:30px; /* Ajustado a 30px por 30px */
+    background-position: 5px 0px; /* Posición de la imagen */
+    padding-left: 60px; /* Espacio para la imagen antes del texto */
+    margin-left: 0px; /* Margen izquierdo del elemento li */
+    margin-bottom: 30px; /* Añade espacio debajo de cada ítem de la lista */
+    font-size: 20px;
+}
+
+#land .section4 .section441 .section4411 {display: flex; width: 100%; align-items: center; justify-content: center; margin: 10px 0;}
+/* #land .section4 .section441 .section4412 {display: flex; width: 50%; align-items: center; justify-content: center;} */
+
+#land .section7 {padding: 30px 0;}
+#land .section7 .card3 button{background-color: #B82A20; padding: 10px 30px; font-weight: 700; font-size: 40px; color: white; font-family: 'Poppins', sans-serif !important; margin-bottom: 20px; cursor: pointer; border-radius: 5px;}
+#land .section7 .section72 {display: flex; align-items: center; justify-content: center; padding-top: 60px; width: 100%;}
+#land .section7 .section71 .card2{display: flex; justify-content: center; align-items: center; flex-direction: column;}
+#land .section7 .section72 .card3{display: flex; align-items: center; justify-content: center;}
+#land .section7 .section72 .card3 img{max-width: 180px !important;}
+#land .section7 .section71 .card2 img{max-width: 60% !important; }
+
+
+#land .section9 {width: 100%; background-color:#B82A20 !important; padding: 20px 20px; display: flex; align-items: center; justify-content: center; flex-direction: column;}
+#land .section9 img {max-width: 300px; margin-bottom: 20px;}
+#land .section9 h5 { font-family: 'Poppins', sans-serif !important; font-weight: 400; font-size: 28px; color: white;}
+#land .section9 p { font-family: 'Poppins', sans-serif !important; font-size: 20px; margin-bottom: 20px; color: white;}
+#land .section9 .footerLanding {display: flex; align-items: center; justify-content: center;}
+#land .section9 .footerLanding a {margin: 0 20px; font-family: 'Poppins', sans-serif !important; font-size: 24px; color: white;}
+
+
+@media ((min-width: 1100px) and (max-width: 1500px)) {
+   
+    #land .section1 .section11 h1 { font-size: 25px; }
+    #land .section1 .section11 h2 { font-size: 25px;}
+    #land .section1 .section11A h2 { font-size: 28px;}
+    #land .section1 .section12 .cronometro .cronometro1 { padding: 5px 20px;}
+    #land .section1 .section12 .cronometro .cronometro1 h1 {font-size: 30px;} 
+    #land .section1 .section12 .cronometro .cronometro1 p {font-size: 16px;} 
+    
+    
+    #land .section2 .Section23 .section23A {margin-right: 3%;}
+    #land .section2 .Section23 .section23A h1{ font-size: 22px; padding-left:10%;}
+    #land .section2 .Section23 .section23A .section23A1  h2{ font-size: 30px;}
+    #land .section2 .Section23 .section23A iframe {width: 90%;}
+    #land .section2 .Section23 .section23B { width: 70%;}
+    #land .section2 .Section23 .section23B .section23B1 { padding: 10px;}
+    #land .section2 .Section23 .section23B .section23B1 h1{ font-size: 40px;}
+    #land .section2 .Section23 .section23B .section23B1 h2{ font-size: 30px;}
+    #land .section2 .Section23 .section23B .section23B1 .form-1{width: 90%;}
+    #land .section2 .Section23 .section23B .section23B1 button{font-size: 20px;margin-bottom: 20px;}
+    #land .section2 .Section23 .section23B .section23B2 img{max-width: 130px;}
+    #land .section2 .Section23 .section23A .section23A1 {padding-left:10%;}
+
+    
+    #land .section3 {padding: 35px 0;}
+    #land .section3 h1 {font-size: 30px;}
+    
+    #land .section4 {padding: 60px 20px;}
+    #land .section4 .section41 h5 {font-size: 20px;}
+    #land .section4 .section42 button{padding: 10px 30px; font-size: 30px;}
+
+
+    #land .section5 {margin-top: 10px;}
+    #land .section5 .section51 {padding-left: 3%;}
+    #land .section5 .section51 h1 {font-size: 30px;}
+    #land .section5 .section51 h2 {font-size: 30px; margin-bottom: 10px;}
+    #land .section5 .section51 ul li {font-size: 16px;}
+    #land .section5 .section52 {top: 78%;}
+    #land .section5 .section52 .division4 .contanedor4 { padding: 10px;width: 400px;}
+    #land .section5 .section52 .division4 .contanedor4 .imagen52 img{width: 70%;}
+    #land .section5 .section52 .division4 .contanedor4 .datos52 h1{font-size: 25px; padding: 0 10px; }
+    #land .section5 .section52 .division4 .contanedor4 .datos52 h2{font-size: 16px; padding: 0 10px;}
+    #land .section5 .section51 button{padding: 10px 30px; font-size: 30px;}
+
+    
+    
+}
+
+
+/* Media Query para laptop */
+@media ((min-width: 769px) and (max-width: 1100px)) {
+    
+    #land .section1 .section11 h1 { font-size: 18px; }
+    #land .section1 .section11 h2 { font-size: 18px;}
+    #land .section1 .section11A h2 { font-size: 20px;}
+    #land .section1 .section11A img { width: 40px;}
+    #land .section1 .section12 .cronometro .cronometro1 {padding: 5px 25px;}
+    #land .section1 .section12 .cronometro .cronometro1 h1 {font-size: 25px;} 
+    #land .section1 .section12 .cronometro .cronometro1 p {font-size: 12px;} 
+
+
+    
+    #land .section2 .imagenSection21 img {min-height: 500px;}
+    #land .section2 .Section23 .section23A {margin-right: 2%; padding-top: 40px;}
+    #land .section2 .Section23 .section23A h1{ font-size: 18px; padding-left:10%; line-height: 1;}
+    #land .section2 .Section23 .section23A .section23A1  h2{ font-size: 20px;}
+    #land .section2 .Section23 .section23A iframe {width: 90%;}
+    #land .section2 .Section23 .section23B { width: 80%;}
+    #land .section2 .Section23 .section23B .section23B1 { padding: 10px;}
+    #land .section2 .Section23 .section23B .section23B1 h1{ font-size: 30px;}
+    #land .section2 .Section23 .section23B .section23B1 h2{ font-size: 20px;}
+    #land .section2 .Section23 .section23B .section23B1 .form-1{width: 100%;}
+    #land .section2 .Section23 .section23B .section23B1 button{font-size: 20px;margin-bottom: 20px;}
+    #land .section2 .Section23 .section23B .section23B1 img{max-width: 150px;}
+    #land .section2 .Section23 .section23A .section23A1 {padding-left:10%;}
+
+    
+    #land .section3 {padding: 30px 0;}
+    #land .section3 h1 {font-size: 25px;}
+    
+    #land .section4 {padding: 60px 20px;}
+    #land .section4 .section41 h5 {font-size: 20px;}
+    #land .section4 .section42 button{padding: 10px 20px; font-size: 30px; margin-bottom: 20px;}
+    #land .section4 .section42 img{max-width: 200px; margin-top: 15px;}
+    #land .section4 .card h5{font-size: 16px;}
+    #land .section4 .section41 p {font-size: 16px; height: 100px;}
+
+    #land .section5 {margin-top: 10px;}
+    #land .section5 .section51 {padding-left: 3%;}
+    #land .section5 .section51 h1 {font-size: 20px;}
+    #land .section5 .section51 h2 {font-size: 20px; margin-bottom: 10px;}
+    #land .section5 .section51 ul li {font-size: 16px; margin-bottom: 10px;}
+    #land .section5 .section52 {top: 100%;}
+    #land .section9 {margin-top: 120px;}
+
+    #land .section5 .section51 button{ padding: 10px 20px; font-size: 30px;}
+
+    #land .section7 .card3 button{padding: 10px 20px; font-size: 30px;}
+
+
+    #land .section55 .section51 .listaicon li {
+        margin-left: 0px; /* Margen izquierdo del elemento li */
+        margin-bottom: 20px; /* Añade espacio debajo de cada ítem de la lista */
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+
+
+
+
+}
+
+
+
+/* Media Query tablet */
+@media ((min-width: 576px) and (max-width: 768px)) {
+	
+    #land .section1 {flex-direction: column;}
+    #land .section1 .section11 { width: 100% !important;}
+    #land .section1 .section11 h1 { font-size: 30px; margin-top: 10px !important;}
+    #land .section1 .section12 { width: 100% !important; padding-bottom: 10px;}
+    #land .section1 .section12 .cronometro .cronometro1 { margin: 5px 10px;}
+    #land .section1 .section12 .cronometro .cronometro1 h1 {font-size: 30px;} 
+    #land .section1 .section12 .cronometro .cronometro1 p {font-weight: 600;} 
+    #land .section1 .section11 h2 { font-size: 30px;}
+    #land .section1 .section11A h2 { font-size:30px;}
+    #land .section1 .section11A {padding-bottom: 20px;}
+    #land .section1 .section11A img { width: 40px;}
+
+    
+#land .section2 .imagenSection21 {display: none;}
+#land .section2 .imagenSection22 {display: block;}
+#land .section2 .imagenSection22 img {width: 100%; height: auto}
+#land .section2 .Section23 { width: 100%; display: flex; padding: 0 5%; flex-direction: column; }
+#land .section2 .Section23 .ancho { width: 100% !important; }
+#land .section2 .Section23 .section23A h1{ font-size: 30px; text-align: center; border-radius: 10px; }
+    #land .section2 .Section23 .section23A .section23A1  h2{ font-size: 25px;}
+    #land .section2 .Section23 .section23A iframe {width: 90%;}
+    #land .section2 .Section23 .section23B { width: 80%;}
+    #land .section2 .Section23 .section23B .section23B1 { padding: 10px;}
+    #land .section2 .Section23 .section23B .section23B1 h1{ font-size: 30px;}
+    #land .section2 .Section23 .section23B .section23B1 h2{ font-size: 25px;}
+    #land .section2 .Section23 .section23B .section23B1 .form-1{width: 100%;}
+    #land .section2 .Section23 .section23B .section23B1 button{font-size: 20px;margin-bottom: 20px;}
+    #land .section2 .Section23 .section23B .section23B2 img{max-width: 100px;}
+    #land .section2 .Section23 .section23A .section23A1 {padding-left:0%;} 
+
+
+#land .section2 .Section23 .section23A {margin-right: 0%;}
+#land .section2 .Section23 .section23B { margin-left: 0%;}
+
+
+#land .section3 { padding: 10px 0;}
+#land .section3 h1 {font-size: 30px;}
+
+#land .section4 {padding: 20px;}
+#land .section4 .section41 img {width: 80%;}
+#land .section4 .section41 {width: 100%;}
+#land .section4 .section41 h5 {font-size: 20px;}
+#land .section4 .section42 {padding-top: 30px; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+#land .section4 .section42 button{padding: 10px 20px;font-size: 25px; }
+#land .section4 .section42 img{max-width: 200px; margin-bottom: 20px;}
+#land .section4 .section41 p {height: 120px;}
+
+
+
+
+
+
+
+    #land .section5 {margin-top: 10px; flex-direction:column-reverse;}
+    #land .section5 .section51 {padding-left: 0%; width: 100%; display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 30px;}
+    #land .section5 .section51 h1 {font-size: 24px; text-align: center;}
+    #land .section5 .section51 h2 {font-size: 24px; margin-bottom: 10px; text-align: center;}
+    #land .section5 .section51 ul li {font-size: 18px; margin:0 0% 0 5%;}
+    #land .section5 .section51img {display: none;}
+    #land .section5 .section52 {top: 100%; width: 100%;}
+    #land .section5 .section52 .division4 .contanedor4 { padding:5px; margin-bottom: 20px; width: 70%;}
+#land .section5 .section52 .division4 .contanedor4 .datos52 h1{font-size: 20px; padding: 0 20px;}
+#land .section5 .section52 .division4 .contanedor4 .datos52 h2{font-size: 18px; }
+
+#land .section5 .section51 button{padding: 10px 20px;font-size: 25px; }
+
+#land .section7 .card3 button{padding: 10px 20px; font-size: 25px;}
+
+#land .section9 h5 { font-size: 24px;}
+#land .section9 p { font-size: 18px;}
+#land .section9 .footerLanding a { font-size: 18px;}
+
+#land .section55 .ancho{width: 100% !important;}
+#land .section55 .section51img{display: none !important;}
+
+#land .section4 .card {width: 40% !important;}
+#land .section4 .section441 {flex-direction: column;}
+#land .section4 .section441 .section4411 {display: flex; width: 100%; align-items: center; justify-content: center; margin: 10px 0;}
+#land .section4 .section441 .section4412 {display: flex; width: 100%; align-items: center; justify-content: center;}
+
+
+}
+
+
+@media (max-width: 576px) {
+		
+    #land .section1 {flex-direction: column; padding: 0 20px;}
+    #land .section1 .section11 { width: 100% !important; padding: 10px;}
+    #land .section1 .section11 h1 { font-size: 20px; margin-top: 10px !important; text-align: center;}
+    #land .section1 .section11 h2 { font-size: 18px; }
+    #land .section1 .section11A { display: none !important;}
+    #land .section1 .section12 { width: 100% !important; padding-bottom: 10px;}
+
+
+   
+#land .section2 .imagenSection21 {display: none;}
+#land .section2 .imagenSection22 {display: block;}
+#land .section2 .imagenSection22 img {width: 100%; height: 1000px;}
+.opcional .imagenSection22 img {width: 100%; height: auto !important;}
+
+
+#land .section2 .Section23 { width: 100%; display: flex; padding: 0 5%; flex-direction: column; }
+#land .section2 .Section23 .section23A h1{ font-size: 20px; text-align: center; border-radius: 20px; padding-left: 0;}
+    #land .section2 .Section23 .section23A .section23A1  h2{ font-size: 25px;}
+    #land .section2 .Section23 .section23A iframe {width: 90%;}
+    #land .section2 .Section23 .section23B { width: 80%; margin: 0 !important;}
+    #land .section2 .Section23 .section23B .section23B1 { padding: 10px;}
+    #land .section2 .Section23 .section23B .section23B1 h1{ font-size: 30px;}
+    #land .section2 .Section23 .section23B .section23B1 h2{ font-size: 25px;}
+    #land .section2 .Section23 .section23B .section23B1 .form-1{width: 100%;}
+    #land .section2 .Section23 .section23B .section23B1 button{font-size: 20px;margin-bottom: 20px;}
+    #land .section2 .Section23 .section23B .section23B2 img{max-width: 100px;}
+    /* #land .section2 .Section23 .section23A .section23A1 {padding-left:10%;}  */
+    #land .section2 .Section23 .section23A .section23A1 {padding-left:0%;} 
+
+#land .section3 { padding: 10px;}
+#land .section3 h1 {font-size: 20px;}
+
+#land .section4 {padding: 20px;}
+#land .section4 .section41 img {width: 80%;}
+#land .section4 .section41 h5 {font-size: 15px;}
+#land .section4 .section42 {padding-top: 0px; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+#land .section4 .section42 button{padding: 10px;font-size: 20px; margin-bottom: 20px; }
+#land .section4 .section42 img{max-width: 120px; margin-top: 20px;}
+#land .section4 .section42 .section42A { margin: 10px 0;}
+
+#land .section4 .card h5{font-size: 14px; }
+#land .section4 .section41 p {font-size: 14px !important; }
+#land .section4 .card1 p { height: 130px; }
+
+#land .section5 {margin-top: 10px; flex-direction: column-reverse;}
+#land .section5 .section51 {padding-left: 0% !important;}
+#land .section5 .section51 h1 {font-size: 24px; text-align: center;}
+#land .section5 .section51 h2 {font-size: 24px; margin-bottom: 10px; text-align: center;}
+#land .section5 .section51 ul li {font-size: 16px; margin:0 5% 0 10%;}
+#land .section5 .section51img {display: none;}
+#land .section5 .section52 {top: 100%;}
+#land .section5 .section52 .division4 .contanedor4 { padding:5px; margin-bottom: 20px; width: 90%;}
+#land .section5 .section52 .division4 .contanedor4 .datos52 h1{font-size: 20px; padding: 0 20px;}
+#land .section5 .section52 .division4 .contanedor4 .datos52 h2{font-size: 16px; }
+#land .section5 .section52 .division4 .contanedor4 .imagen52 {width: 20%;}
+    #land .section5 .section52 .division4 .contanedor4 .imagen52 img{width: 100%;}
+
+
+
+#land .section55 .section51 {padding-left: 0% !important;}
+#land .section55 .ancho{width: 100% !important;}
+#land .section55 .section51img{display: none !important;}
+#land .section55 .section51 .listaicon li {
+    background-size:20px !important; /* Ajustado a 30px por 30px */
+    background-position: 5px 8px; /* Posición de la imagen */
+    padding-left: 40px; /* Espacio para la imagen antes del texto */
+    margin-left: 0px; /* Margen izquierdo del elemento li */
+    margin-bottom: 20px; /* Añade espacio debajo de cada ítem de la lista */
+    font-size: 20px;
+}
+
+#land .section5 .section51 button{padding: 10px;font-size: 20px; margin-bottom: 20px; }
+
+#land .section7 .card3 button{padding: 10px; font-size: 20px; margin-top: 20px;}
+#land .section7 .section72 {flex-direction: column;}
+
+#land .section7 .card2 p { height: 100px; }
+#land .section7 .section71 {display: flex; justify-content: center; align-items: center; flex-direction: column;}
+
+#land .section7 .section72 {padding-top: 30px;}
+/* #land .section7 .section71 .section71B { width: 100%; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+#land .section7 .section71 .section71A .card23 { width: 50%;} */ 
+
+#land .section4 .section441 {flex-direction: column;}
+#land .section4 .section441 .section4411 {display: flex; width: 100%; align-items: center; justify-content: center; margin: 10px 0;}
+#land .section4 .section441 .section4412 {display: flex; width: 100%; align-items: center; justify-content: center;}
+
+
+#land .section9 h5 { font-size: 20px; text-align: center;}
+#land .section9 p { font-size: 16px; margin-bottom: 0;}
+#land .section9 .footerLanding {flex-direction: column;}
+#land .section9 .footerLanding a { font-size: 16px;} 
+
+
+} 
+

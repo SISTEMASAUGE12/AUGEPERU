@@ -1,0 +1,85 @@
+/*miembros*/
+#miembros .abs{height:100%;width:100%;}
+#miembros .callout h3{font-size:35px;padding-bottom:10px;margin-bottom:30px;line-height:45px;background:url(../img/iconos/linear.png) no-repeat;background-position-y:bottom;background-position-x:center;}
+#miembros .callout-1{background:#F7F7F7;padding:70px 0 70px;}
+#miembros .callout-1 h1{padding:50px 0 24px;margin-bottom:34px;background:url(../img/iconos/linear.png) no-repeat;background-position-y:bottom;background-position-x:left;}
+#miembros .callout-1 p{font-size:18px;line-height:28px;}
+#miembros .callout-1 .large-7{padding-bottom:50px;}
+#miembros .callout-1 .large-5{border-left:1px solid #e1e1e1;padding-left:20px;}
+
+#miembros .callout-1 .lleva_icon{margin-bottom:50px;}
+#miembros .callout-1 .lleva_icon figure{position:absolute;left:0;}
+#miembros .callout-1 .lleva_icon figure img{height:80px;width:80px;}
+#miembros .callout-1 .lleva_icon div{padding-left:100px;padding-top:5px;}
+
+
+
+#miembros .callout-2 .capa{padding:70px;height:320px;}
+#miembros .callout-2 .capa h4{font-size:40px;padding-bottom:50px;line-height:50px;max-width:650px;margin:0 auto;}
+.banner-miembros{background-color:#db271c;background-image:url(../img/banners/miembros.png);filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/banners/miembros.png',sizingMethod='scale');-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/banners/miembros.png',sizingMethod='scale')"}
+
+
+#miembros .callout-3{padding:75px 0 90px;}
+#miembros .callout-3 .descri > *{color:#7A7A7A;font-size:18px;line-height:25px;font-family: 'Poppins Regular' !important;}
+#miembros .callout-3 .descri ul{margin:0;list-style:none;font-family: 'Poppins Regular' !important;}
+#miembros .callout-3 .descri ul li{padding-left:30px;background:url(../img/iconos/check.png) no-repeat;background-position-y:7px;background-position-x:left;font-family: 'Poppins Regular' !important;}
+
+
+#miembros .callout-4{padding:75px 0 90px;background:#3b5997;}
+
+#miembros .callout-5{background:#333;padding:70px 0 70px;}
+#miembros .callout-5 p{font-size:18px;line-height:28px;}
+#miembros .callout-5 .lleva_icon{margin-bottom:50px;}
+#miembros .callout-5 .lleva_icon figure{position:absolute;left:0;}
+#miembros .callout-5 .lleva_icon figure img{height:80px;width:80px;}
+#miembros .callout-5 .lleva_icon div{padding-left:100px;padding-top:5px;}
+#miembros .callout-5 .linea_content{padding-bottom:70px;}
+#miembros .callout-5 .large-12{margin:auto;max-width:810px;float:none;}
+#miembros .callout-5 .btn{font-size:17px;line-height:27px;color:#fff;padding:10px 20px;border-radius:10px;border:1px solid #fff;background:transparent;display:block;margin:auto;max-width:310px;text-align:center;}
+#miembros .callout-5 .btn:hover{background: rgba(255, 255, 255, 0.3);}
+
+
+#miembros .callout-6{background:#eaf3f9;padding:70px 0 70px;}
+#miembros .callout-6 h3{margin-bottom:80px;}
+#miembros .callout-6 p{font-size:18px;line-height:28px;}
+#miembros .callout-6  .medium-6 + .medium-6{padding-left:30px;}
+#miembros .callout-6  iframe{border:2px solid #DB271C;border-radius:4px;width:100%;height:220px;}
+#miembros .callout-6 .lleva_icon{margin-bottom:30px;}
+#miembros .callout-6 .lleva_icon figure{position:absolute;left:0;border:2px solid #DB271C;border-radius:8px;padding:5px 8px;}
+#miembros .callout-6 .lleva_icon figure img{height:30px;width:30px;}
+#miembros .callout-6 .lleva_icon div{padding-left:70px;padding-top:0;}
+#miembros .callout-6 .lleva_icon span{display:block;color:#DB271C;}
+#miembros .callout-6 .linea_content{padding-bottom:70px;}
+
+.tutorial_li{background:#428BCA;display:inline-block;padding:9px;border-radius:16px;margin:0 5px;padding: 10px 15px 10px 15px;box-shadow: -3px 4px 8px -2px rgb(0 52 135 / 22%);margin-bottom:9px;}
+.tutorial_li a{color:#fff;}
+
+.modal_gracias.tutoriales  iframe{height:400px;width:100%;}
+
+@media screen and (max-width: 63.999em){
+
+}
+
+@media only screen and (max-width:40em){
+#miembros .callout-2 .capa{padding: 40px 10px 10px!important;height: 100%;}
+#miembros .callout-2 .capa h4{font-size: 25px;line-height:30px;padding-bottom: 30px;}
+.tutorial_li{font-size:12px;line-height:12px;}
+#miembros .callout h3{font-size: 25px;line-height:30px;margin-bottom: 30px;}
+#miembros .callout-6{padding-top:30px;}
+}
+
+@media screen and (max-width: 28em){
+}
+
+/* min widt*/
+@media only screen and (min-width: 61em){
+
+}
+
+@media only screen and (min-width: 50.500em){
+
+}
+
+@media only screen and (min-width: 75em){
+
+}

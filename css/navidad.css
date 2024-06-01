@@ -1,0 +1,117 @@
+
+.img_fecha_movil{display: none!important;}
+
+#land .banners{   padding-bottom: 50px;    background-color: #8d2820;}
+#land h3._subtitulo_banner{    background: #fff;
+    color: #000 !important;
+    padding: 10px 20px !important;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 30px !important;
+    line-height: 40px!important;
+    border-radius: 30px;max-width: 822px;}
+
+    #land .banners h1 {
+        font-size: 60px!important;
+        line-height: 70px !important;
+        padding: 30px 0 50px;
+    }
+
+    #land .img_fecha{margin-top: 40px;}
+
+    #land .fond {background: transparent; margin-top: 30px;}
+    #land .banners .fond form .boton {
+        margin: auto!important;
+        background-color: hsl(122.80000000000001, 43.4%, 38.8%);
+        width: 100%;
+        display: block;
+        max-width: 100%;
+    }
+
+    #land .callout-1{background: #F1F1F1;padding: 70px 0 60px;}
+    #land ._resaltado { background: red; color: #fff!important; padding: 1px 20px; border-radius:20px ; -webkit-border-radius:20px ; -moz-border-radius:20px ; -ms-border-radius:20px ; -o-border-radius:20px ;     line-height: 30px !important;
+        font-size: 30px !important;}
+
+
+    #land .callout-1 h3, 
+    #land .callout-1 h4 {padding: 10px 0 45px;font-size: 40px !important;line-height: 50px !important;    }
+
+    #land .callout-10{background: url(../img/landing_navidad/ban_2.jpg) no-repeat;padding: 70px 0 60px;}    
+    #land .callout-10 h3 {padding: 10px 0 45px;font-size: 35px !important;line-height: 45px !important;    }
+
+
+    #land .callout-11{background: #FAFAFA;padding: 70px 0 60px;}    
+    #land .callout-11 h3, 
+    #land .callout-11 h4 {padding: 10px 0 45px;font-size: 40px !important;line-height: 50px !important;    }
+    #land .callout-11 p {text-align: justify;padding-top: 10px;font-size: 17px;line-height: 27px;}
+    #land .callout-11 .large-3 {padding:0 20px  30px;}
+
+    #land .callout-12{background: url(../img/landing_navidad/ban_3.jpg) no-repeat;padding: 70px 0 60px;}    
+    #land .callout-12 h3 {padding: 10px 0 45px;font-size: 35px !important;line-height: 45px !important;    }
+    #land .callout-12 p {text-align: justify;padding-top: 10px;font-size: 20px;line-height: 30px;}
+    #land .callout-12 p.rel {padding-left: 60px;color:#fff;padding-bottom: 30px;}
+    #land .callout-12 p.rel img {position: absolute;left: 0;top: 9px;}
+
+    #land .callout-12  .boton {
+        margin: auto!important;
+        background-color: hsl(122.80000000000001, 43.4%, 38.8%);
+        width: 100%;
+        display: block;
+        max-width: 400px;
+    }
+
+
+._mostrar_movil{display: none;}
+
+    @media only screen and (max-width:40em){
+        ._mostrar_movil{display: block;padding-top: 25px;}
+
+        .img_fecha_pc{display: none!important;}
+        .img_fecha_movil{display: block!important;}
+
+
+        #land h3._subtitulo_banner {padding: 8px 15px !important; font-size: 18px !important;line-height: 28px!important;}
+        #land .banners h1 {font-size: 25px!important;    line-height: 35px !important;padding: 30px 0 0px;}
+        #land .data_principal iframe {height: 240px;}
+        #land .data_principal.registro {margin-top: 5px;}
+        #land .img_fecha {margin-top: 0;}
+
+        #land .banners h3._mostrar_movil {padding-bottom: 0 !important;color: #fff!important;    padding-top: 0;}
+        #land .fond {margin-top: 0;}
+        #land .banners {padding-bottom: 10px;}
+
+        #land .callout-1 h3, #land .callout-1 h4 {
+            padding: 10px 0 45px;
+            font-size: 20px !important;line-height: 30px !important;
+        }
+
+        #land ._resaltado{ font-size: 18px !important;line-height: 28px !important; }
+        #land .callout-1 {padding: 40px 0 40px;}
+
+        #land .callout-10 h3 {   padding: 10px 0 5px;font-size: 25px !important;line-height: 35px !important;}
+
+        #land .callout-11 h3, #land .callout-11 h4 {padding: 0px 0 45px;font-size: 30px !important;line-height: 40px !important;}
+
+        #land .callout-12 h3 {padding: 0px 0 25px;font-size: 25px !important;line-height: 35px !important;}
+        #land .callout-12 p {
+            text-align: justify;
+            padding-top: 10px;padding-bottom: 30px;
+            font-size: 17px;
+            line-height: 27px;}
+
+            #land .callout-12 p.rel img {                
+                height: 40px;
+            }
+            
+
+
+
+    }
+
+    @media only screen and (max-width:350px){
+
+
+    #land .data_principal iframe {
+        height: 250px;
+    }
+}

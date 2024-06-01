@@ -1,0 +1,31 @@
+.banner-preguntas{background-color:#db271c;background-image:url(../img/banners/preguntas.svg);}
+.banners .fondo{background-repeat: repeat;background-attachment: initial;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: auto;}
+
+.accordion-content{padding:1rem 1rem 3rem;}		
+#preguntas_frecuentes .accordion{background:#555;color:#000;}
+#preguntas_frecuentes .callout-4{background:#fff;padding:50px 0 110px;}
+#preguntas_frecuentes .callout-4 h3{font-size:25px;line-height:35px;padding:0 0 70px;}
+#preguntas_frecuentes .callout-4 h3 small{color:#444!important;padding-left:10px;}
+#preguntas_frecuentes .callout-4 .btn{background:#29348A;margin-top:40px!important;border:0;max-width:300px;letter-spacing:1px;font-weight: 400;}
+#preguntas_frecuentes .callout-4 .detalle, #preguntas_frecuentes .callout-4 .detalle > *{font-size:14px!important;line-height:24px!important;color:#333;font-weight:400!important;}
+#preguntas_frecuentes .callout-4 .accordion-title{font-size:14px;line-height:24px;color:#29348A;font-weight:600px;padding-right: 60px;}
+#preguntas_frecuentes .callout-4 .accordion-title::before{    font-weight: 800;font-size: 23px;}
+
+#preguntas_frecuentes .callout-5{background:#f9f9f9;padding:40px 0 110px;}
+#preguntas_frecuentes .callout-5 h3{font-size:20px;line-height:30px;padding:0 0 70px;}
+#preguntas_frecuentes .callout-5 h2{font-size:15px;line-height:20px;padding-top:10px;height:47px;}
+#preguntas_frecuentes .callout-5 .contiene{padding:20px 10px;background:#fff;border:1px solid #ccc;margin-bottom:40px;border-radius:4px;}
+#preguntas_frecuentes .callout-5 .contiene figure{height:110px;margin-bottom:20px;}
+#preguntas_frecuentes .callout-5 .contiene figure img{max-height:70px;}
+#preguntas_frecuentes .callout-5 .contiene .boton{display: inline-block;max-width: 100%;width: auto;margin: auto;font-size: 15px;padding: 10px;line-height: 15px;border: 0;}
+
+
+@media only screen and (max-width:40em){
+#preguntas_frecuentes .callout-5 .medium-11{padding:0 2px;}
+#preguntas_frecuentes .callout-5 .small-6{padding:0 7px;width:100%;}
+	
+}
+
+@media only screen and (max-width:380px){
+	
+}

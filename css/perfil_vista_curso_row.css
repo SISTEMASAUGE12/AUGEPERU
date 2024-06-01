@@ -1,0 +1,75 @@
+/*perfil*/
+#perfil .callout-1{padding:55px 0 120px;}
+#perfil .callout-1 h1{padding-bottom:10px;}
+#perfil .callout-1 span.espe{display:block;font-size:18px;line-height:27px;padding-bottom:130px;}
+#perfil .callout-1 blockquote{font-size:18px;line-height:27px;padding-bottom:25px;margin-top:-52px;}
+#perfil .callout .accordion{margin:0 !important;}
+#perfil .callout .accordion .accordion-item .accordion-title{background-color:#F7F7F7;border:0;color:#232B36;font-size:16px;line-height:21px;padding-right:40px}
+#perfil .callout .accordion .accordion-item .accordion-title::before{background:url(../img/iconos/baja.png) no-repeat;width:16px;height:10px;content:'';}
+#perfil .callout-1 .accordion .accordion-item.nod .accordion-title::before{background:transparent;}
+#perfil .callout-1 .accordion .accordion-item.is-active .accordion-title{background:#CA3A2B;color:white;}
+#perfil .callout .accordion .accordion-item.is-active > .accordion-title::before{background:url(../img/iconos/sube.png) no-repeat;}
+#perfil .callout-1 .accordion .accordion-item.nod.is-active > .accordion-title::before{background:transparent;}
+#perfil .callout-1 .accordion .accordion-item .accordion-content{border:0;padding:0}
+#perfil .callout-1 .accordion .lista p{padding:10px 5px;font-size:16px;line-height:20px;}
+#perfil .callout-1 .curso-list{max-width:285px;margin:0 0 30px;}
+#perfil .callout-1 .curso-list figure{border:0;}
+#perfil .callout-1 .curso-list figure img{height:149px;}
+#perfil .callout-1 .curso-list .deta{border:1px solid rgba(10, 10, 10, 0.25);;padding:18px 18px 16px;}
+#perfil .callout-1 .curso-list .deta span{font-size:10px;line-height:16px;padding-bottom:8px;letter-spacing:0.65px;}
+#perfil .callout-1 .curso-list .deta p{font-size:13px;line-height:19px;height: 112px;}
+#perfil .callout-1 .curso-list .deta ol{margin-bottom:10px;}
+#perfil .callout-1 .curso-list .deta ol li{font-size:11.3549px;line-height:110%;text-decoration-line:underline;}
+#perfil .callout-1 .curso-list .deta .boton{font-size:11.5px;line-height:13px;max-width:181px;padding:12px;}
+#perfil .callout-1 .curso-list .deta .bot{font-size:14px;line-height:39px;border:1px solid #CA3A2B;border-radius:50%;width:39px;margin-left:10px;display:inline-block;text-align:center;}
+/* #perfil .callout-1 form label{padding:10px 0 0;} */
+#perfil iframe{width: 100%;height: 480px;}
+
+#perfil .callout-1 form label{padding:25px 0 0;}
+#perfil .callout-1 form input{width:100%;font-size:14px;line-height:21px;color:#3C465A;height:45px;border:0;border-bottom:1px solid #DDD;padding:10px 0;margin-bottom:5px;}
+#perfil .callout-1 form textarea{border:1px solid #DDDDDD;box-sizing:border-box;border-radius:10px;padding:10px;margin:30px 0 60px}
+#perfil .callout-1 form ::placeholder{color:#3C465A;opacity:1;}
+#perfil .callout-1 form .boton{font-size:16.5px;line-height:18.86px;margin:40px 0 10px;}
+#perfil .callout-2{padding:30px 0 80px;}
+#perfil .callout-2 h3{font-size:30px;line-height:38px;margin-bottom:90px;}
+#perfil .callout-2 h3 span{font-size:40px;float:right;}
+#perfil .callout-2 .detalle{padding:30px 0;}
+#perfil .callout-2 .comprobado{background-image:url(../img/iconos/comprobado.png);background-repeat:no-repeat;background-position:10px 17px;}
+#perfil .callout-2 .accordion .accordion-item .accordion-title{padding-left:55px;}
+#perfil .callout-2 .accordion .lista p{padding:10px 5px;font-size:16px;line-height:20px;}
+#perfil .callout-2 .recur{font-size:28px;line-height:28px;padding-bottom:20px;}
+#perfil .callout-2 .titu-rec{padding-left:20px !important;}
+#perfil .callout-2 .arch{display:block;font-size:17px;line-height:22px;padding-bottom:20px;}
+#perfil .callout-2 .arch img{width:25px;}
+#perfil .callout-2 .marcar{font-size:14px;line-height:16px;margin:30px auto;}
+#perfil .callout-2 .cuadro-virtual{background:#EFECE8;margin-top:20px;height:450px;padding:175px 20px 20px;border:1px solid #7A7A7A;box-sizing:border-box;box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);}
+#perfil .callout-2 .cuadro-virtual span{display:block;font-size:18px;line-height:24px;letter-spacing:-0.2px;color:#637381;}
+#perfil .callout-2 .cuadro-virtual .boton{font-size:14px;line-height:16px;margin:30px auto;}
+
+#perfil .mis_cursos .curso-list .deta h2{font-size: 18px;line-height: 24px;min-height:64px;}
+.rptas_error{padding:110px 0;text-align:center;}
+
+@media screen and (max-width: 63.999em){
+
+}
+
+@media only screen and (max-width:39.99em){
+	#perfil .callout-1 blockquote{margin-top:20px;}
+	#perfil .callout-1 form{margin:20px 0 0;}
+}
+
+@media screen and (max-width: 28em){
+}
+
+/* min widt*/
+@media only screen and (min-width: 61em){
+
+}
+
+@media only screen and (min-width: 50.500em){
+
+}
+
+@media only screen and (min-width: 75em){
+
+}

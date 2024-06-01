@@ -1,0 +1,111 @@
+/*Docente*/
+#examen{margin-top:62px;}
+#examen .callout-1 {background:#f9f9f9;padding:70px 0 150px;}
+#examen .callout-1 h1{font-size:25px;line-height:30px;}
+#examen .callout-1 h1 em{font-size:18px;line-height:23px;font-weight:normal;}
+#examen .callout-1 h1 a{font-size:14px;color:#333;position:absolute;right:0;}
+#examen .callout-1 h2{font-size:40px;line-height:40px;padding-bottom:50px;}
+#examen .callout-1 h3{font-size:18px;line-height:25px;padding:10px 40px 40px;background:white;}
+#examen .callout-1 .conside{font-size:14px;line-height:20px;}
+#examen .callout-1 hr{max-width:100%;margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #B2B2B2;}
+#examen .callout-1 form{max-width:100%;}
+#examen .callout-1 form label{font-size:18px;line-height:25px;position:relative;padding:0;display:inline-block;padding-left:35px;}
+#examen .callout-1 form label input{margin-bottom:0;opacity:0;position:absolute;}
+#examen .callout-1 form label .checkmark{position:absolute;top:0;left:0;height:25px;width:25px;background-color:#FFFFFF;border-radius:50%;border:solid;}
+#examen .callout-1 form label input:checked ~ .checkmark{background-color:#DB271C;}
+#examen .callout-1 form label .checkmark:after{top:5.5px;left:5.5px;width:8px;height:8px;border-radius:50%;background:white;content:"";position:absolute;display:none;}
+#examen .callout-1 form label input:checked ~ .checkmark:after{display: block;}
+#examen .callout-1 .preguntas{margin-top:50px;}
+#examen .callout-1 .boton{font-size:14px;line-height:16px;display:inline-block;padding:10px;max-width:306px;margin:0 40px 10px;}
+#examen .callout-1 .boton.ini{background:#0FD5B2;border-color:#0FD5B2}
+#examen .callout-1 .even{display:table;height:200px;width:100%;}
+#examen .callout-1 .even > *{display:table-cell;width:25%;text-align:center;padding:0 15px;}
+#examen .callout-1 .even figure{height:70px;margin-bottom:15px;}
+#examen .callout-1 .even span{font-size:40px;line-height:40px;padding-bottom:22px;display:block;}
+#examen .callout-1 .even p{font-size:16px;line-height:22px;padding-bottom:10px;}
+#examen .callout-1 .anticon{padding-right:175px}
+#examen .callout-1 .conteo{float:right;color: #fff;background-color: #f0ad4e;border-color: #eea236;display: inline-block;padding: 6px 12px;margin-bottom: 0;font-size: 14px;font-weight: 400;line-height: 1.42857143;text-align: center;white-space: nowrap;vertical-align: middle;-ms-touch-action: manipulation;touch-action: manipulation;cursor: pointer;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;background-image: none;border: 1px solid transparent;border-radius:4px;}
+#examen .callout-1 h2.fina{max-width:650px;margin:200px auto 0;padding-left:70px}
+#examen .callout-1 h2.preg{font-size:16px;line-height:26px;color:#337ab7 !important;padding-bottom:30px;}
+#examen .callout-1 span.alte{font-size:16px;line-height:21px;display: block;padding:20px 0;}
+
+#examen .callout-2{background-color:#f9f9f9;padding:50px 0 100px;}
+#examen .callout-2 h3{font-size:20px;line-height:25px;color:#444;}
+#examen .callout-2 h3 small{display:block;font-size:15px;line-height:20px;color:#444;}
+#examen .callout-2 h3 a{font-size:14px;color:#333;position:absolute;right:0;}
+#examen .callout-2 .detalle_resultado{border:1px solid #337ab7;border-radius:5px;}
+#examen .callout-2 .hea-prin{background:#DB271C;padding:10px 15px;color:#FFF;font-size:16px;line-height:22px;border-radius:4px 4px 0 0;}
+#examen .callout-2 .hea-prin a{background:#f0ad4e;font-size:14px;line-height:14px;padding:5px 10px;border-radius:3px;display:inline-block;color:#FFF;float:right;}
+#examen .callout-2 .deta-prin{background:#FFF;padding:30px 20px;border-radius:0 0 4px 4px;}
+#examen .callout-2 table tr > th + th,#examen .callout-2 table tr > td + td{border-left:1px solid #f1f1f1;}
+#examen .callout-2 table thead th{color:#444;font-size:14px;line-height:14px;}
+#examen .callout-2 table tbody td{color:#444;font-size:14px;line-height:19px;vertical-align:top;}
+#examen .callout-2 .pagination li{background-color:#FFF !important;display:inline-block;width:34px;height:34px;text-align:center;padding:0;}
+#examen .callout-2 .pagination li a{padding: 5px;display: inline-block;margin: 0;height: 34px;width: 34px;border-radius: 0;}
+#examen .callout-2 .pagination li:hover a,
+#examen .callout-2 .pagination li a:hover{background: #f1f1f1 !important;border-color: #f1f1f1;color:#444;}
+#examen .callout-2 .pagination li.current{background-color:#DB271C !important;border-color:#DB271C;color:#fff;z-index:3;display: inline-block;width: 34px;height: 34px;text-align: center;padding: 6px;}
+
+#examen .callout-3{background-color:#f9f9f9;padding:50px 0 100px;}
+#examen .callout-3 h1{font-size:25px;line-height:30px;margin-bottom:30px;}
+#examen .callout-3 h1 em{display:block;font-size:18px;line-height:23px;font-weight:normal;}
+#examen .callout-3 h1 a{font-size:14px;color:#333;position:absolute;right:0;}
+#examen .callout-3 .h-examen{max-width:360px;width:100%;background:white;    margin-bottom: 40px;}
+#examen .callout-3 .h-examen span{display:block;color:#444;}
+#examen .callout-3 .h-examen span.titu{font-size:22px;line-height:27px;padding:20px 10px;}
+#examen .callout-3 .h-examen p.titu{font-size:22px;line-height:27px;padding:20px 10px;    display: block;color: #444;}
+#examen .callout-3 .h-examen .regisapar{background-color:#F0AD4E;padding:20px 15px;}
+#examen .callout-3 .h-examen .regisapar span{font-size:15px;line-height:20px;padding-bottom:2px;}
+#examen .callout-3 .h-examen .regisapar span.lleva_titulo_examen{height: 80px;}
+#examen .callout-3 .h-examen .boton{padding: 7px 10px;display: block;MAX-width: 100%;BORDER-RADIUS: 4px;}
+
+#examen .callout-3 .h-examen .fina span{font-size:14px;line-height:19px;}
+#examen .callout-3 .h-examen .fina span.per{position:relative;padding-left:20px;}
+#examen .callout-3 .h-examen .fina span.per i{position:absolute;left:0;top:2px}
+#examen .callout-3 .charta{align: center; width: 1000px; height: 500px;margin-bottom:30px;}
+#examen .callout-3 .bt{
+	display:inline-block;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    color: #333;
+    background-color: #fff;
+    border:1px solid #ccc;margin-bottom:30px;}
+#examen .callout-3 .bt.act{background:#F0AD4E;color:#FFF;}
+#examen .callout-3 .ale{opacity:0;position: absolute; z-index: 0;
+    height: 0;}
+#examen .callout-3 .ale .columns{position: absolute;}
+
+.preguntas label{cursor:pointer;}
+
+@media screen and (max-width: 63.999em){
+
+}
+
+@media only screen and (max-width:39.99em){
+	#examen .callout-1 .even > *{display:inline-block;width:50%;padding:0 15px;}
+	#examen .callout-1 .even span{font-size:30px;line-height:30px;}
+	#examen .callout-1 .anticon{padding-right:110px}
+	#examen .callout-1 .conteo{font-size:20px;}
+	#examen .callout-1 .conteo img{width:30px;margin-right:15px;}
+	#examen .callout-1 h2{font-size:30px;line-height:30px;}
+	#examen .callout-1 h2 img{width:30px;}
+	#examen .callout-1 h2.fina{margin:75px auto 0;padding-left:45px;}
+}
+
+@media screen and (max-width: 28em){
+}
+
+/* min widt*/
+@media only screen and (min-width: 61em){
+
+}
+
+@media only screen and (min-width: 50.500em){
+
+}
+
+@media only screen and (min-width: 75em){
+
+}

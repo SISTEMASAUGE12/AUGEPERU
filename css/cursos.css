@@ -1,0 +1,500 @@
+/*Cursos*/
+.cabezera_menu{font-size:15px!important;line-height:17px!important;padding-bottom:20px; color:#333;}
+.cabezera_menu a{  color:#333;}
+.cabezera_menu.titu_trafico{font-size:35px!important;line-height:45px!important;padding-bottom:20px; color:#333;}
+
+
+#curso figure figcaption{position: absolute;background:#00007C;color:#fff;z-index:2;top: 9px;left: 9px;padding: 2px 3px;border-radius: 5px;font-size: 11px;text-transform:uppercase;}
+#curso iframe{width: 100%;height: 340px;}
+#curso .g-recaptcha iframe{width: 100%;height:78px;}
+
+#curso .callout-ocul{display:none}
+#curso .callout-1{padding:51px 0 32px;background-color:#E5E5E5}
+#curso .callout-1 h1{padding-bottom:10px}
+#curso .callout-1 p{padding-bottom:20px}
+#curso .callout-1 .docen{border-radius:50%;height:70px;width:70px; margin-right: 10px;}
+#curso .callout-1 .tableta{display:table;height:30px;margin-top:20px}
+#curso .callout-1 .tableta > *{display:table-cell;vertical-align:middle;text-align:center;}
+#curso .callout-1 .tableta > div{padding-left:12px;padding-right:12px;}
+#curso .callout-1 .tableta > div span{font-size:14px;line-height:15.4px;display:block;}
+#curso .callout-1 .tableta > div span .user{padding-right:10px;}
+#curso .callout-1 .tableta > .fondv{background-color:#0FD5B2;width:100px;}
+#curso .callout-1 .tableta > .fondv span{font-size:16px;line-height:23.07px;}
+
+#curso .lleva_data_profe + .lleva_data_profe{padding-left:35px;}
+
+#curso .callout-2{padding:65px 0 130px;}
+#curso .callout-2 .medida1{max-width:650px}
+#curso .callout-2 #example-tabs{border:0;border-bottom:1px solid #D3D3D3;padding:0 15px;}
+#curso .callout-2 #example-tabs > li + li{padding-left:50px;}
+#curso .callout-2 #example-tabs > .tabs-title a{font-family: 'Poppins Regular' !important;font-size:24px;line-height:30.77px;padding:0 0 20px;background-color:transparent;color:#7A7A7A;margin-bottom:-1px}
+#curso .callout-2 #example-tabs > .tabs-title a:hover, #curso .callout-2 #example-tabs > .tabs-title.is-active a{font-family: 'Poppins Bold' !important;color:#CA3A2B;border-bottom:1px solid #CA3A2B;}
+#curso .callout-2 .tabs-content{border:0;background-color:transparent;}
+#curso .callout-2 .tabs-panel{padding:40px 0 0;}
+#curso .callout-2 .tabs-panel figure a{width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.4);color:white;font-size:24px}
+#curso .callout-2 .tabs-panel figure a .play{width:76px;height:76px;margin:20% auto 10px;background-color:rgba(0,0,0,0.6);text-align:center;border-radius:50%;}
+#curso .callout-2 .tabs-panel figure a .play img{padding:23px 25px}
+#curso .callout-2 .tabs-panel ol{margin:30px 0;}
+#curso .callout-2 .tabs-panel ol > li{display:inline-block;}
+#curso .callout-2 .tabs-panel ol > li + li{padding-left:50px;}
+#curso .callout-2 .tabs-panel ol > li p img{display:block;margin:0 auto;}
+#curso .callout-2 .tabs-panel .cuadro{padding:40px 40px 30px;border:1px solid #DDD;border-radius:10px;margin-bottom:40px;}
+#curso .callout-2 .tabs-panel h4{padding-bottom:10px}
+#curso .callout-2 .tabs-panel h4.valo{padding-top:50px;padding-bottom:30px}
+#curso .callout-2 .tabs-panel .cuadro p{padding-left:40px}
+#curso .callout-2 .tabs-panel .cuadro p img{position:absolute;left:0;top:5px}
+#curso .callout-2 .tabs-panel .cuadro .recue{display:block;}
+#curso .callout-2 .tabs-panel .cuadro .recue > div{display:inline-block;width:50%;}
+#curso .callout-2 .tabs-panel .cuadro .recue > div .icon{width:30px;height:30px;position:absolute;top:0;left:0;}
+#curso .callout-2 .tabs-panel .cuadro .recue > div p{line-height:30px;}
+#curso .callout-2 .tabs-panel .cuadro .recue > div p span{font-size:16px;line-height:20.51px;}
+#curso .callout-2 .tabs-panel .cuadro .recue .clearfix{padding-bottom:35px;}
+#curso .callout-2 .tabs-panel hr{border-bottom:1px solid #D3D3D3;margin:40px auto;}
+#curso .callout-2 .tabs-panel .mos{padding-top:15px}
+#curso .callout-2 .tabs-panel .valoracion{display:block;}
+#curso .callout-2 .tabs-panel .valoracion .parte1{display:inline-block;width:180px;}
+#curso .callout-2 .tabs-panel .valoracion .parte1 span{font-size:60px;line-height:70px;}
+#curso .callout-2 .tabs-panel .valoracion .parte1 .estrellas{margin:10px 0 15px;}
+#curso .callout-2 .tabs-panel .valoracion .parte1 .estrellas img{padding-right:10px;}
+#curso .callout-2 .tabs-panel .valoracion .parte1 .estrellas > img + img{margin-left:-5px}
+#curso .callout-2 .tabs-panel .valoracion .parte1 .prome{font-size:14px;line-height:16px}
+#curso .callout-2 .tabs-panel .valoracion .parte2{display:inline-block;width:calc(100% - 181px);float:right;}
+#curso .callout-2 .tabs-panel .valoracion .parte2 .lista-estre{display:table;height:30px;width:100%}
+#curso .callout-2 .tabs-panel .valoracion .parte2 .lista-estre > *{display:table-cell;vertical-align:middle;padding:0;}
+#curso .callout-2 .tabs-panel .valoracion .parte2 .lista-estre > .borde1{width:116px;height:4px;background:url(../img/iconos/borde1.png) no-repeat;background-position: center left;}
+#curso .callout-2 .tabs-panel .valoracion .parte2 .lista-estre > .borde2{width:116px;height:4px;background:url(../img/iconos/borde2.png) no-repeat;background-position: center left;}
+#curso .callout-2 .tabs-panel .valoracion .parte2 .lista-estre > .est{width:34px;}
+
+#curso .callout-2 .accordion{margin-top:50px;}
+#curso .callout-2 .accordion .accordion-item{padding-bottom:15px}
+#curso .callout-2 .accordion .accordion-item .accordion-title{background-color:#F7F7F7;border:0;color:#232B36;font-size:18px;line-height:23px;padding-right:40px}
+#curso .callout-2 .accordion .accordion-item .accordion-title::before{background:url(../img/iconos/baja.png) no-repeat;width:16px;height:10px;content:'';}
+#curso .callout-2 .accordion .accordion-item.is-active > .accordion-title::before{background:url(../img/iconos/sube.png) no-repeat;}
+#curso .callout-2 .accordion .accordion-item .accordion-content{border:0;padding:0}
+#curso .callout-2 .accordion .accordion-item .accordion-content .descripcion{padding:40px 30px 30px 0;}
+#curso .callout-2 .accordion .accordion-item .accordion-content p{padding-left:35px}
+#curso .callout-2 .accordion .accordion-item .accordion-content p img{position:absolute;left:0;top:5px}
+#curso .callout-2 .accordion .accordion-item .accordion-content .lista{padding:20px 0 0}
+#curso .callout-2 .accordion .accordion-item .accordion-content .lista > p{padding:0 30px 15px 0;background:url(../img/iconos/candado.png) no-repeat;background-position-x:right;background-position-y:5px;}
+
+#curso .callout-2 .detacurso{max-width:460px;float:right;width:100%;background-color:white;border:1px solid #9D9D9D;border-radius:14px;padding:40px 40px 65px;margin-top:-380px;margin-bottom:50px}
+#curso .callout-2 .detacurso blockquote{font-size:40px;line-height:51.28px;}
+#curso .callout-2 .detacurso blockquote small{font-size:20px;line-height:25.64px;}
+#curso .callout-2 .detacurso .boton{max-width:100%;margin:15px 0}
+#curso .callout-2 .detacurso .boton img{padding-right:10px}
+#curso .callout-2 .detacurso ul{margin:0}
+#curso .callout-2 .detacurso ul li{font-size:18px;line-height:28px;padding-left:36px;position:relative;}
+#curso .callout-2 .detacurso ul > li + li{margin-top:15px;}
+#curso .callout-2 .detacurso ul li .img{position:absolute;height:28px;width:28px;top:0;left:0;}
+/* #curso .callout-2 .curso-list{max-width:352px;width:100%;border-radius:10px;margin:0 auto 60px;} */
+/* #curso .callout-2 .curso-list figure{border-radius:10px 10px 0 0} */
+/* #curso .callout-2 .curso-list figure img{border-radius:10px 10px 0 0} */
+/* #curso .callout-2 .curso-list .deta{border:1px solid #CA3A2B;border-top:0;border-radius:0 0 10px 10px;padding:25px 25px 16px;} */
+/* #curso .callout-2 .curso-list .deta span{display:block;font-size:12px;line-height:20px;padding-bottom:8px;letter-spacing:0.8px} */
+/* #curso .callout-2 .curso-list .deta h2{padding-bottom:16px;letter-spacing:0.2px} */
+/* #curso .callout-2 .curso-list .deta p{font-size:16px;line-height:24px;letter-spacing:-0.2px;padding-bottom:16px;} */
+/* #curso .callout-2 .curso-list .deta ol{margin:0;} */
+/* #curso .callout-2 .curso-list .deta ol li{display:inline-block;font-size:14px;line-height:20px;padding-right:16px;} */
+/* #curso .callout-2 .curso-list .deta ol li img{width:20px;} */
+/* #curso .callout-2 .curso-list .deta ol li img.rb50{border-radius:50%;} */
+/* #curso .callout-2 .curso-list .deta blockquote{font-size:20px;line-height:28px;letter-spacing:0.2px;padding:30px 0 15px;} */
+/* #curso .callout-2 .curso-list .deta blockquote small{font-size:14px;line-height:22px;padding-left:8px;text-decoration:line-through;} */
+/* #curso .callout-2 .curso-list .deta .boton{display:inline-block;font-size:14px;line-height:16px;letter-spacing:0.2px;max-width:224px;padding:15px;} */
+/* #curso .callout-2 .curso-list .deta .btn-carro{border-radius:50%;width:48px;border:2px solid #CA3A2B;height:48px;display:inline-block;float:right;text-align:center;padding:9px;} */
+
+/*Listado de cursos*/
+#curso .botones_de_accion{margin-top:-41px;}
+#curso .callout-3{padding:55px 0;}
+#curso .callout-3 h1{padding-bottom:50px;}
+#curso .callout-3 .banners .fondo{height: 450px;}
+#curso .callout-3 .cate{display:block;font-size:14px;line-height:21px;padding-bottom:20px;}
+#curso .callout-3 .curs{display:block;font-size:18px;line-height:27px;padding-bottom:14px;}
+#curso .callout-3 .accordion .accordion-item .accordion-title{background-color:#F7F7F7;border:0;color:#232B36;font-size:15px;line-height:21px;padding-top:18.5px;padding-bottom:18.5px}
+#curso .callout-3 .accordion .accordion-item .accordion-title::before{background:url(../img/iconos/baja.png) no-repeat;width:16px;height:10px;content:'';right:10px;}
+#curso .callout-3 .accordion .accordion-item.is-active > .accordion-title::before{background:url(../img/iconos/sube.png) no-repeat;}
+#curso .callout-3 .accordion .accordion-item .accordion-content{border:0;padding:0}
+#curso .callout-3 .accordion .accordion-item .accordion-content .lista{padding:0}
+#curso .callout-3 .accordion .accordion-item .accordion-content .lista > a{display:block;font-size:14px;line-height:21px;color:#474F5B;padding:14.5px 30px;background-color:#f7f7f7}
+#curso .callout-3 .accordion .accordion-item .accordion-content .lista > a:hover,#curso .callout-3 .accordion .accordion-item .accordion-content .lista > a.activo{background-color:#CA3A2B;color:white}
+#curso .callout-3 .curso-list{max-width:285px;width:100%;border-radius:10px;margin:0 auto 60px;/*height:520px;height:535px;*/height:auto;}
+#curso .callout-3 .curso-list .cronometro{margin-top:5px;}
+#curso .callout-3 .large-9 .large-4{padding: 0 8px;}
+
+
+
+
+#curso .callout-3 .curso-list.list_categoría{height:440px;}
+#curso .callout-3 .curso-list.list_categoría .lleva_botones_curso{margin-top:20px;}
+#curso .callout-3 .curso-list figure{border-radius:10px 10px 0 0;height:auto;}
+/* #curso .callout-3 .curso-list figure img.principal{border-radius:10px 10px 0 0;height:165px;width:100%;}  */
+#curso .callout-3 .curso-list figure img.principal{border-radius:10px 10px 0 0;height:auto;width:100%;}
+
+#curso .callout-3 .curso-list .deta{ /*box-shadow: 0px 3.24426px 3.24426px rgba(0, 0, 0, 0.25); */border-bottom:0; border-top:0; border-radius:0 0 10px 10px; -webkit-border-radius:0 0 10px 10px; -moz-border-radius:0 0 10px 10px; -ms-border-radius:0 0 10px 10px; -o-border-radius:0 0 10px 10px; }
+/* #curso .callout-3 .curso-list .deta span{display:block;font-size:9.73px;line-height:16.22px;padding-bottom:6px;letter-spacing:0.8px} */
+#curso .callout-3 .curso-list .deta h2{font-size:14.5px;line-height:20px;padding-bottom:12px;letter-spacing:0.2px}
+#curso .callout-3 .curso-list .deta p{font-size:12.98px;line-height:19.47px;letter-spacing:-0.16px;padding-bottom:16px;height:72px}
+#curso .callout-3 .curso-list .deta ol{margin:0;}
+#curso .callout-3 .curso-list .deta ol li{display:inline-block;font-size:11.35px;line-height:20px;padding-right:16px;}
+#curso .callout-3 .curso-list .deta ol li img{width:20px;}
+#curso .callout-3 .curso-list .deta ol li img.rb50{border-radius:50%;}
+#curso .callout-3 .curso-list .deta blockquote{font-size:16.22px;line-height:22.71px;letter-spacing:0.16px;padding:25px 0 12px;}
+#curso .callout-3 .curso-list .deta blockquote small{font-size:14px;line-height:17.84px;padding-left:8px;text-decoration:line-through;}
+#curso .callout-3 .curso-list .deta .boton{display: block;font-size:11.35px;line-height:12.98px;letter-spacing:0.2px;max-width:100%;padding:9px 3px;}
+#curso .callout-3 .curso-list .deta .boton img{padding-right:13px;}
+#curso .callout-3 .curso-list .lleva_botones_curso{margin-top: 40px !important;height: auto;}
+
+
+
+#curso .callout-3 .list_examenes_categorias  .curso-list .deta h2{display: none;}
+
+
+#curso .callout-3 .curso-list .deta .btn-carro{border-radius:50%;width:40px;border:2px solid #CA3A2B;height:40px;display:inline-block;float:right;text-align:center;padding:5px;}
+#curso .callout-3 .formulario{max-width:1115px;float:right;}
+#curso .callout-3 .formulario input{border:0;border-bottom:1px solid #DDD;padding:10px 25px 10px 0;margin-bottom:0;}
+#curso .callout-3 .formulario button{outline:none;float:right;margin-top:-30px;position:relative;z-index:10;margin-right:15px;}
+#curso .callout-3 .formulario label{padding:10px 0 50px;}
+#curso .callout-3 .men-fil{display:none;}
+#curso .callout-3 .tosd{display:none;}
+#curso .callout-3 #memi{height:0;overflow:hidden;margin:0}
+#curso 	.lleva_ico_cesta{margin-top: -40px;margin-bottom: 0;float: right;display: inline-block;}
+#curso .callout-2 .cursio2{display:none;}
+
+#curso .mostrar_listado_categorias .curso-list .deta h2{padding-top:15px;}
+
+.cronometro{padding-bottom:49px;}
+
+
+/* nuevo IU */ 
+.azul{color:#00007C;}
+.rojo{color:#DB271C;}
+#compi{margin-top:10px;}
+#curso .contiene_datos_compra{padding:30px ;background:#F7F7F7;border-radius:10px;max-width: 390px;width: 100%;z-index:9;margin-top:-30px;/*position:relative;*/position: fixed;}
+/*
+#curso .contiene_datos_compra{position: fixed;}
+*/
+
+#curso .callout-10 iframe{width: 100%;height: 450px;}
+#curso .callout-10{padding:40px 0 10px;}
+/*
+#curso .callout-10 figure img.principal{width: 100%;height:450px;}
+#curso .callout-10 figure img.principal._flotante{width: 100%;height:359px;}
+*/
+#curso .callout-10 figure img.principal{width: 100%;height:auto;}
+#curso .callout-10 figure img.principal._flotante{width: 100%;height:auto;}
+
+
+
+#curso .callout-10 h1{font-size:17px;line-height:24px;padding-bottom:20px;}
+/* #curso .callout-10 blockquote{font-size:25px;line-height:25px;padding-bottom:20px;} */
+#curso .callout-10 blockquote{font-size:20px;line-height:20px;padding-bottom:5px;}
+
+#curso .callout-10 blockquote small{/* font-size:28px;line-height:30px; */ padding-left:20px;text-decoration: line-through;color:#666;font-size: 16px;}
+#curso .callout-10 .cronometro{padding-bottom: 0;position:relative;padding-left:25px;margin-top: 10px;}
+#curso .callout-10 .cronometro img{left:0;position:absolute;}
+#curso .fecha_en_vivo{background:#00007C;padding:10px 20px;max-width:257px;border-radius:6px;/*margin-bottom:30px*/;margin:1px auto 0;}
+#curso .fecha_en_vivo p{display:block;font-size:16px;line-height:20px;font-weight:800;}
+#curso .fecha_en_vivo p small{display:block;font-size:13px;line-height:17px;font-weight:400;}
+#curso .datos_anexos_en_vivo{display:block;padding-top:50px;float:left;}
+#curso .datos_anexos_en_vivo .fecha_en_vivo{display:inline-block;/*max-width:307px;*/}
+#curso .datos_anexos_en_vivo .fecha_en_vivo + .fecha_en_vivo{margin-left:10px;}
+#curso .datos_anexos_en_vivo .fecha_en_vivo p{display:block;font-size:18px;line-height:23px;font-weight:800;}
+#curso .unete_wasap{background:#00007C;padding:10px 20px;}
+#curso .callout-10 .detacurso .boton{max-width:100%;margin:35px 0 0; position: relative;}
+#curso .callout-10 .detacurso .boton img{padding-right:10px}
+#curso .callout-10 .detacurso ul{margin:0;padding-top:17px;}
+#curso .callout-10 .detacurso ul li{font-size:14px;line-height:18px;padding-left:36px;position:relative;}
+#curso .callout-10 .detacurso ul > li + li{margin-top:15px;}
+#curso .callout-10 .detacurso ul li .img{position:absolute;height:15px;width:21px;top:0;left:0;}
+
+#curso .callout-10.flotante{max-width:680px;margin:0 auto;padding:15px 0 10px;border-radius:5px;z-index: 9999;}
+#curso .callout-10.flotante h4{font-size:16px;line-height:21px;}
+#curso .callout-10.flotante .cabezera_menu{font-size:10px!important;line-height:12px!important;padding:15px 0 20px;}
+#curso .flotante .mfp-close{color: #fff;height: auto;width: auto;}
+
+
+#curso .callout-10 blockquote.lleva_online {font-size:20px;line-height:30px;padding-bottom:8px;letter-spacing:0.8px}
+#curso .callout-10 blockquote span.textillo{color: #000;font-size:12px;line-height:20px;padding-bottom:8px;letter-spacing:0.8px}
+#curso .callout-10  blockquote span.lleva_precio_span{float:right;}
+#curso .callout-10  blockquote span._online{background:#EE0005 ;color:#fff;padding:1px 3px;border-radius:4px;font-size:12px;line-height:15px;}
+ 
+
+ 
+#curso .callout-10 .lleva_formulario_banner{margin:-20px 0 30px;}
+
+
+#curso .callout-10 iframe{height: 420px;}
+#curso .callout-10 .g-recaptcha iframe{height: 78px;}
+
+#curso .callout-10.flotante .contiene_datos_compra{position:relative;z-index:1;}
+#curso .callout-10.flotante #compi li img{max-width:10%;}
+#curso .callout-10.flotante .detacurso ul > li + li{margin-top: 5px;}
+#curso .callout-10.flotante blockquote small{font-size: 16px;line-height: 21px;padding-left:0;}
+#curso .callout-10.flotante .datos_anexos_en_vivo  .fecha_en_vivo{background: #ddd;color:#333!important;}
+#curso   .mfp-close{color: #333;height: 100%;width: 100%;}
+
+
+
+#curso hr {border-bottom: 1px solid #fff;margin: 10px auto;}
+#curso .callout-11 {padding-bottom:90px;}
+#curso .callout-11 h4{font-size:24px;line-height:34px;padding-bottom:13px;}
+#curso .callout-11 h3{font-size:20px;line-height:24px;padding-bottom:23px;}
+
+#curso .callout-11 >*{font-family: 'Poppins Regular' !important;}
+#curso .callout-11 .docentes h3{font-size:25px;line-height:34px;padding-bottom:15px;}
+#curso .callout-11 .contiene_sesiones_listado{background:#F5F5F5;padding:35px 80px;border-radius:6px;}
+#curso .callout-11 .contiene_sesiones_listado p.clase{position:relative;padding-left:20px;font-size:15px;line-height:18px;padding-bottom:10px;}
+#curso .callout-11 .contiene_sesiones_listado p.clase img{position:absolute;left:0;top:5px;}
+#curso .callout-11 .data_finder >*{font-size:15px!important;line-height:21px!important;padding:0!important;}
+#curso .callout-11 .docentes .data_finder{min-height:320px;}
+#curso .clientes .lSAction{display:block;}
+#curso .clientes .lSAction > a{position: absolute;margin-top: 0;display: inline-block;width:33px;height:33px;top:60px;}
+#curso .clientes .lSAction > .lSPrev{left:0;background: url(../img/iconos/prev-detalle.png) no-repeat;}
+#curso .clientes .lSAction > .lSNext{right: 0;left: inherit;background: url(../img/iconos/next-detalle.png) no-repeat;}
+
+#curso .contiene_slider{padding-bottom:50px;}
+#curso .lSSlideOuter .lSPager.lSpg{z-index:9;position: absolute;left: 0;right: 0;bottom:10px;}
+#curso .lSSlideOuter .lSPager.lSpg>li a{background-color:#E4E4E4;border-radius:50%;height:14px;width:14px;}
+#curso .lSSlideOuter .lSPager.lSpg>li.active a, .lSSlideOuter .lSPager.lSpg>li:hover a{background-color:#00007C;}
+
+#curso .propuestas {padding-bottom:35px;}
+#curso .propuestas h4{padding-bottom:35px;}
+#curso .propuestas p{padding-top:8px;}
+#curso .propuestas .large-3{padding-bottom:30px;}
+
+
+#curso .casos_exito {padding-bottom:65px;}
+#curso .casos_exito h4{padding:10px 30px;background:#00007C;border-radius:6px;max-width:296px;margin: auto;overflow: auto;margin-bottom:45px;}
+#curso .casos_exito p{font-size:18px;line-height:18px;padding:10px;background:#F5F5F5;border-radius:0 0 6px 6px;}
+#curso .casos_exito figure img.imagen_1{height:auto;width:100%;}
+#curso .casos_exito iframe{height:220px;width:100%;}
+#curso .casos_exito .lleva_ifra{height:220px;width:100%;}
+#curso .casos_exito .medium-6{padding-bottom:30px;}
+
+
+/* TRAILERS FLOTANTES */
+#curso.trailers {position:relative;max-width:680px;margin:5% auto;}
+#curso.trailers .mfp-close{color: #fff;height: auto;width: auto;position: absolute;z-index: 9999;right: 15px;}
+#curso.trailers .callout-10{background:#1c1d1f;}
+#curso.trailers .callout-10 h1{font-size:18px;line-height:26px;color:#fff;padding-bottom:20px;}
+#curso.trailers .callout-10 blockquote{font-size:16px;line-height:25px;color:#d1d7dc;padding-bottom:8px;}
+#curso.trailers .callout-10 iframe{height: 350px;}
+
+#curso.trailers .callout-10 .pad_1{padding:25px 30px;}
+#curso.trailers .callout-10 .linea_trailer{padding:12px 0px;cursor:pointer;}
+#curso.trailers .callout-10 .linea_trailer.activado{background:#3e4143;}
+#curso.trailers .callout-10 .linea_trailer p{padding:2px 0px;font-size:13px;line-height:16px;}
+#curso.trailers .callout-10 .linea_trailer p.titulo{padding:2px 0px;font-size:14px;line-height:17px;}
+#curso.trailers .callout-10 .linea_trailer p.activado{padding-left:30px;}
+#curso.trailers .callout-10 .linea_trailer p.titulo img{left:0;top:20%;}
+#curso.trailers .callout-10 .linea_trailer figure img{height:40px;}
+#curso.trailers .callout-10 .listado_trailers blockquote{padding:20px 30px;}
+
+
+/* CALL TO ACTION */
+.call_to_action_comprar_para_movil{display:none;position: fixed;width: 100%;left: 0;background: #000;padding: 15px;bottom:0;}
+.call_to_action_comprar_para_movil h1{font-size:12px!important;line-height:18px!important;}
+.call_to_action_comprar_para_movil blockquote{font-size:18px!important;line-height:18px!important;display:inline-block!important;padding-right:20px;}
+.call_to_action_comprar_para_movil button{font-size:16px!important;line-height:19px!important;display:inline-block!important;max-width:140px!important;padding:10px;margin:0!important;}
+.call_to_action_comprar_para_movil button img{display:none;}
+.call_to_action_comprar_para_movil .boton{font-size:16px!important;line-height:19px!important;display:inline-block!important;max-width:140px!important;padding:10px;margin:0!important;}
+
+
+
+
+#curso .callout-3 .list_examenes_categorias .curso-list{max-width:285px;width:100%;border-radius:10px;margin:0 auto 60px;height:auto;}
+#curso .callout-3 .list_examenes_categorias .curso-list .lleva_botones_curso {margin-top: 10px !important;}
+#curso .callout-3 .list_examenes_categorias .curso-list .deta .listado_de_precios {height: 45px;}
+
+#curso .callout-3 .list_examenes_vender .curso-list .lleva_botones_curso{margin-top: 10px !important;height: auto;}
+#curso .callout-3 .list_examenes_vender .curso-list .deta .listado_de_precios {height: 45px;}
+
+
+
+
+@media screen and (max-width: 64em){
+	.call_to_action_comprar_para_movil{display:block;}
+}
+
+@media screen and (max-width: 1030px){
+		#curso .callout-3 .curso-list .deta h2{font-size: 15px;line-height: 19px;}
+}
+
+@media screen and (max-width: 900px){
+	#curso .callout-3  .medium-9{width:100%;padding-left:15px;padding-right:15px;}
+	#listado_curso .medium-4{width:33.33%;padding-left:5px;padding-right:5px;}
+	#curso .menu_categorias_cursos_pc{display:none;}
+	
+	#curso .contiene_datos_compra { max-width: fit-content;}
+
+	#curso .callout-2 #example-tabs > .tabs-title a{font-size:20px;}
+	#curso .callout-2 .tabs-panel ol > li + li{padding-left:35px;}
+	#curso .callout-2 .tabs-panel .cuadro {padding:40px 25px 30px;}
+	#curso .callout-2 .tabs-panel h4{line-height:25px;font-size:20px;}
+	p{font-size:16px;line-height:23.2px;}
+	#curso .desc{display:none !important;}
+	#curso .callout-3{padding-top:0;}
+	#curso .callout-3 .men-fil{border-bottom:0.5px solid #CA3A2B;display:table;width:100%;height:50px}
+	#curso .callout-3 .men-fil > *{padding:15px;width:50%;text-align:center;vertical-align:middle;display:table-cell;font-size:12px;line-height:14.1px;color:#232B36;}
+	#curso .callout-3 .men-fil > .mita1{border-right:0.5px solid #CA3A2B;width:100%;}
+	#curso .callout-3 .men-fil > .mita2{border-left:0.5px solid #CA3A2B;display:none;}
+	#curso .callout-3 .men-fil > .mita2 i.ica{width:8px;height:8px;margin-left:10px;background:url(../img/iconos/baja2.png) no-repeat;background-position:center;display:inline-block;}
+	#curso .callout-3 .men-fil > .mita2 i.ica2{background-image:url(../img/iconos/sube2.png);}
+	#curso .callout-3 .tosd{display:block;padding:40px 0;}
+	#curso .callout-3 #memi{height:0;overflow:hidden;margin:0}
+	#curso .callout-3 #memi.auto{height:100%;}
+	#curso .callout-3 #laca{position:absolute;width:100%;background:white;}
+	#curso .callout-3 #laca ol{margin:0;}
+	#curso .callout-3 #laca ol li a{display:block;padding:13px 20px;color:#232B36;font-size:12px;line-height:14px;border:0.25px solid #E6E6E6;transition:all 0.5s ease;border-left:0;border-right:0}
+	#curso .callout-3 #laca ol li a:hover{background: #FDF7F7;}
+	#curso .callout-2 .tabs-panel figure{display:none;}
+	
+	#curso .callout-3 .curso-list .deta h2{font-size: 14px;}
+	#curso .callout-3 .curso-list .deta{padding: 8px 10px 25px;}
+	#curso .callout-3 .curso-list .deta blockquote{font-size: 14px;line-height: 18px;}
+	
+}
+
+@media only screen and (max-width:40em){
+	#curso iframe {height: 230px;}
+	main{margin-top:50px;}
+	#curso p{font-size:16px!important;line-height: 25px;}
+	#curso .contiene_datos_compra{margin-top:10px;}
+
+	#curso table{font-size:11px;display:block;    overflow-x: auto;    width: 100% !important;}
+	#curso .curso-list .deta .listado_de_precios{height: 95px;}
+
+	#curso .contiene_datos_compra{position:relative;/*z-index:1*/;padding:20px 10px;}
+	/* #curso .callout-10 figure img.principal{width: 100%;height: 270px;} */
+	#curso .callout-10 figure img.principal{width: 100%;height: auto;}
+	#curso figure figcaption{font-size:10px;}
+	
+	#curso .callout-2{padding:0 0 130px;}
+	#curso .callout-2 .cursio{display:none;}
+	#curso .callout-2 .cursio2{display:block;padding-top:65px;}
+	#curso .callout-2 .detacurso{padding:20px 0;margin-top:0px;border:0;margin-bottom:0;}
+	#curso .callout-2 .detacurso blockquote{font-size:30px;line-height:40.28px;}
+	#curso .callout-2 .detacurso blockquote small{font-size:17px;line-height:22.64px;}
+	#curso .callout-2 .detacurso ul{display:none;}
+	#curso .callout-2 .detacurso ul li{font-size:16px;line-height:26px;}
+	
+	#listado_curso .medium-4{width:100%;}
+	._contenido table{ width: auto!important;font-size: 10px;}
+
+	
+	#curso .callout-1{padding:20px 0;background-color:#fff;}
+	#curso .callout-1 h1{font-size:24px;line-height:30px;}
+	#curso .callout-1 p{font-size:14px;line-height:20px;}
+	#curso .callout-1 .tableta{display:none;}
+	#curso .callout-ocul{display:block;}
+	#curso .callout-ocul figure a{width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.4);color:white;font-size:24px;}
+	#curso .callout-ocul figure a .play{width:76px;height:76px;margin:20% auto 10px;background-color:rgba(0,0,0,0.6);text-align:center;border-radius:50%;}
+	#curso .callout-ocul figure a .play img{padding:23px 25px;}
+	#curso .callout-2 .tabs-panel ol{display:none;}
+	#curso .callout-2 .tabs-panel .valoracion .parte2 .lista-estre > .borde1,#curso .callout-2 .tabs-panel .valoracion .parte2 .lista-estre > .borde2{width:30px;}
+	
+	#curso .callout-1 .docen {height: 40px;width: 40px;}
+	#curso .lleva_data_profe + .lleva_data_profe{padding-left: 0;display: block;padding-top: 8px;}
+	
+	.cabezera_menu{font-size:13.5px!important;line-height:15px!important;padding-bottom:20px; color:#333;}
+	.cabezera_menu.titu_trafico{font-size:22px!important;line-height:32px!important;padding-bottom:20px; color:#333;}
+
+	/* nuevo presentacion UI */
+	#curso .callout-10 iframe{height:230px;}
+	#curso .callout-11{padding-top:40px;}
+	#curso .callout-11 .contiene_sesiones_listado{padding: 15px 30px;}
+	#curso .callout-11 .docentes h3{font-size:18px;line-height: 22px;padding:7px 0 ;}
+	#curso .callout-10 h1 {font-size: 20px;line-height: 30px}
+		#curso .callout-10 blockquote {font-size: 23px;line-height: 23px;}
+	#curso .callout-10 blockquote small{font-size: 20px;line-height: 20px;}
+	/* nuevo presentacion UI */
+	
+	#curso .callout-3 .curso-list{    max-width: 100%;}
+	#curso .callout-3 .curso-list .deta h2{height:auto;}
+	#curso .callout-3 .curso-list .lleva_botones_curso {margin-top: 10px !important;height: auto;}
+	#cesta .callout-1 .mostrar_cuentas h5{font-size: 20px;line-height: 30px;}
+	
+	
+	.call_to_action_comprar_para_movil {background:#fff; padding:5px; box-shadow: 0 -2px 4px rgb(0 0 0 / 8%), 0 -4px 12px rgb(0 0 0 / 8%);}
+	.call_to_action_comprar_para_movil blockquote{color:#000!important;font-size: 14px!important;line-height: 16px!important}
+	.call_to_action_comprar_para_movil button{width: calc(100% - 100px); max-width: 100%!important;}
+	.call_to_action_comprar_para_movil .boton{width: calc(100% - 100px); max-width: 100%!important;}
+	.call_to_action_comprar_para_movil .medium-7{display:none;}
+
+
+	#curso .css_si_pack{ background: #e8eaef;}   
+	#curso .listado_cursos_del_pack .curso-list {width: 100%;height: auto;max-width: 100%;float: left;background: #fff;    margin: 0 auto 18px;}
+	#curso .listado_cursos_del_pack .curso-list figure{ width:100px;height:100px;display: block;float: left;}
+	#curso .listado_cursos_del_pack .curso-list figure img.principal  { width: 100%; height: 100%; display: block; border-radius: 5px 5px 0 0; -webkit-border-radius: 5px 5px 0 0; -moz-border-radius: 5px 5px 0 0; -ms-border-radius: 5px 5px 0 0; -o-border-radius: 5px 5px 0 0; }
+	#curso .listado_cursos_del_pack .curso-list .mpopup-03 img {width:20px;height:20px;}
+	#curso .listado_cursos_del_pack .curso-list .breve_detalle {display: none;}
+	#curso .listado_cursos_del_pack .curso-list .listado_de_precios  {display: none;}
+	#curso .listado_cursos_del_pack .curso-list .lleva_botones_curso  {display: none;}
+	#curso .listado_cursos_del_pack .curso-list .deta  {  background: #fff;float: left;max-width: 285px;width: 100%;border:0!important;padding: 11px 10px 5px 15px ; }
+	#curso .listado_cursos_del_pack .curso-list .deta h2 {height: auto;font-size: 13px!important;line-height: 17px!important;padding-bottom: 6px;}
+	#curso .listado_cursos_del_pack .curso-list .deta .li_docente_dicta {display: none;}
+
+	.boton_mesinger{display: none;}
+
+	#curso  .curso-list .deta h2 a{  color:#333!important;}
+	
+}
+
+
+
+@media screen and (max-width: 400px){
+	#curso .callout-10 blockquote {font-size: 16px;line-height: 21px;}
+	#curso .callout-10 blockquote.lleva_online {font-size: 16px;line-height: 21px;}
+	#curso .callout-10 blockquote small{font-size: 13px;line-height: 20px;}
+	
+	#curso .callout-10 iframe{height: 190px;}
+	#curso .casos_exito .lleva_ifra{height: 190px;}
+	#curso .casos_exito .lleva_ifra iframe{height: 190px;}
+
+	#curso .listado_cursos_del_pack .curso-list figure{ width:90px;height:90px;display: block;float: left;}
+	#curso .listado_cursos_del_pack .curso-list .deta  { max-width: 255px;  }
+
+	#curso .listado_cursos_del_pack .curso-list .deta h2 {font-size: 11px!important;line-height: 15px!important;padding-bottom: 6px;}
+
+}
+
+@media screen and (max-width: 360px){
+
+
+	#curso .listado_cursos_del_pack .curso-list figure{ width:70px;height:70px;display: block;float: left;}
+	#curso .listado_cursos_del_pack .curso-list .deta  { max-width: 235px;  }
+
+	#curso .listado_cursos_del_pack .curso-list .deta h2 {font-size: 11px!important;line-height: 15px!important;padding-bottom: 6px;}
+
+}
+
+@media screen and (max-width: 330px){
+	#curso .contiene_datos_compra {padding: 20px 10px;}
+	#curso .callout-2 #example-tabs > .tabs-title a {font-size: 16px;}
+	.curso-list .deta .boton { max-width: 174px;}
+	
+	
+	#curso .callout-10 iframe{height: 170px;}
+	#curso .unete_wasap{margin-bottom:15px;}
+	#compi li img{max-width:70%;width:30px;}
+	#curso .callout-10 h1{font-size: 21px;line-height: 30px;}
+	#curso .callout-10 blockquote {font-size: 20px;line-height: 20px;}
+	#curso .callout-10 blockquote small{font-size: 18px;line-height: 20px;}
+	#curso .callout-11 h4{font-size: 18px;line-height: 24px;}
+	p{font-size: 15px;line-height: 20px;}
+	#curso .casos_exito .lleva_ifra{height: 150px;}
+	#curso .casos_exito .lleva_ifra iframe{height: 150px;}
+	
+}
+
+/* min widt*/
+@media only screen and (min-width: 61em){
+
+}
+
+@media only screen and (min-width: 50.500em){
+
+}
+
+@media only screen and (min-width: 75em){
+
+}

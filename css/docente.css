@@ -1,0 +1,40 @@
+/*Docente*/
+#docente{margin-top:62px;}
+#docente .callout-1{background:rgba(202,58,43,0.04);padding:40px 0 50px;}
+#docente .callout-1 .foto{float:left;width: 267px;}
+#docente .callout-1 .foto img{height:210px;}
+#docente .callout-1 .descri{width:calc(100% - 267px);float:left;padding-left:20px;padding-right:100px;}
+#docente .callout-1 .descri .titulo{font-size:18px;line-height:24px;padding-bottom:10px}
+#docente .callout-1 .descri .descripcion{font-size:20px;line-height:26px;padding-bottom:10px}
+#docente .callout-1 h3{font-size:18px;line-height:24px;padding:60px 0 20px 10px;}
+
+
+@media screen and (max-width: 40em){
+#docente .callout-1 .descri {
+    width: 100%;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 30px;
+}
+
+}
+
+@media only screen and (max-width:39.99em){
+}
+
+@media screen and (max-width: 28em){
+}
+
+/* min widt*/
+@media only screen and (min-width: 61em){
+
+}
+
+@media only screen and (min-width: 50.500em){
+
+}
+
+@media only screen and (min-width: 75em){
+
+}

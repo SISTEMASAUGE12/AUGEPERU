@@ -1,0 +1,189 @@
+main {margin-top: 122px;}
+main .row {margin-left: auto;max-width: 78em;}
+#curso .banners h3 {font-size: 32px!important;line-height: 42px!important;padding: 56px 0 40px;max-width: 850px;margin: 0 auto;}
+#curso .banners figure img {height: 300px;width: 100%;border-radius: 20px;}
+#curso .banners ._data_banners {padding: 40px 40px 40px;}
+#curso .banners ._data_banners h1{ font-size: 35px;line-height: 45px;}
+#curso .boton{margin:40px auto 0; max-width: 420px;font-size: 20px;line-height: 20px; border-radius:8px ; -webkit-border-radius:8px ; -moz-border-radius:8px ; -ms-border-radius:8px ; -o-border-radius:8px ; }
+#curso .listado_cursos_del_pack .curso-list  .boton{margin:0; display: none;}
+
+#curso .banners .fondo {height: 550px;}
+#curso .callout-20{padding:60px 0;background-color:#fff}
+#curso .callout-20.fondo_1{background-color:#ebebeb}
+#curso .callout-20 h3 {font-size: 28px!important;line-height: 38px!important;padding: 6px 0 40px;max-width: 850px;margin: 0 auto;}
+#curso .callout-20 ._contiene_detalle {padding-left: 30px;padding-top: 0px;}
+#curso .callout-20.fondo_1 ._contiene_detalle {padding-right: 30px;padding-top: 0px;}
+#curso .callout-20 ._contiene_detalle >*,
+#curso .callout-20 ._contiene_detalle p{ font-size: 18px;line-height: 28px;text-align: justify;}
+#curso .callout-20 ._contiene_detalle li{ padding-bottom: 25px;}
+#curso .callout-20 ._lo_que_lograras{max-width: 500px;margin: 0 auto;}
+#curso .callout-20 p._lleva_numerillo{ padding-left:60px;font-size: 20px;line-height: 30px;padding-bottom: 30px;}
+#curso .callout-20 p._lleva_numerillo ._numerillo{ position: absolute;left: 0;top: 10px;font-size: 60px;line-height: 60px;}
+#curso .callout-20 p._lleva_numerillo._especial{     padding: 15px 0 45px 60px;}
+
+#curso .callout-20 ul{margin:0;list-style:none;}
+#curso .callout-20 ul li {padding-left: 55px;background: url(../img/iconos/vi_li.png) no-repeat;background-position-y: 7px;background-position-x: left;}
+
+
+#curso .callout-temarios{padding:60px 0;background-color:#fff}
+#curso .callout-temarios h3 {font-size: 28px!important;line-height: 38px!important;padding: 6px 0 0px;max-width: 850px;margin: 0 auto;}
+#curso .callout-temarios ._menu_temario{max-width: 800px;margin: 0 auto;}
+#curso .callout-temarios a.btn { font-size: 17px!important; line-height: 47px!important; padding: 6px 20px; max-width: auto; margin: 7px auto ; background: #303030; color: #fff; border-radius:20px ; -webkit-border-radius:20px ; -moz-border-radius:20px ; -ms-border-radius:20px ; -o-border-radius:20px ; }
+#curso .callout-temarios a.btn +a.btn  {margin-left: 25px;}
+#curso .callout-temarios a.btn:hover{background: #B92A20;} 
+#curso .callout-temarios a.btn.activado{background: #B92A20;} 
+#curso .callout-temarios .listado_temario{max-width: 850px;margin: 0 auto;padding: 70px 0;}
+#curso .callout-temarios .listado_temario h3{text-transform: uppercase;padding-bottom: 30px;}
+
+
+
+#curso .callout-21{padding:60px 0;background-color:#e1e1e1}
+#curso .callout-21 h3 {font-size: 28px!important;line-height: 38px!important;padding: 6px 0 10px;max-width: 850px;margin: 0 auto;}
+#curso .callout-21 h4 {font-size: 22px!important;line-height: 32px!important;padding: 20px 0 20px;max-width: 250px;margin: 0 auto 20px;border-bottom: 3px solid #B92A20;}
+#curso .callout-21  p {font-size: 20px!important;line-height: 30px!important;padding-bottom: 40px;}
+#curso .callout-21 ._lleva_testimonio p {font-size: 17px!important;line-height: 27px!important;height:148px;}
+#curso .callout-21 figure img{border-radius: 50%;padding: 10px;border: 4px solid #B92A20;width: 201px;height: 201px;}
+
+
+#curso .callout-11{padding:60px 0;background-color:#ebebeb}
+#curso .callout-11 h3 {font-size: 28px!important;line-height: 38px!important;padding: 6px 0 50px;max-width: 850px;margin: 0 auto;}
+#curso .callout-11 .lSAction > .lSPrev {left: 0;background: url(../img/iconos/prev_detalle.png) no-repeat;}
+#curso .callout-11  .lSAction > .lSNext {right: 0;left: inherit;background: url(../img/iconos/next_detalle.png) no-repeat;}
+#curso .propuestas .large-3 {padding-bottom: 60px;}
+
+
+#curso .callout-22{padding:50px 0;background-image:url(../img/banners/_fondo_detalle_contenido.jpg)}
+#curso .callout-22 h3 {font-size: 28px!important;line-height: 38px!important;padding: 6px 0 10px;max-width: 850px;margin: 0 auto;}
+#curso .callout-22 h4 {font-size: 22px!important;line-height: 32px!important;padding: 20px 0 20px;max-width: 250px;margin: 0 auto 20px;border-bottom: 3px solid #B92A20;}
+#curso .callout-22 blockquote { font-size: 17px!important; line-height: 27px!important; padding: 20px 20px 20px; max-width: 550px; margin: 30px auto 20px; background:  #B92A20; border-radius: 10px ; -webkit-border-radius: 10px ; -moz-border-radius: 10px ; -ms-border-radius: 10px ; -o-border-radius: 10px ; color: #fff;text-align:center;height: 162px;}
+#curso .callout-22 blockquote b{padding-bottom: 10px;display: block;}
+#curso .callout-22 blockquote._ancho{max-width: 100%;height: auto;padding: 20px ;margin-top:20px;} 
+
+
+#curso .callout-23{padding:40px 0;background-color:#fff}
+#curso .callout-23.fondo_1{background-color:#ebebeb}
+#curso .callout-23 h3 {font-size: 28px!important;line-height: 38px!important;padding: 6px 0 40px;max-width: 850px;margin: 0 auto;}
+#curso .callout-23 figure figcaption { background: rgba(0,0,0,0.6); border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px;     width: 100%;    height: 100%;margin: 60px;max-width: 250px;MAX-HEIGHT: 250px;}
+#curso .callout-23 figcaption div{position: absolute;margin: auto;top: 0;bottom: 0;height: 70px;width: 100%;}
+#curso .callout-23 figcaption div p{font-size: 20px;line-height: 30px;}
+
+
+#curso .callout-11{padding:40px 0;background-color:#fff}
+#curso .callout-11._listado_docentes{padding:40px 0;background-color:#F5F5F5}
+#curso .contiene_slider {padding-bottom: 0;}
+#curso .callout-11 .docentes .data_finder {min-height: auto;}
+#curso .callout-11 h3 {font-size: 28px!important;line-height: 38px!important;}
+#curso .callout-11 .docentes h4 {font-size: 22px!important;line-height: 32px!important;padding: 20px 0 0px;max-width: 850px;margin: 0 auto;}
+#curso .callout-11 .docentes figure img {padding: 10px;border-radius: 50%;border: 3px solid #B92A20;}
+#curso .callout-11 .docentes .large-7{padding-left: 20px;}
+
+
+
+#curso .callout-24{background: #FEFEFE;padding: 60px 0 ;}  
+#curso .callout-24 h2{ background: #B92A20; padding: 20px; font-size: 30px; line-height: 40px; border-radius:30px ; -webkit-border-radius:30px ; -moz-border-radius:30px ; -ms-border-radius:30px ; -o-border-radius:30px ;margin-bottom: 60px; }  
+#curso .callout-24 ._contiene{ background: #F7F7F7; padding: 20px 30px 90px; border-radius:30px ; -webkit-border-radius:30px ; -moz-border-radius:30px ; -ms-border-radius:30px ; -o-border-radius:30px ;
+box-shadow: 0px 0.24426px 10.24426px rgba(0, 0, 0, 0.25); }
+#curso .callout-24 ._contiene ._detalle{ padding-left: 50px;}
+#curso .callout-24 ._contiene p{ padding: 25px 40px 10px;padding-left: 90px;position: relative;margin-top: 12px;}
+#curso .callout-24 ._contiene p +p{ border-top: 2px solid #B92A20;}
+#curso .callout-24 ._contiene p img{ padding-right: 20px;position: absolute;left: 40px;top: 18px;}
+#curso .callout-24 ._contiene blockquote{ max-width:100%;position: relative;margin: 0 auto;font-size: 70px;line-height:70px;}
+#curso .callout-24 ._contiene blockquote span{z-index: 2;position: relative;display: block;padding-top: 70px;}
+#curso .callout-24 ._contiene ._precio_anterior{margin: 30px 0 70px;}
+#curso .callout-24 ._contiene ._precio_anterior blockquote{ max-width:370px;position: relative;margin: 0 auto;font-size: 70px;line-height: 70px;}
+#curso .callout-24 ._contiene blockquote img{position: absolute;top: 0;left: 0;right: 0;margin: 0 auto;}
+
+
+#curso .callout-25{background: #ebebeb;padding: 60px 0 ;}  
+#curso .callout-25 blockquote {padding: 0px 0 5px;font-size: 19px !important;line-height: 28px !important;    }
+#curso .callout-25 p {text-align: justify;padding-top: 0px;font-size: 20px;line-height: 30px;}
+#curso .callout-25 ._contiene { position: relative;background:#C08F30; padding: 25px 40px ;padding-right: 60px ;border-radius:25px ; -webkit-border-radius:25px ; -moz-border-radius:25px ; -ms-border-radius:25px ; -o-border-radius:25px ; }
+#curso .callout-25 ._contiene figure{position: absolute;left: 40px;}
+#curso .callout-25 ._contiene ._info{padding-left: 190px;}
+.p_top{padding-top:15px;}
+
+#curso .descripcion {margin-top:40px;}
+#curso .descripcion .bancos > div p {padding-left: 120px ;padding-top: 0;}
+
+
+
+
+@media screen and (max-width: 800px){
+    main {
+        margin-top: 50px;
+    }
+    #curso .callout-20 p._lleva_numerillo._especial{     padding: 15px 0 45px 60px;}
+
+
+}
+
+    @media screen and (max-width: 40em){
+    main {
+        margin-top: 50px;
+    }
+    #curso .callout-20 p._lleva_numerillo._especial{     padding-left: 50px;padding-bottom: 20px;padding-top: 5px;}
+
+    #curso .callout-temarios a.btn +a.btn {margin-left: 10px;}
+    #curso .callout-temarios h3 {font-size: 20px !important;line-height: 30px !important;}
+    #curso .callout-temarios a.btn {font-size: 14px !important;line-height: 40px !important;}        
+
+    #curso .banners .fondo {height: auto;}
+    #curso .banners h3 {font-size: 20px!important;line-height: 30px!important; padding: 40px 0 30px;}
+    #curso .banners figure img {height: auto;width: auto;border-radius: 20px;}
+    #curso .banners ._data_banners h1 {font-size: 25px;line-height: 35px;}
+    #curso .banners ._data_banners {padding: 30px 10px 40px;}
+    #curso .boton {margin: 30px auto ;font-size: 16px;line-height: 20px;}
+    #curso .callout-20 h3 {font-size: 20px!important;line-height: 30px!important;padding: 0px 0 30px;}
+    #curso .callout-20 ._contiene_detalle { padding:10px;}
+    #curso .callout-20.fondo_1 ._contiene_detalle >*,
+    #curso .callout-20.fondo_1 ._contiene_detalle p {font-size: 16px;line-height: 26px;}
+
+    #curso .callout-20 ._contiene_detalle >*, #curso .callout-20 ._contiene_detalle p {font-size: 16px;line-height: 26px;text-align: justify;}
+    #curso .propuestas {padding-bottom: 0;}
+    #curso .callout-22 blockquote {font-size: 13px!important;line-height: 23px!important;height: auto;padding: 10px 5px;margin: 20px auto 10px;}
+    .p_top{padding-top:0;}
+    #curso .callout-22 h3 {font-size: 20px!important;line-height: 30px!important;}
+    #curso .callout-20 p._lleva_numerillo {padding-left: 50px;font-size: 20px;line-height: 26px;padding-bottom: 20px;}
+    #curso .callout-20 p._lleva_numerillo ._numerillo { top: 0px;}
+    #curso .callout-20 {padding: 40px 0 30px;}
+    #curso .callout-11 h3 {font-size: 20px!important;line-height: 30x!important;}
+    #curso .callout-11 .docentes h4 {font-size: 18px!important;line-height:28px!important;}
+    #curso .callout-11 .docentes .large-7 {padding-left: 15px;}
+    #curso .callout-11._listado_docentes {padding: 40px 0 20px;}
+    #curso .callout-24 ._contiene {background: #F7F7F7;padding: 20px 0px 20px;}
+    #curso .callout-24 {padding: 30px 0;}
+    #curso .callout-24 h2 {padding: 10px;font-size: 18px;line-height: 28px;margin-bottom: 20px;}
+    #curso .callout-24 ._contiene ._detalle {padding-left: 15px;}
+    #curso .callout-24 ._contiene p {padding: 25px 40px 5px;padding-left: 50px;}
+    #curso .callout-24 ._contiene p img {left: 5px;top: 18px;}
+    #curso .callout-24 ._contiene ._precio_anterior blockquote {font-size: 50px;line-height: 80px;margin-top: 50px;}
+    #curso .callout-24 ._contiene blockquote { font-size: 50px;    line-height: 50px;}
+    #curso .callout-24 ._contiene blockquote span {padding-top: 55px;}
+    #curso .callout-24 ._contiene ._precio_ahora {margin-bottom: 50px;}
+    #curso .callout-25 ._contiene figure {position: relative;left: 0;}
+    #curso .callout-25 ._contiene ._info {padding-top: 20px;padding-left: 10px;}
+    
+    #curso .callout-23 .small-6{padding: 0 4px;}
+    #curso .callout-23 figure figcaption {  margin: 10px;    max-width: 140px;MAX-HEIGHT: 130px;top: 15px;  }
+    #curso .callout-23 figcaption div { height: 50px;}
+    #curso .callout-23 figcaption div p {font-size: 11px!important;line-height: 16px;}
+
+    
+    
+    #curso .descripcion .bancos > div p {padding-left: 95px;padding-top: 0;}
+    
+    #curso .mostrar_cuentas h5 {font-size: 25px;line-height: 35px;}
+    #curso .mostrar_cuentas h5 small {font-size: 14px;line-height: 20px;padding-bottom: 10px;}
+    #curso .descripcion .bancos { padding: 15px 10px;}
+    #curso .descripcion .bancos div figure img {width: 80px;height: 80px;}
+    #curso .descripcion .bancos > div p span {font-size: 14px;line-height: 20px;}  
+	
+
+
+}
+
+
+
+@media only screen and (min-width: 75em){
+
+}

@@ -1,0 +1,62 @@
+/*Nosotros*/
+#nosotros .callout-1{background:#F7F7F7;padding:20px 0;}
+#nosotros .callout-1 h1{padding:50px 0 24px;margin-bottom:34px;background:url(../img/iconos/linear.png) no-repeat;background-position-y:bottom;background-position-x:left;}
+#nosotros .callout-1 p{font-size:18px;line-height:28px;}
+#nosotros .callout-2 .capa{padding:70px;background:rgba(0,0,0,0.8);}
+#nosotros .callout h3{font-size:30px;padding-bottom:10px;margin-bottom:30px;line-height:38px;background:url(../img/iconos/linear.png) no-repeat;background-position-y:bottom;background-position-x:center;}
+#nosotros .callout-2 .capa h4{font-size:40px;padding-bottom:50px;line-height:50px;max-width:650px;margin:0 auto;}
+.banner-noso{background-color:#333;background-image:url(../img/banners/nosotros.png);filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/banners/nosotros.png',sizingMethod='scale');-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/banners/nosotros.png',sizingMethod='scale')"}
+#nosotros .callout-2 .info{display:table;height:110px;}
+#nosotros .callout-2 .info > *{display:table-cell;}
+#nosotros .callout-2 .info > p{padding-right:30px;}
+#nosotros .callout-2 .info > blockquote{font-size:43.61px;line-height:55.91px;}
+#nosotros .callout-2 .info > blockquote small{font-size:21.81px;line-height:27.85px;display:block;}
+#nosotros .callout-3{padding:45px 0 80px;}
+#nosotros .callout-3 .descri > *{color:#7A7A7A;font-size:18px;line-height:25px}
+#nosotros .callout-3 .descri ul{margin:0;list-style:none;}
+#nosotros .callout-3 .descri ul li{padding-left:30px;background:url(../img/iconos/check.png) no-repeat;background-position-y:7px;background-position-x:left;}
+
+/* #nosotros .banners h3 {font-size: 30px;padding-bottom: 0px;margin-bottom: 10px;background: none;} */
+
+
+#nosotros .banners .fondo {height: 500px;}
+#nosotros .callout-2.banners .fondo {height: auto;}
+
+
+@media screen and (max-width: 63.999em){
+  
+}
+
+@media only screen and (max-width:40em){
+	#nosotros .callout-2 .capa{padding:70px 15px;}
+	#nosotros .callout-2 .capa h4{font-size:30px;line-height:40px;}
+	#nosotros .callout-2 .info{margin-bottom:20px;}
+	#nosotros .callout-2 .info > p{width:133px;}
+	#nosotros .callout-2.banners h3 {
+        text-transform: uppercase;
+        font-size: 25px !important;
+        line-height: 35px !important;
+        padding: 0px 0 0px;
+    }
+
+	#nosotros .banners .capa {
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 28em){
+}
+
+/* min widt*/
+@media only screen and (min-width: 61em){
+
+}
+
+@media only screen and (min-width: 50.500em){
+
+}
+
+@media only screen and (min-width: 75em){
+
+}

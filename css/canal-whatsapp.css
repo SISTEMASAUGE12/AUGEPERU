@@ -1,0 +1,61 @@
+
+#canal_whatsapp  .lleva_btn_canal{margin-top: 40px;}
+#canal_whatsapp  .lleva_btn_canal img{height: 35px;}
+
+
+#canal_whatsapp .callout-1{padding: 80px 0 0;background: #f2f4f8;}
+#canal_whatsapp .callout-1 h1{font-size:35px;line-height:45px;padding: 60px 0 20px;}
+#canal_whatsapp .callout-1 h3{font-size:25px;line-height:35px;padding: 0px 0 30px;}
+#canal_whatsapp .callout-1 figure img{height: 450px;}
+
+#canal_whatsapp .callout-2{padding: 80px 0 ;background: #f9f9f9;}
+#canal_whatsapp .callout-2 h3{padding-bottom: 40px;}
+#canal_whatsapp .callout-2 p.rel{padding-left: 120px;font-size: 16px;line-height: 24px;padding-bottom: 40px;text-align: justify;padding-top: 20px;    min-height: 180px;}
+#canal_whatsapp .callout-2 p.rel img{position: absolute;left:0;top: 5px;}
+
+#canal_whatsapp .callout-3{padding: 80px 0 ;background: #fff;}
+#canal_whatsapp .callout-3 h3{padding-bottom: 60px;}
+#canal_whatsapp .callout-3 p{font-size: 16px;line-height: 24px;text-align: justify;padding-top: 20px;}
+#canal_whatsapp .callout-3 blockquote{font-size:20px;line-height:28px;padding: 70px;color:#000;}
+
+
+#canal_whatsapp .callout-4{padding: 80px 0 0;background: #e5e5e5;}
+#canal_whatsapp .callout-4 h3{font-size:25px;line-height:35px;padding-bottom: 60px;}
+#canal_whatsapp .callout-4 p{font-size: 16px;line-height: 24px;text-align: center;padding-top: 20px;}
+#canal_whatsapp .callout-4 blockquote{font-size:20px;line-height:28px;padding-bottom:30px;color:#000;}
+#canal_whatsapp .callout-4 ._paso_1{ background-color: #fff; padding: 30px; margin-bottom: 40px; border-radius:6px ; -webkit-border-radius:6px ; -moz-border-radius:6px ; -ms-border-radius:6px ; -o-border-radius:6px ; }
+#canal_whatsapp .callout-4 ._paso_1 p{padding:0 0 40px ;}
+#canal_whatsapp .callout-4 ._paso_2{ background: rgb(219 39 28); padding: 30px; margin-bottom: 40px; border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; -ms-border-radius: 6px; -o-border-radius: 6px; }
+
+
+
+@media only screen and (max-width:850px){
+	h3 {font-size: 25px;line-height: 30px;	}
+	#canal_whatsapp .callout-1 h1 {font-size: 25px;line-height: 35px;padding: 60px 0 20px;}
+	#canal_whatsapp .callout-1 h3 {font-size: 18px;line-height: 23px;  padding: 0px 0 20px;}
+}
+
+@media only screen and (max-width:40em){
+	#canal_whatsapp .callout-1 {padding: 40px 0 0;}
+	#canal_whatsapp .callout-1 h1 {font-size: 24px;line-height: 33px;padding: 10px 0 20px;}
+
+	#canal_whatsapp .callout-3 blockquote{padding: 40px 10px;}
+	#canal_whatsapp .lleva_btn_canal {margin: 20px 0 40px;}
+	main {margin-top: 61px;}
+
+	main .canal_wsp_flota {font-size: 14px;padding: 18px 25px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

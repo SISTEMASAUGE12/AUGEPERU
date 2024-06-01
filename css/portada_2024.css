@@ -1,0 +1,668 @@
+/*Nosotros*/
+.banner-portada {height: 560px;background-color: #333;}
+.cursos_portada .columns {padding: 0 10px;}
+
+
+
+
+#portada .callout h3 {font-size: 32px;line-height: 40px;}
+#portada .callout-1 {
+	padding: 70px 0 60px;
+	background: url(../img/nueva_portada/f_1.jpg);
+	height: 330px;
+}
+
+
+
+#portada .callout-1 .pod {
+	max-width: 270px;
+	margin: 0 auto 10px;
+}
+
+#portada .callout-1 figure {
+	height: 55px;
+	margin-bottom: 20px;
+}
+
+#portada .callout-1 figure img {
+	height: 51px;
+}
+
+#portada .callout-1 span.titu {
+	display: block;
+	font-size: 20px;
+	line-height: 28px;
+	padding-bottom: 10px;
+}
+
+#portada .callout-1 p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#portada .callout-2 {
+	padding: 85px 0 120px;
+	background: url(../img/nueva_portada/f_2.jpg);
+	height: auto;
+}
+
+#portada .callout-2 h3 {
+	font-size: 40px;
+	line-height: 50px;
+}
+
+#portada .callout-2 h3 {
+	padding: 0px 0 30px;
+}
+
+#portada .callout-2 .btn_2 {
+	padding: 15px 20px;
+	background: #DB271C;
+	color: #fff;
+	border-radius: 25px;
+	display: inline-block;
+	margin-top: 65px;
+}
+
+#portada #carousel-2 {
+	height: 570px !important;
+}
+
+#portada .callout-2 .lSSlideOuter .lSPager.lSpg {
+	margin: 30px 0 0 !important;
+}
+
+/* #portada .callout-2 .curso-list{max-width:352px;width:100%;border-radius:10px;margin:0 auto;} */
+/* #portada .callout-2 .curso-list figure{border-radius:10px 10px 0 0} */
+/* #portada .callout-2 .curso-list figure img{border-radius:10px 10px 0 0;height:180px;width:100%;} */
+/* #portada .callout-2 .curso-list .deta{border:1px solid #CA3A2B;border-top:0;border-radius:0 0 10px 10px;padding:25px 25px 16px;} */
+/* #portada .callout-2 .curso-list .deta span{display:block;font-size:12px;line-height:20px;padding-bottom:8px;letter-spacing:0.8px} */
+/* #portada .callout-2 .curso-list .deta h5{padding-bottom:16px;letter-spacing:0.2px} */
+/* #portada .callout-2 .curso-list .deta p{font-size:16px;line-height:24px;letter-spacing:-0.2px;padding-bottom:16px;} */
+/* #portada .callout-2 .curso-list .deta ol{margin:0;} */
+/* #portada .callout-2 .curso-list .deta ol li{display:inline-block;font-size:14px;line-height:20px;padding-right:16px;} */
+/* #portada .callout-2 .curso-list .deta ol li img{width:20px;} */
+/* #portada .callout-2 .curso-list .deta ol li img.rb50{border-radius:50%;} */
+/* #portada .callout-2 .curso-list .deta blockquote{font-size:20px;line-height:28px;letter-spacing:0.2px;padding:30px 0 15px;} */
+/* #portada .callout-2 .curso-list .deta blockquote small{font-size:14px;line-height:22px;padding-left:8px;text-decoration:line-through;} */
+/* #portada .callout-2 .curso-list .deta .boton{display:inline-block;font-size:14px;line-height:16px;letter-spacing:0.2px;max-width:224px;padding:15px;} */
+/* #portada .callout-2 .curso-list .deta .btn-carro{border-radius:50%;width:48px;border:2px solid #CA3A2B;height:48px;display:inline-block;float:right;text-align:center;padding:9px;} */
+#portada .callout-2 .lSSlideOuter .lSPager.lSpg>li a {
+	background-color: rgba(202, 58, 43, 0.5);
+	border-radius: 50%;
+	height: 12.6px;
+	width: 12.6px;
+}
+
+#portada .callout-2 .lSSlideOuter .lSPager.lSpg>li.active a,
+.lSSlideOuter .lSPager.lSpg>li:hover a {
+	background-color: rgba(202, 58, 43, 1);
+}
+
+#portada .callout-3 {
+	padding: 70px 0 100px;
+	background: url(../img/nueva_portada/f_3.jpg);
+	height: 784px;
+}
+
+/* #portada .callout-3 h3{padding-bottom:27px;} */
+#portada .callout-3 .testimonio {
+	background: #323232;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+	/*max-width:710px;*/
+}
+
+#portada .callout-3 .testimonio .foto {
+	padding: 0;
+	display: inline-block;
+	height: 497px;
+}
+
+#portada .callout-3 .testimonio .foto figure {
+	height: 100%;
+}
+
+#portada .callout-3 .testimonio .foto .imagen_1 {
+	height: 100%;
+	/*width:100%;*/
+}
+
+#portada .callout-3 .testimonio .foto .lleva_vimeo_listado {
+	height: 100%;
+	overflow: hidden;
+}
+
+#portada .callout-3 .testimonio .foto .lleva_vimeo_listado iframe {
+	height: 100%;
+}
+
+/* #portada .callout-3 .testimonio .foto iframe{height:100%;margin: auto;display: block;} */
+/* #portada .callout-3 .testimonio .foto iframe{height:100%;} */
+
+#player {
+	height: 400px !important;
+}
+
+/* #portada .callout-3 .testimonio .foto img{border-radius:10px;} */
+#portada .callout-3 .testimonio .descrip {
+	/*sswidth:calc(100% - 295px);*/
+	display: inline-block;
+	float: left;
+	padding-left: 30px;
+	background: #323232;
+}
+
+#portada .callout-3 .testimonio .descrip {
+	font-size: 15px !important;
+	line-height: 22px;
+	padding-top: 95px;
+	padding-right: 90px;
+	padding-bottom: 75px;
+	padding-left: 90px;
+}
+
+#portada .callout-3 .testimonio .descrip span {
+	font-size: 34px;
+	line-height: 40px;
+	display: block;
+	padding-bottom: 25px;
+}
+
+#portada .callout-3 .testimonio .descrip span small {
+	font-size: 15px;
+	line-height: 20px;
+	display: block;
+	padding-bottom: 20px;
+}
+
+#portada .callout-3 .testimonio .descrip p {
+	font-size: 15px !important;
+	line-height: 22px;
+}
+
+#portada .callout-3 .testimonio .descrip p.curso {
+	font-size: 15px;
+	line-height: 22px;
+	padding: 20px 0 50px;
+}
+
+#portada .callout-3 .testimonio .alto_you {
+	height: 388px;
+}
+
+#portada .callout-3 .lSSlideOuter .lSPager.lSpg {
+	margin-top: 20px !important;
+}
+
+#portada .callout-3 .lSSlideOuter .lSPager.lSpg>li a {
+	background-color: rgba(202, 58, 43, 0.5);
+	border-radius: 50%;
+	height: 12.6px;
+	width: 12.6px;
+}
+
+#portada .callout-3 .lSSlideOuter .lSPager.lSpg>li.active a,
+.lSSlideOuter .lSPager.lSpg>li:hover a {
+	background-color: rgba(202, 58, 43, 1);
+}
+
+#portada .callout-3 .clientes {
+	position: absolute;
+	bottom: 50px;
+	right: 50%;
+	margin-right: 90px;
+}
+
+#portada .callout-3 .lSSlideOuter {
+	background: #323232;
+	padding: 20px 0;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+}
+
+
+#portada .callout-4 {
+	padding: 70px 0 80px;
+	background: url(../img/nueva_portada/f_4.jpg);
+	height: 530px;
+}
+
+#portada .callout-4 h3 {
+	padding-bottom: 30px;
+}
+
+#portada .callout-4 p {
+	font-size: 15px;
+	line-height: 28px;
+	padding-bottom: 60px;
+	margin: 0 auto;
+}
+
+#portada .callout-4 p a {
+	color: #7A7A7A;
+}
+
+#portada .callout-4 .cuadro {
+	max-width: 200px;
+	margin: 0 auto 20px;
+	padding: 20px 15px 30px;
+	border: 1px solid #DDD;
+	border-radius: 14px;
+	background: white;
+}
+
+#portada .callout-4 .cuadro figure {
+	height: 84px;
+}
+
+#portada .callout-4 .cuadro figure img {
+	height: 84px;
+}
+
+#portada .callout-4 .cuadro p {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 12px 0px 20px;
+}
+
+#portada .callout-4 .cuadro .boton {
+	font-size: 14px;
+	line-height: 16px;
+	padding: 11px;
+	max-width: 118px;
+	margin: 0 auto;
+}
+
+#portada .callout-5 {
+	z-index: 9;
+	padding: 85px 0 0;
+	background: transparent;
+	margin-bottom: 0;
+	background: url(../img/nueva_portada/f_5.jpg);
+	height: 636px;
+}
+
+#portada .callout-5 figure {
+	width: 100%;
+}
+
+#portada .callout-5 figure .imagen_1 {
+	width: 100%;
+	height: 473px;
+}
+
+#portada .callout-5 figure a {
+	width: 100%;
+	height: 100%;
+}
+
+#portada .callout-5 .contiene {
+	background: #323232;
+	padding: 10px 10px;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-ms-border-radius: 25px;
+	-o-border-radius: 25px;
+}
+
+#portada .callout-5 .descri {
+	background: #323232;
+	padding: 50px 0;
+	padding-left: 70px;
+	padding-right: 50px;
+	min-height: 473px;
+}
+
+#portada .callout-5 h3 {
+	padding-top: 31px;
+	padding-bottom: 25px;
+	font-size: 40px;
+	line-height: 33px;
+}
+
+#portada .callout-5 h3 small {
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 400;
+	padding-top: 25px;
+	display: block;
+}
+
+#portada .callout-5 p {
+	font-size: 16px;
+	line-height: 21px;
+}
+
+#portada .callout-5 .contiene {
+	margin: 0 auto;
+}
+
+#portada .callout-5 .contiene .columns {
+	padding: 0;
+}
+
+#portada .callout-5 .contiene .boton {
+	margin-top: 35px;
+	font-size: 15px;
+	padding: 10px 13px;
+	background: #fff;
+	color: #323232 !important;
+}
+
+#portada .callout-6 {
+	padding: 100px 0;
+	background: #DB271C;
+	background: url(../img/nueva_portada/f_6.jpg);
+	height: 742px;
+}
+
+#portada .callout-6 figure img {
+	height: 250px;
+	max-width: 250px;
+	width: 100%;
+	border-radius: 50%;
+	width: 250px;
+}
+
+#portada .callout-6 figure img.asesoras {
+	height: 200px;
+	max-width: 200px;
+	width: 100%;
+	border-radius: 50%;
+	width: 200px;
+}
+
+#portada .callout-6 h3 {
+	padding-bottom: 60px;
+}
+
+#portada .callout-6 p {
+	padding: 15px 0 10px;
+	font-size: 16px;
+	line-height: 20px;
+	min-height: 65px;
+}
+
+#portada .callout-6 blockquote {
+	font-size: 13px;
+	line-height: 16px;
+}
+
+#portada .callout-6 .clientes {
+	position: absolute;
+	bottom: 100px;
+	right: 50%;
+	margin-right: 0;
+}
+
+#portada .callout-6 .clientes .lSAction>.lSPrev {
+	right: 25px;
+	left: inherit;
+	background: url(../img/iconos/prev-blanco.png) no-repeat;
+}
+
+#portada .callout-6 .clientes .lSAction>.lSNext {
+	right: 0;
+	left: inherit;
+	background: url(../img/iconos/next-blanco.png) no-repeat;
+}
+
+#portada .callout-6 .boton {
+	font-size: 18px;
+	display: inline-block;
+}
+
+#portada .callout-7 {
+	padding: 400px 0 200px;
+	background: #DB271C;
+}
+
+#portada .callout-7 figure img {
+	height: 250px;
+	max-width: 250px;
+	width: 100%;
+	border-radius: 50%;
+	width: 250px;
+}
+
+#portada .callout-7 h2 {
+	font-size: 22px;
+	line-height: 27px;
+	padding-bottom: 5px;
+}
+
+#portada .callout-7 h3 {
+	padding-bottom: 60px;
+}
+
+#portada .callout-7 .medium-10 {
+	padding-bottom: 60px;
+	background: #F5F5F5;
+	padding: 35px 80px;
+	border-radius: 6px;
+}
+
+
+#portada.listado_testimonios h3 {
+	padding-bottom: 50px;
+}
+
+/* #portada.listado_testimonios .callout-3 .testimonio{background:#FDF7F7;box-shadow:0px 4px 20px rgba(0, 0, 0, 0.15);padding:20px;max-width:710px;margin:15px auto;overflow: hidden;margin-bottom:50px;} */
+/* #portada.listado_testimonios .callout-3 .testimonio .foto{width:220px;display:inline-block;height:340px;} */
+#portada.listado_testimonios .callout-3 .large-12 {
+	margin-bottom: 40px;
+}
+
+#portada.listado_testimonios .callout-3 .testimonio .descrip {
+	min-height: 497px;
+}
+
+/* #portada.listado_testimonios .callout-3 .testimonio iframe{min-height:458px;height:458px;} */
+#portada.listado_testimonios .callout-3 .testimonio .foto .imagen_1 {
+	border-radius: 10px;
+	height: 497px;
+}
+
+/* #portada.listado_testimonios .callout-3 .testimonio .descrip{width:calc(100% - 220px);display:inline-block;float:right;padding:20px;height:340px;} */
+/* #portada.listado_testimonios .callout-3 .testimonio .descrip span{font-size:20px;line-height:40px;display:block;padding-bottom:0;} */
+/* #portada.listado_testimonios .callout-3 .testimonio .descrip span small{font-size:15px;line-height:20px;display:block;} */
+/* #portada.listado_testimonios .callout-3 .testimonio .descrip{font-size:15px!important;line-height:22px!important;} */
+/* #portada.listado_testimonios .callout-3 .testimonio .descrip p{font-size:15px!important;line-height:22px;!important;} */
+/* #portada.listado_testimonios .callout-3 .testimonio .descrip p.curso{font-size:15px;line-height:22px;padding:20px 0;} */
+/* #portada.listado_testimonios .callout-3 .testimonio .alto_you{height:333.75px;} */
+
+
+@media only screen and (max-width: 770px) {
+	#portada .banners h3 {font-size: 50px !important;line-height: 60px !important;}
+
+	#portada .callout-2 h3 {display: none;}
+
+	#portada .callout h3 {
+		font-size: 25px;
+		line-height: 30px;
+	}
+
+	.curso-list .deta {
+		padding: 10px 10px 16px;
+	}
+
+	#portada .callout-3 .testimonio .descrip span {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	#portada .callout-3 .testimonio .descrip {
+		padding: 40px 40px 50px;
+	}
+
+	#portada .callout-3 .clientes {
+		bottom: 20px;
+		margin-right: 40px;
+	}
+
+	#portada .callout-3 .testimonio .foto {
+		height: 453px;
+	}
+
+	#portada .callout-5 {
+		background: #F7F7F7
+	}
+}
+
+
+@media only screen and (max-width: 40em) {
+	.cursos_portada {padding: 0;}
+
+
+	.data_index_pc {display: none;}
+	.data_index_movil {display: block;}
+	.data_index_movil._en_portada_no_mostrar {display: none;}
+
+
+	#portada .callout-1 .pod {
+		margin: 0 auto 40px;
+	}
+
+	#portada .callout-5 h3,
+	#portada .callout-5 p {
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	#portada .callout-3 .testimonio {
+		max-width: 394px;
+		width: 100%;
+		padding: 20px;
+	}
+
+	#portada .callout-3 .testimonio .foto {
+		max-width: 100%;
+		display: block;
+		width: 100%;
+		margin: 0 auto 5px;
+		height: 353px;
+		padding-bottom: 80px;
+	}
+
+	#portada .callout-3 .testimonio .descrip {
+		text-align: center;
+		width: 100%;
+		display: block;
+		float: initial;
+		padding-left: 0;
+		padding-right: 0;
+		padding-bottom: 0;
+		padding: 50px 10px 0;
+	}
+
+	#portada .callout-3 .clientes {
+		bottom: 20px;
+		margin-right: 0;
+		right: 40%;
+	}
+
+	#portada .callout-3 .testimonio .descrip p.curso {
+		padding: 20px 0;
+	}
+
+	#portada.listado_testimonios .callout-3 .testimonio .foto {
+		max-width: 294px;
+		display: block;
+		width: 100%;
+		margin: 0 auto 15px;
+	}
+
+	#portada.listado_testimonios .callout-3 .testimonio .descrip {
+		text-align: center;
+		width: 100%;
+		display: block;
+		float: initial;
+		padding-left: 0
+	}
+
+	#portada .callout-4 .cuadro {
+		padding: 20px 10px;
+	}
+
+	#portada .callout-5 .contiene {
+		margin: 0 auto;
+		border-radius: 0;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		-ms-border-radius: 0;
+		-o-border-radius: 0;
+}
+
+	#portada .callout-5 {
+		padding-top: 0;
+	}
+
+	#portada .callout-5 .descri {
+		padding: 50px 20px;
+	}
+
+	#portada .callout-5 figure .imagen_1 {
+		width: 100%;
+		height: auto;
+	}
+
+	#portada .callout-6 {
+		padding: 80px 0 120px;
+		height: auto;
+		background: #323232;
+	}
+
+	#portada .callout-6 .clientes {
+		bottom: 20px;
+		right: 40%;
+	}
+
+	#portada .callout-5 .contiene .boton {
+		margin: auto;
+	}
+
+	.curso-list .deta .boton {
+		font-size: 14px;
+		line-height: 18px;
+		padding: 8px 15px;
+	}
+
+	#portada .callout-1,
+	#portada .callout-2,
+	#portada .callout-3,
+	#portada .callout-4,
+	#portada .callout-5,
+	main .banners {
+		height: auto;
+	}
+
+
+
+
+	/* abnner pantalla completa */
+	main {margin-top: 0px;}
+	#videofondo, .banners.solo-portada .lSSlideOuter,
+	 .banners.solo-portada .lSSlideWrapper, 
+	 .banners.solo-portada .lSSlideWrapper ul, 
+	 .banners.solo-portada, 
+	 .banners.solo-portada .fondo {
+		/* height: 100%; */
+		height: 1100px;z-index: 99
+	}
+
+
+
+}
+
+
+
+/* min widt*/
+@media only screen and (min-width: 61em) {}
+
+@media only screen and (min-width: 50.500em) {}
+
+@media only screen and (min-width: 75em) {}
