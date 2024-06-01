@@ -1,0 +1,16 @@
+[30-Oct-2019 06:14:15 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/detalleswithlove/public_html/beta/culqi-php-develop/examples/procesarpago.php on line 18
+[30-Oct-2019 06:14:32 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/detalleswithlove/public_html/beta/culqi-php-develop/examples/procesarpago.php on line 18
+[30-Oct-2019 06:14:53 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/detalleswithlove/public_html/beta/culqi-php-develop/examples/procesarpago.php on line 18
+[30-Oct-2019 06:25:50 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/detalleswithlove/public_html/beta/culqi-php-develop/examples/procesarpago.php on line 18
+[30-Oct-2019 06:26:00 Etc/GMT] PHP Fatal error:  Cannot use empty array elements in arrays in /home/detalleswithlove/public_html/beta/culqi-php-develop/examples/procesarpago.php on line 18
+[30-Oct-2019 06:36:20 Etc/GMT] PHP Notice:  Undefined index: email in /home/detalleswithlove/public_html/beta/culqi-php-develop/examples/procesarpago.php on line 18
+[30-Oct-2019 06:40:32 Etc/GMT] PHP Notice:  Undefined index: email in /home/detalleswithlove/public_html/beta/culqi-php-develop/examples/procesarpago.php on line 18
+[30-Oct-2019 06:44:28 Etc/GMT] PHP Notice:  Undefined index: email in /home/detalleswithlove/public_html/beta/culqi-php-develop/examples/procesarpago.php on line 18
+[30-Oct-2019 06:46:20 Etc/GMT] PHP Notice:  Undefined index: email in /home/detalleswithlove/public_html/beta/culqi-php-develop/examples/procesarpago.php on line 18
+[30-Oct-2019 06:51:33 Etc/GMT] PHP Notice:  Undefined index: email in /home/detalleswithlove/public_html/beta/culqi-php-develop/examples/procesarpago.php on line 18
+[30-Oct-2019 06:57:22 Etc/GMT] PHP Notice:  Undefined index: ciudad in /home/detalleswithlove/public_html/beta/culqi-php-develop/examples/procesarpago.php on line 22
+[31-Oct-2019 11:18:53 Etc/GMT] PHP Notice:  Undefined index: token in /home/detalleswithlove/public_html/beta/culqi-php-develop/examples/procesarpago.php on line 19
+[01-Nov-2019 02:13:38 Etc/GMT] PHP Notice:  Undefined index: token in /home/detalleswithlove/public_html/beta/culqi-php-develop/examples/procesarpago.php on line 19
+[01-Nov-2019 22:12:50 Etc/GMT] PHP Notice:  Undefined index: token in /home/detalleswithlove/public_html/beta/culqi-php-develop/examples/procesarpago.php on line 19
+[09-Nov-2019 03:48:24 Etc/GMT] PHP Notice:  Undefined index: token in /home/detalleswithlove/public_html/beta/culqi-php-develop/examples/procesarpago.php on line 19
+[12-Nov-2019 20:44:32 Etc/GMT] PHP Notice:  Undefined index: token in /home/detalleswithlove/public_html/beta/culqi-php-develop/examples/procesarpago.php on line 19
