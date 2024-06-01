@@ -1,0 +1,455 @@
+[05-May-2024 12:00:02 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Client.php(123): GuzzleHttp\Promise\Promise->wait()
+#10 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php(70): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request))
+#11 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#12 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#13 {main}
+
+Next Infusionsoft\Http\HttpException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php:74
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#1 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#2 {main}
+  thrown in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php on line 74
+[07-May-2024 00:00:02 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Client.php(123): GuzzleHttp\Promise\Promise->wait()
+#10 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php(70): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request))
+#11 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#12 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#13 {main}
+
+Next Infusionsoft\Http\HttpException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php:74
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#1 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#2 {main}
+  thrown in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php on line 74
+[14-May-2024 00:00:02 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Client.php(123): GuzzleHttp\Promise\Promise->wait()
+#10 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php(70): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request))
+#11 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#12 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#13 {main}
+
+Next Infusionsoft\Http\HttpException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php:74
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#1 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#2 {main}
+  thrown in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php on line 74
+[15-May-2024 12:00:02 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Client.php(123): GuzzleHttp\Promise\Promise->wait()
+#10 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php(70): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request))
+#11 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#12 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#13 {main}
+
+Next Infusionsoft\Http\HttpException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php:74
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#1 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#2 {main}
+  thrown in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php on line 74
+[16-May-2024 00:00:02 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Client.php(123): GuzzleHttp\Promise\Promise->wait()
+#10 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php(70): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request))
+#11 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#12 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#13 {main}
+
+Next Infusionsoft\Http\HttpException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php:74
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#1 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#2 {main}
+  thrown in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php on line 74
+[17-May-2024 12:00:02 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Client.php(123): GuzzleHttp\Promise\Promise->wait()
+#10 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php(70): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request))
+#11 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#12 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#13 {main}
+
+Next Infusionsoft\Http\HttpException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php:74
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#1 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#2 {main}
+  thrown in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php on line 74
+[18-May-2024 00:00:03 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Client.php(123): GuzzleHttp\Promise\Promise->wait()
+#10 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php(70): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request))
+#11 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#12 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#13 {main}
+
+Next Infusionsoft\Http\HttpException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php:74
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#1 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#2 {main}
+  thrown in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php on line 74
+[18-May-2024 12:00:02 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Client.php(123): GuzzleHttp\Promise\Promise->wait()
+#10 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php(70): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request))
+#11 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#12 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#13 {main}
+
+Next Infusionsoft\Http\HttpException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php:74
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#1 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#2 {main}
+  thrown in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php on line 74
+[25-May-2024 00:00:02 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Client.php(123): GuzzleHttp\Promise\Promise->wait()
+#10 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php(70): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request))
+#11 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#12 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#13 {main}
+
+Next Infusionsoft\Http\HttpException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php:74
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#1 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#2 {main}
+  thrown in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php on line 74
+[25-May-2024 12:00:02 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Client.php(123): GuzzleHttp\Promise\Promise->wait()
+#10 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php(70): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request))
+#11 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#12 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#13 {main}
+
+Next Infusionsoft\Http\HttpException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php:74
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#1 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#2 {main}
+  thrown in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php on line 74
+[29-May-2024 12:00:02 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Client.php(123): GuzzleHttp\Promise\Promise->wait()
+#10 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php(70): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request))
+#11 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#12 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#13 {main}
+
+Next Infusionsoft\Http\HttpException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php:74
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#1 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#2 {main}
+  thrown in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php on line 74
+[31-May-2024 12:00:02 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Client.php(123): GuzzleHttp\Promise\Promise->wait()
+#10 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php(70): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request))
+#11 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#12 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#13 {main}
+
+Next Infusionsoft\Http\HttpException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php:74
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#1 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#2 {main}
+  thrown in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php on line 74
+[01-Jun-2024 12:00:02 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Middleware.php(69): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), NULL)
+#3 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(248): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 /home/eduauge2024/public_html/vendor/guzzlehttp/promises/src/Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 /home/eduauge2024/public_html/vendor/guzzlehttp/guzzle/src/Client.php(123): GuzzleHttp\Promise\Promise->wait()
+#10 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php(70): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request))
+#11 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#12 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#13 {main}
+
+Next Infusionsoft\Http\HttpException: Client error: `POST https://api.infusionsoft.com/token` resulted in a `400 Bad Request` response:
+
+            {
+            "error": "invalid_request",
+            "error_description": "Invalid Refresh Token"
+         (truncated...)
+ in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php:74
+Stack trace:
+#0 /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Infusionsoft.php(318): Infusionsoft\Http\GuzzleHttpClient->call('POST', 'https://api.inf...', Array)
+#1 /home/eduauge2024/public_html/token/renova.php(21): Infusionsoft\Infusionsoft->refreshAccessToken()
+#2 {main}
+  thrown in /home/eduauge2024/public_html/vendor/infusionsoft/php-sdk/src/Infusionsoft/Http/GuzzleHttpClient.php on line 74
