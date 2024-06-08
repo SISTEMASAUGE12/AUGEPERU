@@ -30,6 +30,7 @@ if($pagina != 'webinar' && $pagina != 'registro'){ /* esta sesion sirve para sab
 	<link rel="stylesheet" href="js/font-awesome/css/all.css">
     <link href="js/vendor/lightslider/lightslider.min.css" rel="stylesheet">
     <link href="js/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+	<link href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap4.min.css" rel="stylesheet">
 		<?php if($pagina=="examen" || $pagina=="perfil"){ ?>
     <link rel="stylesheet" href="css/sweetalert.min.css">
     <link rel="stylesheet" href="css/animations.css" type="text/css">

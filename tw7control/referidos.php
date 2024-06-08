@@ -263,13 +263,13 @@ if ($_GET['task'] === 'insert') {
                         <div class="grid-x grid-margin-x" style="display: flex;  align-items: center; justify-content: center;">
                             <!-- Buscador -->
                             <div class="cell small-12 medium-6" style="width:50%;">
-                                <input type="text" id="searchInput" class="form-control" placeholder="Buscar por dni de cliente...">
+                                <input type="text" id="searchInput" class="form-control" placeholder="Buscar....">
                             </div>
 
                         </div>
                     </div>
                     <div class="box-body">
-                        <table class="table table-bordered table-hover">
+                        <table class="table table-bordered table-hover" id="datatable">
                             <thead>
                                 <tr>
                                     <th>Numero</th>
@@ -376,6 +376,44 @@ $bd->close();
 ?>
 
 <script>
+     $(document).ready(function() {
+            var spanish = {
+                "sProcessing": "Procesando...",
+                "sLengthMenu": "Mostrar _MENU_ registros",
+                "sZeroRecords": "No se encontraron resultados",
+                "sEmptyTable": "Ningún dato disponible en esta tabla",
+                "sInfo": "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+                "sInfoEmpty": "Mostrando registros del 0 al 0 de un total de 0 registros",
+                "sInfoFiltered": "(filtrado de un total de _MAX_ registros)",
+                "sInfoPostFix": "",
+                "sSearch": "Buscar:",
+                "sUrl": "",
+                "sInfoThousands": ",",
+                "sLoadingRecords": "Cargando...",
+                "oPaginate": {
+                    "sFirst": "Primero",
+                    "sLast": "Último",
+                    "sNext": "Siguiente",
+                    "sPrevious": "Anterior"
+                },
+                "oAria": {
+                    "sSortAscending": ": Activar para ordenar la columna de manera ascendente",
+                    "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+                }
+            };
+
+            $('#datatable').DataTable({
+                "paging": true,
+                "lengthChange": false,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                "language": spanish,
+                "autoWidth": true,
+                "pageLength": 100
+            });
+        });
+
     document.getElementById('searchInput').addEventListener('keyup', function() {
         var input = document.getElementById('searchInput');
         var filter = input.value.toLowerCase();
@@ -386,15 +424,23 @@ $bd->close();
             var dni = rows[i].getElementsByTagName('td')[2];
             var cliente = rows[i].getElementsByTagName('td')[3];
             var especialidad = rows[i].getElementsByTagName('td')[1];
+            var celular = rows[i].getElementsByTagName('td')[5];
+            var condicion = rows[i].getElementsByTagName('td')[6];
 
-            if (dni || cliente || especialidad) {
+            if (dni || cliente || especialidad ||celular ||condicion) {
                 var dniText = dni.textContent || dni.innerText;
                 var clienteText = cliente.textContent || cliente.innerText;
                 var especialidadText = especialidad.textContent || especialidad.innerText;
+                var celularText = celular.textContent || celular.innerText;
+                var condicionText = condicion.textContent || condicion.innerText;
+                
 
                 if (dniText.toLowerCase().indexOf(filter) > -1 ||
                     clienteText.toLowerCase().indexOf(filter) > -1 ||
-                    especialidadText.toLowerCase().indexOf(filter) > -1) {
+                    especialidadText.toLowerCase().indexOf(filter) > -1||
+                    celularText.toLowerCase().indexOf(filter) > -1||
+                    condicionText.toLowerCase().indexOf(filter) > -1
+                ) {
                     rows[i].style.display = '';
                 } else {
                     rows[i].style.display = 'none';

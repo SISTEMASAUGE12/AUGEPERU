@@ -289,6 +289,7 @@ if(isset( $_SESSION["suscritos"]["id_suscrito"] )){  ?>
 ?>
 
 
-
+<script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap4.min.js"></script>
 </body>
 </html>
